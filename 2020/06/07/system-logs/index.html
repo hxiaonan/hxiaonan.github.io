@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello q, Suixin Blog">
+    <meta name="keywords" content="System logs, Suixin Blog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello q | Suixin Blog</title>
+    <title>System logs | Suixin Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -273,12 +273,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/13.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello q</h1>
+                    <h1 class="description center-align post-title">System logs</h1>
                 </div>
             </div>
         </div>
@@ -393,9 +393,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/linux/">
+                                <span class="chip bg-color">linux</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -407,7 +411,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-09-26
+                    2020-06-07
                 </div>
                 
 
@@ -423,7 +427,80 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <p>分析和存储日志</p>
+<h3>系统日志</h3>
+   进程和操作系统内核需要能够为发生的事件记录日志，这些日志可用于系统审核和问题的故障排除。依照惯例，这些日志永久存储在/var/log目录中。
+红帽企业Linux中内建了一个基于系统日志协议的标准日志记录系统。许多程序使用此系统记录事件，并将它们整理到日志文件中。Red Hat Enterprise 7中的系统日志消息由两个服务负责处理，它们是systemd-journald 和rsyslog。
+systemd-journald 守护进程提供一种改进的日志管理服务，可以收集来自内核、启动过程的早期阶段、标准输出、系统日志、以及守护进程启动和运行期间错误的消息。它将这些消息写入到一个结构化事件日志中，默认情况下不在重新启动之间保留。这允许系统日志所错过的系统日志消息和事件收集到一个中央数据库中，系统日志消息也可由systemd-journald 转发到rsyslog以做进一步处理。
+rsyslog服务随后根据类型（或设备）和优先级排列系统日志消息，将它们写入到/var/log目录内的永久文件中。
+
+<h4>系统日志文件概述</h4>
+
+<pre><code>    /var/log/messages # 大多数系统日志消息记录在此处。例外是与身份验证、电子邮件处理相关的定期运行作业的消息以及纯粹与调试相关的消息。
+    /var/log/secure   # 安全和身份验证相关的消息和错误的日志文件
+    /var/log/maillog  # 与邮件服务器相关的消息的日志文件。
+    /var/log/cron     # 与定期执行任务相关的日志文件。
+    /var/log/boot.log # 与系统启动相关的消息记录在此处。</code></pre>
+<p>许多程序使用syslog协议将事件记录到系统。每一日志消息根据设备（消息的类型）和优先级（消息的严重性）分类。<br>八个优先级按照如下所述进行了标准化和评级：</p>
+<h4>系统日志优先级概述</h4>
+
+<pre><code>        编码    优先级    严重性
+        0    emerg    系统不可用
+        1    alert    必须立即采取措施
+        2    crit    严重状况
+        3    err    非严重错误状况
+        4    warning    警告状况
+        5    notice    正常但重要的事件
+        6    info    信息性事件
+        7    debug    调试级别消息</code></pre>
+<p>rsyslogd服务使用日志消息的设备和优先级来确定如何进行处理。这通过/etc/rsyslog.conf文件，以及/etc/rsyslog.d中的*.conf文件进行配置。程序和管理员可以将带有.conf后缀的自定义文件放入/etc/rsyslog.d目录，以更改rsyslogd配置而不被rsyslog更新所覆盖。/etc/rsyslog.conf 的### RULES ### 部分包含定义日志消息保存位置的相关指令。每行左侧表示与指令匹配的日志消息的设备和严重性。rsyslog.conf 文件的设备和严重性字段中可能包含 *字符作为通配符，代表所有设备或所有严重性级别。e每行右侧表示要将日志消息保存到的文件。日志消息通常保存在/var/log 目录内的文件中。<br>rsyslog 处理的消息可能会出现在多个不同日志e文件中。为避免这种情况，可以将严重性字段设为none，表示定向到这一设备的所有消息都不添加到指定的日志文件中。<br>除了将系统日志消息记录到文件中外，也可将它们打印到所有已登陆用户的终端中。在默认的rsyslog.conf文件中，对优先级为 “emreg”的所有消息执行此操作。</p>
+<h4>日志文件轮转</h4>
+日志通过logrotate 实用工具“轮转”，以防止它们将包含/var/log的文件系统填满。轮转日志文件时，使用扩展名对其进行重命名，扩展名中指示轮转日期：如果在2020年06月30日轮转文件，原/var/log/messages文件可能成为/var/log/messages-20200630.轮转原日志文件之后，会创建新日志文件，并通知对它执行写操作的服务。
+轮转若干次之后（通常在四周之后），丢弃原日志文件以释放磁盘空间。cron作业每日运行一次logrotate程序，以查看是否有任何日志需要轮转。大多数日志文件每周轮转一次，但是logrotate轮转文件的速度有时较快，有时较慢，或在文件达到特定大小时进行轮转。
+<h4>分析系统日志条目</h4>
+rsyslog 所写的系统日志在文件的开头显示最旧的消息，在文件的末尾显示最新的消息。由rsyslog管理的日志文件中的所有日志条目都以标准的格式记录。
+下例将深入介绍/var/log/secure日志文件中的日志文件消息;
+                ①Feb 11 20:11:48 ②localhost③sshd[1433]:④Failed password for student from 172.16.0.10 port 59344
+                ①    记录该日志条目的时间戳
+                ②    发送该日志消息的主机
+                ③    发送该日志消息的程序或进程
+                ④    发送的实际消息
+<h4>利用tail 监控日志文件</h4>
+    监控事件的一个或多个日志文件，这对重要问题特别有帮助。tail -f /path/to/file 命令输出s指定文件的最后10行，并在新行写入到监控文件中时继续输出它们。
+使用发送系统消息日志logger
+logger命令可以发送消息到rsyslog服务。默认情况下，它将严重性为notice(user.notice)的消息发送给设备用户，除非通过-p 选项另外指定。测试对rsyslog配置的更改将特别有用。若要向rsyslogd发送消息并记录在/var/log/boot.log 日志文件中，可以执行：
+#logger -p local7.notice "Log entry created on server"
+查看systemd 日志条目
+通过查找事件journalctl
+systemd日志将日志数据存储在带有索引的结构化二进制文件中。此数据包含与日志事件相关的额外信息。例如，对于系统日志事件，这包含原始消息的设备和优先级。
+重要：在Rhel7中，systemd日志默认存储在/run/log中，其内容会在重启后予以清除。
+journalctl命令从最旧的日志条目开始显示完整的系统日志，以粗体文本突出显示优先级为notice或waring的消息，以红色文本突出显示优先级为error和更高的消息。
+成功利用日志进行故障排除和审核的关键在于，将日志搜索限制为仅显示相关的输出。在下列段落中，将介绍各种用于减少日志查询输出的不同策略。
+默认情况下，journalctl -n 显示最后10个条目。它可接受通过可选参数指定应显示最后多少个日志条目。若要显示最后3个日志条目，可执行：#journalctl -n 3
+在对问题进行故障排除时，根据日志条目的优先级过滤日志输出非常有用。#journalctl -p 可以接受已知优先级的名称或编号作为参数如：#journalctl -p err
+#journalctl -f 跟tail -f 相似
+查找具体的事件时，将输出限制为特定的时间段非常有用。journalctl 命令有两个选项，分别是--since和--until 选项，它们可以将输出限制为特定的时间范围。两个选项都接受格式为YYYY-MM-DD hh:mm:ss 的时间参数。如果省略日期，则命令会假定日期为当天；如果省略时间部分，则假定为自00：00：00起的一整天。除了日期和时间字段外，这两个选项还接受yesterday、today、tomorrom 作为有效的参数。
+#journalctl --since today ##输出当天记录的所有日志条目
+#journalctl --since "2020-06-07 17:00:00" --until "2020-06-10 12:00:00" ##输出2020年6月7日17：00：00到2020年6月10日12：00：00的日志条目
+除了日志的可见内容外，日志条目中还附带了只有在打开详细输出时才可看到的字段。所有显示的额外字段都可用于过滤日志查询的输出。这可用于减少查找日志中特定事件的复杂搜索的输出。
+#journalctl -o verbose
+其他用于搜索关于 特定进程或事件的行的选项还有：
+        _COMM #命令的名称
+        _EXE  #进程的可执行文件的路径
+        _PID  #进程的PID
+        _UID  #运行该进程的用户的UID
+        _SYSTEM_UNIT #启动该进程的systemd单元
+可以组合使用其中多个选项，例如：#journalctl _SYSTEM_UNIT=sshd.service _PID=1182
+永久存储系统日志
+默认 情况下，systemd日志保存在/run/log/journal 中，这意味这系统重启时它会被清除。该日志是RHEL7中的一种新机制，而对于大多数安装来说，自上一次启动起的详细日志就已足够。
+如果存在/var/log/journal目录，该日志会改为记录在这个目录中。这样做的优点是启动后就可立即利用历史数据。然而，即便是永久日志，并非所有数据都将永久保留。该日志具有一个内置日志轮转机制，会在每个月触发。此外，默认情况下，日志的大小不能超过所处文件系统的10%，也不能造成文件系统的可用空间低于15%。这些值可以在 /etc/systemd/journald.conf中调节，日志大小的当前限制则在systemd-journald进程启动时予以记录，可通过下列命令进行查看，该命令显示journalctl输出的前两行：#journalctl | head -2
+#mkdir /var/log/journal ##创建目录，使systemd日志变为 永久日志
+#chown root：systemd-journal /var/log/journal ##确保目录由root用户和组systemd-journal 所有
+#chmod 2755 /var/log/journal ##更改权限为2755
+#killall -USER1  systemd-journald  ##将特殊信号USER1发送到systemd-journald进程
+由于systemd日志现在已经在重新启动之间永久保留，因此可以通过journalctl -b 仅显示系统上一次启动以来的日志消息，以减少输出。
+注：利用永久日志调试系统崩溃时，通常需要将日志查询限制为崩溃发生之前的重新启动。可以给-b 选项附上一个负数值，指示应该将输出限制为过去多少次系统启动。例如：#journal -b -1 将输出限制为上一次启动。
+
             </div>
             <hr/>
 
@@ -448,7 +525,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://suixinnan.gitee.io/2020/09/26/Hello-q/">https://suixinnan.gitee.io/2020/09/26/Hello-q/</a>
+                    <a href="https://suixinnan.gitee.io/2020/06/07/system-logs/">https://suixinnan.gitee.io/2020/06/07/system-logs/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -485,7 +562,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/linux/">
+                                    <span class="chip bg-color">linux</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -575,13 +656,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/10/03/hello-world/">
+                <a href="/2020/09/26/Hello-q/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Hello q">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">Hello q</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -592,7 +673,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-10-03
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-09-26
                         </span>
                         <span class="publish-author">
                             
@@ -609,7 +690,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
                 <a href="/2020/06/07/system-logs/">
@@ -639,6 +720,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     

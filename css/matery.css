@@ -323,7 +323,7 @@ header .brand-logo .logo-img {
 }
 
 header .brand-logo .logo-span {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 /*修改顶部 logo 的文字垂直对齐为 top，避免默认 middle 看起来偏下*/
@@ -2170,4 +2170,17 @@ footer .copy-right {
     height: 50px;
     padding: 0px;
     margin: 0px;
+}
+/*图片*/
+#maina li span div p img {
+    max-width: 100%;
+    margin-top: 12px!important;
+}
+#maina li span div p {
+    margin-right: 10px;
+    margin-bottom: 9px;
+    font-size: 19px;
+    color: #060606;
+    font-weight: 400;
+    font-family: 'Source Sans Pro',"Noto Serif SC",Helvetica,Arial,Menlo,Monaco,monospace,sans-serif;      
 }
