@@ -62,6 +62,26 @@
   
   <li class="hide-on-med-and-down nav-item">
     
+    <a href="/box" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>网址导航</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/gallery" class="waves-effect waves-light">
+      
+      <span>相册</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
     <a href="/shuoshuo" class="waves-effect waves-light">
       
       <i class="fas fa-comments" style="zoom: 0.6;"></i>
@@ -175,6 +195,28 @@
 			    <i class="fa-fw fas fa-home"></i>
 			
 			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/box" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			网址导航
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/gallery" class="waves-effect waves-light">
+			
+				<i class="fas fa-fw fa-link"></i>
+			
+			相册
 		</a>
           
         </li>
@@ -317,18 +359,835 @@
 
     </div>
 </div>
+<style>
+    .software-container {
+        margin-top: -100px;
+        margin-bottom: 30px;
+    }
+
+    .software-container .tag-title {
+        margin-bottom: 10px;
+        color: #3C4858;
+        font-size: 1.75rem;
+        font-weight: 400;
+    }
+
+    .software-ship img {
+        border-radius: 5%;
+    }
+
+    /* 一下是按钮样式 */
+
+    .software-ship {
+        padding: 10px 20px;
+    }
+
+    .software-ship .title {
+        display: flex;
+        align-items: center;
+    }
+
+    .software-ship .title div {
+        color: #fff;
+        padding-left: 10px;
+    }
+
+    .software-ship .title img {
+        width: 100px;
+        height: 180px;
+        flex-shrink: 0;
+    }
+
+    .software-ship .title h1 {
+        padding-bottom: 5px;
+        border-bottom: 2px solid #fff;
+        position: relative;
+        top:-15px;
+        left: 3px;
+    }
+
+    .software-button {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -27px;
+    }
+
+    .software-button a {
+        border-radius: 40px;
+    }
+
+    .software-all .tag-post {
+        margin-bottom: 30px;
+    }
+
+    .button-caution {
+        background-color: #FF4351;
+        border-color: #FF4351;
+        color: #FFF;
+    }
+
+    .button {
+        font-weight: 300;
+        font-size: 16px;
+        font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        text-decoration: none;
+        text-align: center;
+        line-height: 40px;
+        height: 40px;
+        padding: 0 40px;
+        margin: 0;
+        display: inline-block;
+        appearance: none;
+        cursor: pointer;
+        border: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: .3s;
+        transition-duration: .3s;
+    }
+
+    .title {
+        margin-bottom: 0rem !important;
+    }
+
+    .card {
+        margin: 3rem 0 1rem 0 !important;
+    }
+
+    .button-glow.button-caution {
+        -webkit-animation-name: glowing-caution;
+        animation-name: glowing-caution;
+    }
+
+    @-webkit-keyframes glowing-caution {
+        from {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+
+        50% {
+            -webkit-box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+            box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+        }
+
+        to {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+    }
+
+    @keyframes glowing-caution {
+        from {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+
+        50% {
+            -webkit-box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+            box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+        }
+
+        to {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+    }
+
+    .button-caution:hover {
+        background-color: #ff7680;
+        border-color: #ff7680;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    .software-card1 {
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    }
+
+    .software-card2 {
+        background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+
+    .software-card3 {
+        background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    }
+
+    .software-card4 {
+        background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    }
+
+    .software-card5 {
+        background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    }
+
+    .frind-card6 {
+        background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    }
+
+    .frind-card7 {
+        background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    }
+
+    .frind-card8 {
+        background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    }
+
+    .frind-card9 {
+        background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+    }
+
+    .frind-card10 {
+        background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    }
+
+    article .card {
+        overflow: visible !important;
+    }
+</style>
 
 <main class="content">
-	<div class="container">
-		<div class="card">
-			<div class="card-content">
-				
-			</div>
-		</div>
-	</div>
-
-
+    <div class="container software-container">
+        <div class="card">
+            <div class="card-content">
+                <div class="tag-title center-align">
+                </div>
+                <article id="friends-link">
+                    
+                    
+                    <div class="row tags-posts friend-all">
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card1">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://pan.baidu.com/s/16119DCEDCwBRBZTxqEU8ow" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前往获取，提取码: 8547
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card2">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://pan.baidu.com/s/1AuTc04CNWph78eQC8vTIUQ" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前往获取，提取码: 85c4
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card3">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://pan.baidu.com/s/1N35k4TlOWL66FbX7ryv24A" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前往获取，提取码: 7pnk
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card4">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://pan.baidu.com/s/11jgjPrshSWhAF2EVTOpFeA" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前往获取，提取码: wgvi
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card5">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://pan.baidu.com/s/1ism4PRmYInyXssI9vkrxVQ" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前往获取，提取码: mi99
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card6">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://pan.baidu.com/s/1_vgIUSNPOs9Xf1hczvjVNA" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前往获取，提取码: pwng
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card7">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://pan.baidu.com/s/1K5BP0BMpod62hmVHIUBWRQ" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前往获取，提取码: mtsh
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card8">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://pan.baidu.com/s/1TOsPUqC-x343MehXaPRurQ" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前往获取，提取码: aq3g
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card9">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://pan.baidu.com/s/1lNt_dyPk9n_iYDOwEsMxeg" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前往获取，提取码: e6pf
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card10">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://www.lanzoux.com/iEgZ5glhjkd" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前往获取，密码:b42k
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card1">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://www.lanzoux.com/i39sKgm0rte" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前往获取，密码:5gtx
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card2">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://pan.baidu.com/s/1u5pgYWoua2_RMuDGZt3Q3A" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            立即下载
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card3">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://dbeaver.io/files/dbeaver-ce-latest-win32.win32.x86_64.zip" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            立即下载
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card4">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://github.com/rebeyond/Behinder/releases/download/Behinder_v3.0_Beta_6/Behinder_v3.0_Beta_6_win.zip" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            立即下载
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card5">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://github.com/uknowsec/Fofa-gui/archive/master.zip" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            立即下载
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card6">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://github.com/guiqiqi/AllRename.git" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            立即下载
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card7">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="http://www.focusky.com.cn/download/windows" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            立即下载
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card8">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://www.lanzoux.com/iqo8ufggjqh" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            立即下载
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card9">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://yinliubao.lanzous.com/b0e22eufi" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前往获取，提取码：2ula
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card10">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://pan.baidu.com/s/1VQX7r82nFaom3ykWmuJjKw" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前往获取，提取码：xfwh
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card1">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="http://show.bookmarkearth.com/view/218?folderId=36355" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            打飞的前往
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card2">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://www.lanzoux.com/icFNIf8qumb" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            立即下载
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card3">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://wwe.lanzous.com/ioQo6f61jof" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            立即下载
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card4">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://wwa.lanzous.com/iqrAYds4pbg" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            立即下载
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card5">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://wwe.lanzous.com/iC4yddj2s8f" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            前往获取，密码:3hae
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card6">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://github.com/super1207/translate" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            立即下载
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card7">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://share.weiyun.com/5BSML9s" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            立即下载
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card8">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://www.lanzous.com/i8ejhyh" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            立即下载
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
+                            <div class="card frind-card9">
+                                <div class="frind-ship">
+                                    <div class="title">
+                                        <img src="/" alt="img">
+                                        <div>
+                                            <h1 class="friend-name"></h1>
+                                            <p style="position: relative;top: -35px;"></p>
+                                        </div>
+                                    </div>
+                                    <div class="friend-button">
+                                        <a href="https://www.lanzous.com/i4g4jtc" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            立即下载
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </article>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                
+            </div>
+        </div>
+    </div>
 </main>
+
+<script>
+    $(function () {
+        $('#friends-link').masonry({
+            itemSelector: '.friend-div'
+        });
+    });
+</script>
 
 
     <footer class="page-footer bg-color">
@@ -337,16 +1196,12 @@
 <style>
     .aplayer .aplayer-lrc p {
         
-        display: none;
-        
         font-size: 12px;
         font-weight: 700;
         line-height: 16px !important;
     }
 
     .aplayer .aplayer-lrc p.aplayer-lrc-current {
-        
-        display: none;
         
         font-size: 15px;
         color: #14211a;
