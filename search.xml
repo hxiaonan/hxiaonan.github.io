@@ -1,11 +1,240 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Acunetix Web Vulnerability</title>
+    <url>/2021/01/30/AWVS/</url>
+    <content><![CDATA[<blockquote>
+声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+因为网盘不支持特殊的分卷后缀，所以下载下来手动重命名，解压001后缀的文件即可。
+
+<h3 id="立即下载Windows-acunetix-13-0-200205121-zip-001-zip-提取密码：42mk"><a href="#立即下载Windows-acunetix-13-0-200205121-zip-001-zip-提取密码：42mk" class="headerlink" title="立即下载Windows acunetix_13.0.200205121.zip.001.zip,提取密码：42mk"></a><a href="https://www.90pan.com/b2284885" title="Windows acunetix_13.0.200205121">立即下载Windows acunetix_13.0.200205121.zip.001.zip,提取密码：42mk</a></h3><p>手动重命名为 Windows acunetix_13.0.200205121.zip.001</p>
+<h3 id="立即下载Windows-acunetix-13-0-200205121-zip-002-zip-提取密码：mo08"><a href="#立即下载Windows-acunetix-13-0-200205121-zip-002-zip-提取密码：mo08" class="headerlink" title="立即下载Windows acunetix_13.0.200205121.zip.002.zip,提取密码：mo08"></a><a href="https://www.90pan.com/b2284883" title="Windows acunetix_13.0.200205121">立即下载Windows acunetix_13.0.200205121.zip.002.zip,提取密码：mo08</a></h3><p>手动重命名为 Windows acunetix_13.0.200205121.zip.002</p>
+<h3>软件介绍</h3>
+Acunetix Web Vulnerability Scanner（AWVS）经典商业漏扫工具，最近更新了13的版本，本文分享的AWVS的破解版是网上大佬们分享出来
+它通过网络爬虫测试你的网站安全，检测流行安全漏洞，它的官方网站是：https://www.acunetix.com，我刚才看了一眼没有找到试用版下载链接，之前是有的，可以免费试用14天，当然你也可以去网上搜索破解版进行下载安装
+<h3>软件安装</h3>
+Windows
+
+<p>下一步下一步安装即可。破解过程：</p>
+<pre><code>wvsc.exe 覆盖C:\Program Files (x86)\Acunetix\13.0.200205121目录下同名文件
+license_info.json 覆盖C:\ProgramData\Acunetix\shared\license目录下同名文件</code></pre>
+<p>以上操作都做完依然没有效果的话，那么重启电脑试试看呢？</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>漏扫</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WinSetupFromUSB</title>
+    <url>/2021/02/01/WinSetupFromUSB/</url>
+    <content><![CDATA[<blockquote>声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载-提取密码：rub6"><a href="#立即下载-提取密码：rub6" class="headerlink" title="立即下载 提取密码：rub6"></a><a href="https://www.90pan.com/b2274713" title="WinSetupFromUSB">立即下载 提取密码：rub6</a></h3><p>WinSetupFromUSB是Windows程序，它准备多引导USB闪存或固定磁盘以安装2000 / XP之后的任何Windows版本，引导各种Linux和* BSD版本，以及许多Windows，Linux，基于DOS的驱动程序和其他实用程序。由于1.1版程序可以使用支持（U）EFI的Windows版本（Vista x64 SP1和更高版本的x64）创建USB磁盘，因此该USB磁盘可以同时在（U）EFI和传统BIOS模式下使用。</p>
+<p>从USB项目安装Windows始于2006年，在msfn.org论坛上是一个挑战。在多个论坛成员的宝贵贡献下，这是第一种从USB磁盘运行常规XP设置的方法，就像从CD介质启动一样。</p>
+<p>后来制作了WinSetupFromUSB程序以提供图形界面，并且缓慢扩展了程序功能，以允许多启动USB磁盘中包含许多其他源。</p>
+<p>可以使用WinSetupFromUSB将什么添加到USB磁盘：</p>
+<p>支持多组Windows设置文件-XP，2000、2003，Vista，Windows 7，Server 2008，Windows 8，Server 2012、32位和64位版本。从1.1版开始，程序允许创建可以同时在BIOS和（U）EFI模式下启动的USB磁盘。<br>来自ISO文件的多个基于WinPE2（Vista及更高版本）的资源，例如Windows Defender Offline，最新的Norton Ghost版本和基于PE（预安装环境）的PC制造商的恢复磁盘。<br>单个WinPE1源，例如BartPE，UBCD4Win，LiveXP和类似的WinBuilder项目，WinFLPC等。<br>来自ISO文件的多个基于Linux的发行版和实用程序-Debian，Ubuntu，Fedora，CentOS等，其中包括大多数防病毒救援磁盘<br>许多其他ISO映像，只要它们与grub4dos CD仿真兼容，例如Ultimate Boot CD，大多数基于DOS的实用程序，Acronis和Paragon引导盘等等。<br>Syslinux启动菜单以及使用Syslinux或Isolinux作为启动加载器的可选单一来源<br>WinSetupFromUSB还可以准备将​​Windows XP（2000、2003）安装文件从USB磁盘安装到同一或另一个USB磁盘上。</p>
+<p>WinSetupFromUSB 是一款可以在一个U盘/移动硬盘里同时建立多个不同系统安装盘的制作工具，它支持多重引导，支持 XP~Windows 10、Linux、WinPE 等系统，可以将你的U盘打造成一个多系统供选择的多合一安装USB启动盘！</p>
+<h3 id="WinSetupFromUSB-制作多合一系统安装U盘简单教程："><a href="#WinSetupFromUSB-制作多合一系统安装U盘简单教程：" class="headerlink" title="WinSetupFromUSB 制作多合一系统安装U盘简单教程："></a>WinSetupFromUSB 制作多合一系统安装U盘简单教程：</h3><p>1 插入空间充足的U盘/移动硬盘，然后选择USB的盘符，看不见的话按右侧的 Refresh 刷新一下<br>2 选择是否格式化，初次制作勾上，请务必提前备份好U盘里的所有重要数据<br>3 在需要添加的操作系统类型前打钩，如图中我同时添加了 Win8 和 Ubuntu<br>4 按4的按钮选择对应的 ISO 镜像文件所在路径<br>5 最后按 Go 按钮即可开始制作多合一的启动盘<br>WinSetupFromUSB功能实用且非常强大，如果你有兴趣可以自己研究一下，这里就不一一介绍了。</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>办公</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>比特冬Prov1.0.3最新版</title>
+    <url>/2021/01/30/bitedong/</url>
+    <content><![CDATA[<blockquote>声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载-提取密码：e4o8"><a href="#立即下载-提取密码：e4o8" class="headerlink" title="立即下载,提取密码：e4o8"></a><a href="https://www.90pan.com/b2274665" title="比特冬Prov1.0.3最新版">立即下载,提取密码：e4o8</a></h3><h3>软件介绍</h3>
+比特冬Pro是一款功能十分强大的资源搜索软件，在我们这里拥有非常多的资源，其中不管是小说资源、漫画资源以及音乐资源都有，这样就可以让用户们能够感受到超级强大的搜索功能，帮您全网进行搜资源，并且在这里所有的资源都是免费的，用户们可以直接把搜索到的资源保存到自己手机本地，可以说是超级的方便。该软件就是可以帮助用户可以非常快速的找到自己需要的资源，还可以为用户获得更多优质的手机资源了解的帮助，有什么喜欢的都是可以在平台上进行选择的，完全是可以选择自己想要的资源！比特冬pro在使用起来也是特别的简单，用户们仅需输入资源的名称就可以进行自动搜索了，并且我们还支持用户使用闪电下载以及迅雷等软件下载至自己手机中，甚至还支持通过第三方应用在线预览资源的文件.
+<h3>软件功能</h3>
+1、播放流畅P2P传输，越多人看越流畅
+
+<p>2、具有灵活点播的功能，随点随看，时间自由掌握</p>
+<p>3、海量电影、欧美片、日韩片、国内片高清播放</p>
+<h3>软件特点</h3>
+1、比特冬pro还支持多种属性的文件，全网搜素，总能帮你搜出你想要的资源；
+
+<p>2、面有着很多不同类型视频资源，界面清爽，操作简单，没有任何多余的操作；</p>
+<p>3、界面简洁无广告，资源都是免费下载使用的，有播放按钮，能不能播放试试。</p>
+<h3>软件亮点</h3>
+1、这里资源各种类型的都有，不管你是想要搜索视频，还是想要搜索图片或者音频都可以
+
+<p>2、搜索的速度也是非常快的，而且界面很简单，搜索很方便，怎么搜都很快速</p>
+<p>3、找到的磁力链接都可以通过其他的解析软件解析后下载的，质量也是非常高的</p>
+<p>4、支持多种属性的文件，全网搜素，总能帮你搜出你想要的资源</p>
+<p>5、里面有着很多不同类型视频资源，界面清爽，操作简单，没有任何多余的操作。</p>
+]]></content>
+      <categories>
+        <category>androids</category>
+      </categories>
+      <tags>
+        <tag>科技</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开源通用数据库管理和开发工具</title>
+    <url>/2021/01/25/dbeaver/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>apples</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>免ROOT自动化助手v9.9.9</title>
+    <url>/2021/01/30/mrootzdhzs/</url>
+    <content><![CDATA[<blockquote>声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载-提取密码：310h"><a href="#立即下载-提取密码：310h" class="headerlink" title="立即下载 提取密码：310h"></a><a href="https://www.90pan.com/b2274669" title="免ROOT自动化助手v9.9.9">立即下载 提取密码：310h</a></h3><h3>软件介绍</h3>
+免ROOT自动化助手免ROOT自动化助手是款简悬浮快捷应用，可以帮助大家更加快捷方便的使用手机，使用它可以设置非常快捷的一键设置，瞬间开启手机应用或者是功能，实用性非常的强。是一款真正免ROOT的自动化执行工具，旨在减少用户对手机的重复操作或点击，实现一键直达的功能。悬浮球优化帅呆了，上键中断自动化下键唤醒语音助手。快捷操作手机应用，减少对手机的重复操作。界面非常的简洁，而且没有任何的广告。让你可以一键就达到某个功能，例如你需要打开朋友圈可能需要几步操作，支持更多功能：点击，长按，复制，系统切换等。里面的附加功能倒是多样，一键使用，使你的手机更加的畅快，有点类似宏，不过更加智能一点，可是原理基本一致，对于某些用户来说应该会让生活变得更方便，不过普通人很难用到它就对了，但是里面的附加功能倒是多样，很实用的呢，例如滑动编辑等！另外，你也可以借助这款工具实现更多有趣的功能。
+免ROOT自动化助手去广告版
+<h3>软件功能</h3>
+1、免root执行自动化
+
+<p>使用者只需要申请应用的辅助功能，无需root（获取超级权限）即可编辑和添加自动化任务。</p>
+<p>2、支持定时执行任务<br>用户可以设置定时时间执行自动化，如：早上八点钉钉打卡，中午12点设置静音，晚上九点打卡飞行模式等等。</p>
+<p>3、支持悬浮菜单操作<br>目前APP提供悬浮菜单操作功能，例如：左滑，右滑，上滑，下滑，点击，长按等，目的是为了方便拥有不用打开APP即可操作。</p>
+<p>4、支持语音唤醒功能<br>考虑到用户开车时需要用到自动化，APP提供了语音唤醒功能，唤醒关键字为：“小R小R”，“小R你好”，“你好小R” (任一唤醒词均可)。</p>
+<p>5、支持语音控制功能<br>APP进行唤醒后，可以进行语音控制自动化，如：“你好小R,帮我打xx电话”，“你好小R,打开蓝牙然后播放音乐”。</p>
+<h3>软件功能</h3>
+1、快捷操作手机应用，减少对手机的重复操作。
+
+<p>2、悬浮球优化帅呆了，上键中断自动化下键唤醒语音助手。</p>
+<p>3、界面非常的简洁，而且没有任何的广告。</p>
+<h3>软件亮点</h3>
+1.支持免root使用；
+
+<p>2.支持发送到通知栏进行控制；</p>
+<p>3.支持更多功能：单击，长按，复制，系统开关等；</p>
+]]></content>
+      <categories>
+        <category>androids</category>
+      </categories>
+      <tags>
+        <tag>办公</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一键去水印v1.4.0免费版</title>
+    <url>/2021/01/30/dlogo/</url>
+    <content><![CDATA[<blockquote>声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载，提取密码：310h"><a href="#立即下载，提取密码：310h" class="headerlink" title="立即下载，提取密码：310h"></a><a href="https://www.90pan.com/b2274669" title="一键去水印v1.4.0免费版">立即下载，提取密码：310h</a></h3><h3>软件介绍</h3>
+一键去水印app是一款非常实用的视频去水印软件。现在很多的新闻曝光方式都是以视频曝光的，而且我们平时也会刷一些有趣的小视频呀、实时新闻的视频等等，现在基本上视频成为主流的信息传播方式了。但是，我们很多转发的视频里面会有很多的logo就比较突兀了，所以今天小编带来一款可以为视频去水印的软件哦。有了这款软件用户可以轻松的去掉视频里面的水印，而且软件有视频无痕去水印、md5修改、文字转语音、批量解析、二维码生成等功能。而且用户也不用担心自己不会用哦，软件里面还有非常详细的使用教程可以帮助你呢，软件支持微博、脸书、twitter、油管等一百多个平台哦。
+<h3>软件功能</h3>
+1：一键去水印解析视频，解析的视频与原视频完全一致，而且支持从“抖音、火山、快手、微视、陌陌、西瓜、美拍”等多个品台提取无水印视频。
+
+<p>2：快速去水印，选择有水印的视频，然后手指滑动到水印位置</p>
+<p>3：裁剪尺寸，裁剪视频尺寸大小，支持多种尺寸选择</p>
+<p>4：裁剪时长，可以裁剪视频的时长</p>
+<p>5：修改封面，修改视频的封面，还支持从相册选择封面</p>
+<p>6：视频压缩，在不影响画质的情况下可以将视频大小缩小几倍</p>
+]]></content>
+      <categories>
+        <category>androids</category>
+      </categories>
+      <tags>
+        <tag>科技</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数据恢复工具免安装版</title>
     <url>/2021/01/25/studio/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>windows</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>优启通EasyU_3.6.2020.1208.zip</title>
+    <url>/2021/01/30/youqitong/</url>
+    <content><![CDATA[<blockquote>
+声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载"><a href="#立即下载" class="headerlink" title="立即下载"></a><a href="https://www.90pan.com/o150459" title="优启通">立即下载</a></h3><p>因为官网下载速度太慢，所以我下载下来放到别的网盘，速度还可以！因为这个网盘限制大小，所以把压缩包切片了，需要下载所有的压缩包和bat文件，bat文件是把rar后缀去掉，再解压使用！！</p>
+<h3>软件介绍</h3>
+【优启通】概述：优启通（EasyU，简称EU）是IT天空精心打造的一款系统预安装环境（PE），它具有简约、易操作等特点，使用起来十分人性化。以U盘作为使用载体，空间更为充分，携带更为方便。同时整合各种装机必备工具，并结合IT天空数款自研软件，有效提高系统安装效率。新优启通将为大家带来全新的用户体验！
+
+<p>【优启通】定位：优启通定位于一线装机技术员、系统工程师和系统维护人员，在广泛兼容、稳定耐用、快速启动、体积小巧等多方面找到一位最为合适的平衡点。优启通的打造过程结合了大量一线工作者的经验与需求，并经过了严格的测试，尽一切可能贴近使用者的实际需求，倾力将优启通打造为一线装机工程师们的利刃。</p>
+<p>【优启通】硬件支持：采用经过优化的U盘三分区方案，同时支持BIOS（Legacy）与UEFI两种启动模式。结合IT天空PE方面一贯的“双PE分治”理念，两个PE分别接管不同的硬件范围，可在支持主流硬件的基础上，同时兼容以往多数旧硬件。U盘PE所在分区于系统下自动隐藏，PE区与数据区分别独立，便于使用者对数据的各项操作。<br>软件截图<br><img src="https://www.itsk.com/data/attachment/image/000/39/33/28_200_200.jpg"></p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>科技</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>mini-sftp-server.x64.exe</title>
+    <url>/2021/01/30/sftp/</url>
+    <content><![CDATA[<blockquote>声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载-提取密码：f7nv"><a href="#立即下载-提取密码：f7nv" class="headerlink" title="立即下载,提取密码：f7nv"></a><a href="https://www.90pan.com/b2267221" title="mini-sftp-server.x64.exe">立即下载,提取密码：f7nv</a></h3><p>因为工作上需要在window系统上搭建sftp，之前使用freeSSHd搭建出了点问题，所以上网搜到了一个轻量级的SFTP软件，缺点是只能一个账户登录。freeSSHd则可以多用户并可以同时登录。<br>使用方式：<br>双击打开下载的软件，填用户名、密码、路径点start即可<br><img src="https://7.dusays.com/2021/02/02/c09da41f85b7b.png"><br>sftp的服务端就已经设置好了，下来就需要一个sftp的客户端了，我这里使用的是Filezilla客户端<br>使用登录信息登录到sftp服务<br><img src="https://7.dusays.com/2021/02/02/476d01f797f47.png"><br>上传、下载文件测试<br><img src="https://7.dusays.com/2021/02/02/21669a64c6fc4.png"></p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>科技</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>个性化盯盘神器</title>
+    <url>/2021/01/30/%E4%B8%AA%E6%80%A7%E5%8C%96%E7%9B%AF%E7%9B%98%E7%A5%9E%E5%99%A8/</url>
+    <content><![CDATA[<blockquote>声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载-提取密码：1hyj"><a href="#立即下载-提取密码：1hyj" class="headerlink" title="立即下载,提取密码：1hyj"></a><a href="https://www.90pan.com/b2284441" title="个性化盯盘神器">立即下载,提取密码：1hyj</a></h3><h3>软件介绍</h3>
+上班一直盯着手机看巨不方便
+写个方案，然后错过高点，一路向下
+为了解决解决这种问题，我找到了这个软件和大家分享一下
+透明式窗口，随时呼出
+微型界面和透明效果 - 你值得拥有
+智能选股列表 - 创建激情投资组合（沪深、基金、新三板、债券、港股、美股）
+即时拖动排序 - 把握视觉主次
+成本持仓维护 - 关注实时收益
+个性化界面设置 - 体现你的独到见解
+设置导入导出 - 回避繁杂、只留方便
+<h3>软件使用</h3>
+热键效果
+Ctrl + ~显示/隐藏窗口（ESC下方的波浪线，热键更顺手！）
+
+<p>Ctrl + ↑增大窗口高</p>
+<p>Ctrl + ↓减小窗口高</p>
+<p>Ctrl + ←增大窗口宽</p>
+<p>Ctrl + →减小窗口宽</p>
+<p>Ctrl + +增大窗口不透明度</p>
+<p>Ctrl + -减小窗口不透明度</p>
+<p>Ctrl + 0退出程序</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>科技</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>老王科学上网</title>
+    <url>/2021/01/25/%E8%80%81%E7%8E%8B%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>androids</category>
       </categories>
   </entry>
   <entry>
@@ -146,21 +375,5 @@ journalctl命令从最旧的日志条目开始显示完整的系统日志，以�
       <tags>
         <tag>免费接收短信</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>开源通用数据库管理和开发工具</title>
-    <url>/2021/01/25/dbeaver/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>apples</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>老王科学上网</title>
-    <url>/2021/01/25/%E8%80%81%E7%8E%8B%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>androids</category>
-      </categories>
   </entry>
 </search>
