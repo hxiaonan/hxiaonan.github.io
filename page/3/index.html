@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="tvlive, Suixin资源分享">
+    <meta name="keywords" content="Suixin资源分享">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>tvlive | Suixin资源分享</title>
+    <title>Suixin资源分享</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -433,54 +433,176 @@
 
 </header>
 
-    <main class="content">
-	<div class="container">
-		<div class="card">
-			<div class="card-content">
-				<blockquote>电视直播</blockquote>
-<style>
-  .menu-list li{
-  margin:0 10px;
-}
-  .menu-list li a{
-  padding:0 20px;
-  font-size: 20px;
-  line-height:30px;
-  background: #000000;
-  border-radius: 50px;
-}
-</style>
-<div class="item item-2" id="2">
-         <span>
-               <h3>地方卫视</h3>
-        </span>        
-        <ul class="menu-list mobile-menu-list">
-        <script language="javascript" type="text/javascript" src="../js/provincec.js"></script>
-        </ul>
+    
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                
+                xiaonan
+                
+            </div>
+
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['从来没有真正的绝境, 只有心灵的迷途','Never really desperate, only the lost of the soul'],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
+                
+            </div>
+        </div>
+    </div>
 </div>
 
 
-   <h4>湖南卫视</h4>
-
-
-<link href="/js/video-js.css" rel="stylesheet">
-<script src="/js/video.js"></script>
-<script src="/js/videojs-contrib-hls.js"></script> 
-<div style="width:100% height:100px; background:#000;">
-<video style="margin:0px auto; width:100%;" id="my_video_1" class="video-js vjs-default-skin"
- controls="controls" autoplay="autoplay" preload="auto" data-setup='{}'>
-<source src="http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226241/1.m3u8" type="application/x-mpegURL">
-</video>
 <script>
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
+
+
+    </div>
 </div>
 
-			</div>
-		</div>
-	</div>
 
+<main class="content">
+
+    
+
+    
+
+    <!-- 所有文章卡片 -->
+    <article id="articles" class="container articles">
+        <div class="row article-row">
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/12/12/%E5%85%8D%E8%B4%B9%E6%8E%A5%E7%A0%81%E5%B9%B3%E5%8F%B0/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="免费验证码平台">
+                            
+                            <span class="card-title">免费验证码平台</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-12
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                Suixin
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E5%85%8D%E8%B4%B9%E6%8E%A5%E6%94%B6%E7%9F%AD%E4%BF%A1/">
+                            <span class="chip bg-color">免费接收短信</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/06/07/system-logs/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="System logs">
+                            
+                            <span class="card-title">System logs</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-07
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                Suixin
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/linux/">
+                            <span class="chip bg-color">linux</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </article>
 
 </main>
+
+
+<div class="container paging">
+    <div class="row">
+        <div class="col s6 m4 l4">
+            
+            <a href="/page/2/"
+               class="left btn-floating btn-large waves-effect waves-light bg-color">
+                <i class="fas fa-angle-left"></i>
+            </a>
+            
+        </div>
+        <div class="page-info col m4 l4 hide-on-small-only">
+            <div class="center-align b-text-gray">3 / 3</div>
+        </div>
+        <div class="col s6 m4 l4">
+            
+            <a class="right btn-floating btn-large disabled">
+                <i class="fas fa-angle-right"></i>
+            </a>
+            
+        </div>
+    </div>
+</div>
+
+
 
 
     <footer class="page-footer bg-color">
