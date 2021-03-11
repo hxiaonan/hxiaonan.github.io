@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://suixinnan.gitee.io/channel/zhejiangtv.html</loc>
+    
+    <lastmod>2021-03-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/shuoshuo/index.html</loc>
+    
+    <lastmod>2021-03-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://suixinnan.gitee.io/2021/03/08/Tampermonkey/</loc>
     
     <lastmod>2021-03-11</lastmod>
@@ -61,13 +75,6 @@
     <loc>https://suixinnan.gitee.io/2021/02/19/chengguangzz/</loc>
     
     <lastmod>2021-03-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://suixinnan.gitee.io/channel/hunantv.html</loc>
-    
-    <lastmod>2021-02-24</lastmod>
     
   </url>
   
@@ -425,13 +432,6 @@
     <loc>https://suixinnan.gitee.io/contact/index.html</loc>
     
     <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://suixinnan.gitee.io/shuoshuo/index.html</loc>
-    
-    <lastmod>2020-10-05</lastmod>
     
   </url>
   
