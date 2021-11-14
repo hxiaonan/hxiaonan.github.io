@@ -18,7 +18,7 @@ $(document).ready(function(){
     $(".date").before(times);
 
     //国足比赛倒计时
-    var starttime = new Date("2021/11/16");
+    var starttime = new Date("2021/11/16 23:00");
     setInterval(function () {
         var nowtime = new Date();
         var time = starttime - nowtime;
