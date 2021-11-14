@@ -1,7 +1,7 @@
 var song = new Audio;
 var isStopped = true;
 var currentSong = 0;
-var playlist = ["https://www.17sucai.com/preview/1644949/2019-11-02/17_musicball/music/whkl.mp3","https://www.17sucai.com/preview/1644949/2019-11-02/17_musicball/music/lx.mp3"];
+var playlist = ["http://music.163.com/song/media/outer/url?id=1438286689.mp3","http://music.163.com/song/media/outer/url?id=33916775.mp3","http://music.163.com/song/media/outer/url?id=189540.mp3","http://music.163.com/song/media/outer/url?id=189602.mp3","http://music.163.com/song/media/outer/url?id=1894007406.mp3","http://music.163.com/song/media/outer/url?id=190072.mp3","https://www.17sucai.com/preview/1644949/2019-11-02/17_musicball/music/whkl.mp3","https://www.17sucai.com/preview/1644949/2019-11-02/17_musicball/music/lx.mp3"];
 var playlistVisible = false;
 
 function skip(to) {
