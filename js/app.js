@@ -18,7 +18,7 @@ $(document).ready(function(){
     $(".date").before(times);
 
     //国足比赛倒计时
-    var starttime = new Date("2021/11/16 23:00");
+    var starttime = new Date("2022/01/27 19:00");
     setInterval(function () {
         var nowtime = new Date();
         var time = starttime - nowtime;
@@ -28,7 +28,7 @@ $(document).ready(function(){
         var seconds = parseInt(time / 1000 % 60);
         
         var syday = "<span>" + hour + "</span>" + "小时" + "<span>" + minute + "</span>" + "分钟" + "<span class='Lose'>" + seconds + "</span>" + "秒";
-        $('.time').html("<p>国足比赛倒计时</p>" + "<p><span>" + day + "</span>" + "天</p>");
+        $('.time').html("<p>国足VS日本比赛倒计时</p>" + "<p><span>" + day + "</span>" + "天</p>");
         $(".sydate").html(syday);
         
     }, 1000);
