@@ -2,6 +2,167 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/blkid/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bc/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bind/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bg/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/batch/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/badblocks/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/basename/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/base64/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzmore/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzless/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzip2recover/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzip2/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzgrep/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzdiff/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzcmp/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzcat/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bye/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bunzip2/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/builtin/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/break/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bmodinfo/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/blockdev/</loc>
+    
+    <lastmod>2021-11-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/19/ab/</loc>
+    
+    <lastmod>2021-11-19</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://suixinnan.gitee.io/2021/11/19/axel/</loc>
     
     <lastmod>2021-11-19</lastmod>
@@ -171,13 +332,6 @@
   
   <url>
     <loc>https://suixinnan.gitee.io/2021/11/19/accept/</loc>
-    
-    <lastmod>2021-11-19</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://suixinnan.gitee.io/2021/11/19/ab/</loc>
     
     <lastmod>2021-11-19</lastmod>
     
@@ -676,7 +830,7 @@
 
   <url>
     <loc>https://suixinnan.gitee.io/</loc>
-    <lastmod>2021-11-19</lastmod>
+    <lastmod>2021-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -684,56 +838,56 @@
   
   <url>
     <loc>https://suixinnan.gitee.io/tags/%E6%BC%8F%E6%89%AB/</loc>
-    <lastmod>2021-11-19</lastmod>
+    <lastmod>2021-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/tags/%E5%8A%9E%E5%85%AC/</loc>
-    <lastmod>2021-11-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://suixinnan.gitee.io/tags/games/</loc>
-    <lastmod>2021-11-19</lastmod>
+    <lastmod>2021-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/tags/%E7%A7%91%E6%8A%80/</loc>
-    <lastmod>2021-11-19</lastmod>
+    <lastmod>2021-11-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/tags/games/</loc>
+    <lastmod>2021-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/tags/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2021-11-19</lastmod>
+    <lastmod>2021-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/tags/%E7%A7%91%E5%AD%A6/</loc>
-    <lastmod>2021-11-19</lastmod>
+    <lastmod>2021-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/tags/linux/</loc>
-    <lastmod>2021-11-19</lastmod>
+    <lastmod>2021-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/tags/%E5%85%8D%E8%B4%B9%E6%8E%A5%E6%94%B6%E7%9F%AD%E4%BF%A1/</loc>
-    <lastmod>2021-11-19</lastmod>
+    <lastmod>2021-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -742,21 +896,21 @@
   
   <url>
     <loc>https://suixinnan.gitee.io/categories/windows/</loc>
-    <lastmod>2021-11-19</lastmod>
+    <lastmod>2021-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/categories/androids/</loc>
-    <lastmod>2021-11-19</lastmod>
+    <lastmod>2021-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/categories/apples/</loc>
-    <lastmod>2021-11-19</lastmod>
+    <lastmod>2021-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

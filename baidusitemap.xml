@@ -1,6 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/blkid/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bc/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bind/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bg/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/batch/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/badblocks/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/basename/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/base64/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzmore/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzless/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzip2recover/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzip2/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzgrep/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzdiff/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzcmp/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bzcat/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bye/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bunzip2/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/builtin/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/break/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/bmodinfo/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/21/blockdev/</loc>
+    <lastmod>2021-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://suixinnan.gitee.io/2021/11/19/ab/</loc>
+    <lastmod>2021-11-19</lastmod>
+  </url>
+  <url>
     <loc>https://suixinnan.gitee.io/2021/11/19/axel/</loc>
     <lastmod>2021-11-19</lastmod>
   </url>
@@ -98,10 +190,6 @@
   </url>
   <url>
     <loc>https://suixinnan.gitee.io/2021/11/19/accept/</loc>
-    <lastmod>2021-11-19</lastmod>
-  </url>
-  <url>
-    <loc>https://suixinnan.gitee.io/2021/11/19/ab/</loc>
     <lastmod>2021-11-19</lastmod>
   </url>
   <url>
