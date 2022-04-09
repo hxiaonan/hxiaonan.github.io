@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://suixinnan.gitee.io/channel/zxx.html</loc>
+    
+    <lastmod>2022-04-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/channel/laopian.html</loc>
+    
+    <lastmod>2022-04-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/channel/gangpian.html</loc>
+    
+    <lastmod>2022-04-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/channel/4k.html</loc>
+    
+    <lastmod>2022-04-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/channel/cctv8.html</loc>
+    
+    <lastmod>2022-04-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/channel/yaocaicaijing.html</loc>
+    
+    <lastmod>2022-04-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixinnan.gitee.io/channel/ppsport.html</loc>
+    
+    <lastmod>2022-04-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://suixinnan.gitee.io/channel/tvb.html</loc>
     
     <lastmod>2022-04-06</lastmod>
@@ -429,13 +478,6 @@
   </url>
   
   <url>
-    <loc>https://suixinnan.gitee.io/channel/cctv8.html</loc>
-    
-    <lastmod>2021-10-25</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://suixinnan.gitee.io/2021/01/30/autoit-v3/</loc>
     
     <lastmod>2021-05-15</lastmod>
@@ -851,7 +893,7 @@
 
   <url>
     <loc>https://suixinnan.gitee.io/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -859,56 +901,56 @@
   
   <url>
     <loc>https://suixinnan.gitee.io/tags/%E6%BC%8F%E6%89%AB/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/tags/%E5%8A%9E%E5%85%AC/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/tags/%E7%A7%91%E6%8A%80/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/tags/games/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/tags/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/tags/%E7%A7%91%E5%AD%A6/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/tags/linux/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/tags/%E5%85%8D%E8%B4%B9%E6%8E%A5%E6%94%B6%E7%9F%AD%E4%BF%A1/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -917,21 +959,21 @@
   
   <url>
     <loc>https://suixinnan.gitee.io/categories/windows/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/categories/androids/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixinnan.gitee.io/categories/apples/</loc>
-    <lastmod>2022-04-06</lastmod>
+    <lastmod>2022-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
