@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://suixinnan.gitee.io/2020/12/12/freemessage/</loc>
+    
+    <lastmod>2022-06-05</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://suixinnan.gitee.io/2022/06/04/Easyscreenocr/</loc>
     
     <lastmod>2022-06-05</lastmod>
@@ -912,13 +919,6 @@
   </url>
   
   <url>
-    <loc>https://suixinnan.gitee.io/2020/12/12/%E5%85%8D%E8%B4%B9%E6%8E%A5%E7%A0%81%E5%B9%B3%E5%8F%B0/</loc>
-    
-    <lastmod>2020-12-12</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://suixinnan.gitee.io/zhibo/index.html</loc>
     
     <lastmod>2020-12-09</lastmod>
@@ -1068,14 +1068,14 @@
   </url>
   
   <url>
-    <loc>https://suixinnan.gitee.io/tags/%E5%85%8D%E8%B4%B9%E6%8E%A5%E6%94%B6%E7%9F%AD%E4%BF%A1/</loc>
+    <loc>https://suixinnan.gitee.io/tags/%E7%8F%8D%E8%97%8F/</loc>
     <lastmod>2022-06-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://suixinnan.gitee.io/tags/%E7%8F%8D%E8%97%8F/</loc>
+    <loc>https://suixinnan.gitee.io/tags/freemessage/</loc>
     <lastmod>2022-06-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
