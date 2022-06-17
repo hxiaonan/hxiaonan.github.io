@@ -17,8 +17,8 @@ $(document).ready(function(){
     var times = "<div class='times'></div>";
     $(".date").before(times);
 
-    //新年倒计时
-    var starttime = new Date("2023/01/01 00:00");
+    //国足比赛倒计时
+    var starttime = new Date("2022/01/27 19:00");
     setInterval(function () {
         var nowtime = new Date();
         var time = starttime - nowtime;
@@ -28,7 +28,7 @@ $(document).ready(function(){
         var seconds = parseInt(time / 1000 % 60);
         
         var syday = "<span>" + hour + "</span>" + "小时" + "<span>" + minute + "</span>" + "分钟" + "<span class='Lose'>" + seconds + "</span>" + "秒";
-        $('.time').html("<p>2023新年倒计时</p>" + "<p><span>" + day + "</span>" + "天</p>");
+        $('.time').html("<p>国足VS日本比赛倒计时</p>" + "<p><span>" + day + "</span>" + "天</p>");
         $(".sydate").html(syday);
         
     }, 1000);
@@ -125,7 +125,7 @@ $(document).ready(function(){
     });
 
 
-    var mess = "<span>哈喽啊, 少年！！</span><span class='B-span2'>新年快乐啊！</span><span>冲冲！！！</span><span>幸福安康！</span><span>新的一年新的气象！</span>";
+    var mess = "<span>哈喽啊, 少年！！</span><span class='B-span2'>加油啊！</span><span>冲冲！！！</span><span>加油，冲进卡塔尔！</span><span>冲冲！给我往死踢！</span>";
     $(".Barrage").append(mess);
 
     $(".buts").click(function(){
@@ -208,8 +208,8 @@ $(document).ready(function(){
         wx.ready(function () {   //需在用户可能点击分享按钮前就先调用
             
             wx.updateAppMessageShareData({ 
-                title: '新年快乐！', // 分享标题
-                desc: '新年倒计时', // 分享描述
+                title: '国足加油！', // 分享标题
+                desc: '比赛倒计时', // 分享描述
                 link: 'https://www.shuhaisc.com/Clock/', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
                 imgUrl: 'https://www.shuhaisc.com/Clock/images/time.jpg', // 分享图标
                 success: function () {
@@ -218,7 +218,7 @@ $(document).ready(function(){
             });
 
             wx.updateTimelineShareData({ 
-                title: '新年快乐！', // 分享标题
+                title: '国足加油！', // 分享标题
                 link: 'https://www.shuhaisc.com/Clock/', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
                 imgUrl: 'https://www.shuhaisc.com/Clock/images/time.jpg', // 分享图标
                 success: function () {
