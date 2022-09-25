@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://suixin.ltd/shipinjiexi/shipinjiexi.html</loc>
+    
+    <lastmod>2022-09-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixin.ltd/football/index.html</loc>
+    
+    <lastmod>2022-09-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixin.ltd/2022/06/02/music/</loc>
+    
+    <lastmod>2022-09-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://suixin.ltd/2022/06/03/freemessage/</loc>
     
     <lastmod>2022-06-17</lastmod>
@@ -79,13 +100,6 @@
   </url>
   
   <url>
-    <loc>https://suixin.ltd/2022/06/02/music/</loc>
-    
-    <lastmod>2022-06-02</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://suixin.ltd/2022/06/02/WinParrot/</loc>
     
     <lastmod>2022-06-02</lastmod>
@@ -96,13 +110,6 @@
     <loc>https://suixin.ltd/2022/06/02/RoboIntern/</loc>
     
     <lastmod>2022-06-02</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://suixin.ltd/football/index.html</loc>
-    
-    <lastmod>2022-06-01</lastmod>
     
   </url>
   
@@ -276,13 +283,6 @@
   
   <url>
     <loc>https://suixin.ltd/steamgame/index.html</loc>
-    
-    <lastmod>2021-12-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://suixin.ltd/shipinjiexi/shipinjiexi.html</loc>
     
     <lastmod>2021-12-15</lastmod>
     
@@ -1024,13 +1024,6 @@
   </url>
   
   <url>
-    <loc>https://suixin.ltd/2018/09/09/RHEL7%E9%A2%98%E5%BA%93/</loc>
-    
-    <lastmod>2019-07-22</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://suixin.ltd/2019/05/03/Recruit-marriage/</loc>
     
     <lastmod>2019-07-22</lastmod>
@@ -1038,14 +1031,7 @@
   </url>
   
   <url>
-    <loc>https://suixin.ltd/2018/08/14/cp/</loc>
-    
-    <lastmod>2019-07-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://suixin.ltd/2019/03/16/instructions-for-linux/</loc>
+    <loc>https://suixin.ltd/2018/09/09/RHEL7%E9%A2%98%E5%BA%93/</loc>
     
     <lastmod>2019-07-22</lastmod>
     
@@ -1066,7 +1052,21 @@
   </url>
   
   <url>
+    <loc>https://suixin.ltd/2018/08/14/cp/</loc>
+    
+    <lastmod>2019-07-22</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://suixin.ltd/2019/06/15/rhel7-specific/</loc>
+    
+    <lastmod>2019-07-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixin.ltd/2019/03/16/instructions-for-linux/</loc>
     
     <lastmod>2019-07-22</lastmod>
     
@@ -1075,71 +1075,71 @@
 
   <url>
     <loc>https://suixin.ltd/</loc>
-    <lastmod>2022-06-17</lastmod>
+    <lastmod>2022-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://suixin.ltd/tags/%E6%BC%8F%E6%89%AB/</loc>
-    <lastmod>2022-06-17</lastmod>
+    <loc>https://suixin.ltd/tags/%E5%8A%9E%E5%85%AC/</loc>
+    <lastmod>2022-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://suixin.ltd/tags/%E5%8A%9E%E5%85%AC/</loc>
-    <lastmod>2022-06-17</lastmod>
+    <loc>https://suixin.ltd/tags/%E6%BC%8F%E6%89%AB/</loc>
+    <lastmod>2022-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/tags/%E7%A7%91%E6%8A%80/</loc>
-    <lastmod>2022-06-17</lastmod>
+    <lastmod>2022-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/tags/games/</loc>
-    <lastmod>2022-06-17</lastmod>
+    <lastmod>2022-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/tags/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2022-06-17</lastmod>
+    <lastmod>2022-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/tags/%E7%A7%91%E5%AD%A6/</loc>
-    <lastmod>2022-06-17</lastmod>
+    <lastmod>2022-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/tags/%E7%8F%8D%E8%97%8F/</loc>
-    <lastmod>2022-06-17</lastmod>
+    <lastmod>2022-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/tags/linux/</loc>
-    <lastmod>2022-06-17</lastmod>
+    <lastmod>2022-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/tags/%E7%9B%B4%E6%92%AD/</loc>
-    <lastmod>2022-06-17</lastmod>
+    <lastmod>2022-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1148,21 +1148,28 @@
   
   <url>
     <loc>https://suixin.ltd/categories/windows/</loc>
-    <lastmod>2022-06-17</lastmod>
+    <lastmod>2022-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/categories/androids/</loc>
-    <lastmod>2022-06-17</lastmod>
+    <lastmod>2022-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/categories/apples/</loc>
-    <lastmod>2022-06-17</lastmod>
+    <lastmod>2022-09-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://suixin.ltd/categories/music/</loc>
+    <lastmod>2022-09-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
