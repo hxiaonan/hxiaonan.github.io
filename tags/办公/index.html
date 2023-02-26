@@ -28,7 +28,24 @@
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="/libs/jquery/jquery.min.js"></script>
+    
+    <script>
+        document.onkeydown = function () {
+            if (window.event && window.event.keyCode == 123) {
+                alert("F12被禁用");
+                event.keyCode = 0;
+                event.returnValue = false;
+            }
+            if (window.event && window.event.keyCode == 13) {
+                window.event.keyCode = 505;
+            }
+            if (window.event && window.event.keyCode == 8) {
+                alert(str + "\n请使用Del键进行字符的删除操作！");
+                window.event.returnValue = false;
+            }
 
+        }
+    </script> 
 <meta name="generator" content="Hexo 5.2.0"></head>
 
 
@@ -794,10 +811,19 @@
             <div class="tag-chips">
                 
                 
+                <a href="/tags/%E6%BC%8F%E6%89%AB/" title="漏扫: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="漏扫" style="background-color: #F9EBEA;">漏扫
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/tags/%E5%8A%9E%E5%85%AC/" title="办公: 43">
                     <span class="chip center-align waves-effect waves-light
                              chip-active "
-                            data-tagname="办公" style="background-color: #F9EBEA;">办公
+                            data-tagname="办公" style="background-color: #F5EEF8;">办公
                         <span class="tag-length">43</span>
                     </span>
                 </a>
@@ -806,7 +832,7 @@
                 <a href="/tags/%E7%A7%91%E6%8A%80/" title="科技: 8">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="科技" style="background-color: #F5EEF8;">科技
+                            data-tagname="科技" style="background-color: #D5F5E3;">科技
                         <span class="tag-length">8</span>
                     </span>
                 </a>
@@ -815,16 +841,7 @@
                 <a href="/tags/games/" title="games: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="games" style="background-color: #D5F5E3;">games
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E6%BC%8F%E6%89%AB/" title="漏扫: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="漏扫" style="background-color: #E8F8F5;">漏扫
+                            data-tagname="games" style="background-color: #E8F8F5;">games
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -919,13 +936,13 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="办公" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2022/06/03/qBittorrent/">
+                    <a href="/2022/06/03/qCoolTweak/">
                         <div class="card-image tag-image">
                             
                             
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="qBittorrent 4.4.3.1">
+                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="qCoolTweak">
                             
-                            <span class="card-title">qBittorrent 4.4.3.1</span>
+                            <span class="card-title">qCoolTweak</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
@@ -951,13 +968,13 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="办公" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2022/06/03/qCoolTweak/">
+                    <a href="/2022/06/03/qBittorrent/">
                         <div class="card-image tag-image">
                             
                             
-                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="qCoolTweak">
+                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="qBittorrent 4.4.3.1">
                             
-                            <span class="card-title">qCoolTweak</span>
+                            <span class="card-title">qBittorrent 4.4.3.1</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
@@ -1341,6 +1358,7 @@
 </div>
     </div>
     <script data-pjax src='/js/artitalk.min.js'></script>
+    <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="159451959418" m="1"></script>
 </footer>
 
 <div class="progress-bar"></div>

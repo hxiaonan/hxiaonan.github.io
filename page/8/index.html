@@ -28,7 +28,24 @@
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="/libs/jquery/jquery.min.js"></script>
+    
+    <script>
+        document.onkeydown = function () {
+            if (window.event && window.event.keyCode == 123) {
+                alert("F12被禁用");
+                event.keyCode = 0;
+                event.returnValue = false;
+            }
+            if (window.event && window.event.keyCode == 13) {
+                window.event.keyCode = 505;
+            }
+            if (window.event && window.event.keyCode == 8) {
+                alert(str + "\n请使用Del键进行字符的删除操作！");
+                window.event.returnValue = false;
+            }
 
+        }
+    </script> 
 <meta name="generator" content="Hexo 5.2.0"></head>
 
 
@@ -842,13 +859,13 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/03/08/vip/">
+                    <a href="/2021/03/08/tor/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="懒人专用，全网VIP视频免费破解去广告、全网音乐直接下载、百度网盘直接下载、知乎视频下载等多合一版">
+                            <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Tor Browser for windows">
                             
-                            <span class="card-title">懒人专用，全网VIP视频免费破解去广告、全网音乐直接下载、百度网盘直接下载、知乎视频下载等多合一版</span>
+                            <span class="card-title">Tor Browser for windows</span>
                         </div>
                     </a>
 
@@ -889,13 +906,13 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/03/08/tor/">
+                    <a href="/2021/03/08/vip/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Tor Browser for windows">
+                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="懒人专用，全网VIP视频免费破解去广告、全网音乐直接下载、百度网盘直接下载、知乎视频下载等多合一版">
                             
-                            <span class="card-title">Tor Browser for windows</span>
+                            <span class="card-title">懒人专用，全网VIP视频免费破解去广告、全网音乐直接下载、百度网盘直接下载、知乎视频下载等多合一版</span>
                         </div>
                     </a>
 
@@ -1171,13 +1188,13 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/02/21/Dukto/">
+                    <a href="/2021/02/21/BitTorrent/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Dukto for Windows  V R6">
+                            <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="BitTorrent for WindowsV7.10.5.45785">
                             
-                            <span class="card-title">Dukto for Windows  V R6</span>
+                            <span class="card-title">BitTorrent for WindowsV7.10.5.45785</span>
                         </div>
                     </a>
 
@@ -1218,13 +1235,13 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/02/21/Lulubox/">
+                    <a href="/2021/02/21/Dukto/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="Lulubox APK for Android V4.9.11">
+                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Dukto for Windows  V R6">
                             
-                            <span class="card-title">Lulubox APK for Android V4.9.11</span>
+                            <span class="card-title">Dukto for Windows  V R6</span>
                         </div>
                     </a>
 
@@ -1242,8 +1259,8 @@
                                 
                                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/androids/" class="post-category">
-                                    androids
+                                <a href="/categories/windows/" class="post-category">
+                                    windows
                                 </a>
                                 
                                 
@@ -1402,6 +1419,7 @@
 </div>
     </div>
     <script data-pjax src='/js/artitalk.min.js'></script>
+    <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="159451959418" m="1"></script>
 </footer>
 
 <div class="progress-bar"></div>

@@ -28,7 +28,24 @@
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="/libs/jquery/jquery.min.js"></script>
+    
+    <script>
+        document.onkeydown = function () {
+            if (window.event && window.event.keyCode == 123) {
+                alert("F12被禁用");
+                event.keyCode = 0;
+                event.returnValue = false;
+            }
+            if (window.event && window.event.keyCode == 13) {
+                window.event.keyCode = 505;
+            }
+            if (window.event && window.event.keyCode == 8) {
+                alert(str + "\n请使用Del键进行字符的删除操作！");
+                window.event.returnValue = false;
+            }
 
+        }
+    </script> 
 <meta name="generator" content="Hexo 5.2.0"></head>
 
 
@@ -748,14 +765,14 @@
 
 <p><span>欢迎使用suixin解析！</span></p>
 </div>
-<iframe id="palybox" src="https://vip.parwix.com:4433/player/?url=https://v.qq.com/x/cover/mzc0020024m4px7/j00405npq7y.html" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="true" allowtransparency="true"></iframe>
+<iframe id="palybox" src="https://jx.aidouer.net/?url=https://v.qq.com/x/page/a3503idcazc.html" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="true" allowtransparency="true"></iframe>
 <div class="url-box">
 <div class="input-group">
 <input type="text" id="url" class="form-control url-text" aria-label="Text input with segmented button dropdown" placeholder="请粘贴视频网址>ㅂ<ﾉ ☆" title="请复制你想要看的视频网址，粘贴到此处点击播放即可！">
 <div class="input-group-addon">
 <select class="url-c url-text" title="如发现视频无法正常播放请尝试更换视频线路！" id="jk">
-<option value="https://jx.bozrc.com:4433/player/?url=" selected>默认一</option>
-<option value="https://jx.aidouer.net/?url=">无广告</option>
+<option value="https://jx.aidouer.net/?url=" selected>默认一</option>
+<option value="https://go.yh0523.cn/y.cy?url=">无广告</option>
 <option value="https://www.pangujiexi.cc/jiexi.php?url=">盘古解析</option>
 <option value="https://jx.4kdv.com/?url=">4k</option>
 <option value="https://jx.quanmingjiexi.com/?url=">全民解析</option>
@@ -893,6 +910,7 @@
 </div>
     </div>
     <script data-pjax src='/js/artitalk.min.js'></script>
+    <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="159451959418" m="1"></script>
 </footer>
 
 <div class="progress-bar"></div>

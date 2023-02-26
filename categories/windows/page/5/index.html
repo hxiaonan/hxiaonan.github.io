@@ -28,7 +28,24 @@
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="/libs/jquery/jquery.min.js"></script>
+    
+    <script>
+        document.onkeydown = function () {
+            if (window.event && window.event.keyCode == 123) {
+                alert("F12被禁用");
+                event.keyCode = 0;
+                event.returnValue = false;
+            }
+            if (window.event && window.event.keyCode == 13) {
+                window.event.keyCode = 505;
+            }
+            if (window.event && window.event.keyCode == 8) {
+                alert(str + "\n请使用Del键进行字符的删除操作！");
+                window.event.returnValue = false;
+            }
 
+        }
+    </script> 
 <meta name="generator" content="Hexo 5.2.0"></head>
 
 
@@ -1273,24 +1290,22 @@ AutoIt 目前最新是v3版本:autoit-v3-setup.exe
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/01/30/AWVS/">
+                    <a href="/2021/01/30/NeatDM/">
                         <div class="card-image tag-image">
                             
                             
-                            <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Acunetix Web Vulnerability">
+                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="NeatDM高速下载器">
                             
-                            <span class="card-title">Acunetix Web Vulnerability</span>
+                            <span class="card-title">NeatDM高速下载器</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                
-声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+                                声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
 
-因为网盘不支持特殊的分卷后缀，所以下载下来手动重命名，解压001后缀的文件即可。
 
-立即下载Windows acunetix_13
+下载windows版,提取密码：6049下载MAC版,提取密码：946j软件介绍这个下载器就和IDM差不多，但是是免费的，有需要可
                             
                         </div>
                         <div class="publish-info">
@@ -1313,8 +1328,8 @@ AutoIt 目前最新是v3版本:autoit-v3-setup.exe
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E6%BC%8F%E6%89%AB/">
-                            <span class="chip bg-color">漏扫</span>
+                        <a href="/tags/%E7%A7%91%E6%8A%80/">
+                            <span class="chip bg-color">科技</span>
                         </a>
                         
                     </div>
@@ -1497,6 +1512,7 @@ AutoIt 目前最新是v3版本:autoit-v3-setup.exe
 </div>
     </div>
     <script data-pjax src='/js/artitalk.min.js'></script>
+    <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="159451959418" m="1"></script>
 </footer>
 
 <div class="progress-bar"></div>

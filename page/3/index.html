@@ -28,7 +28,24 @@
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="/libs/jquery/jquery.min.js"></script>
+    
+    <script>
+        document.onkeydown = function () {
+            if (window.event && window.event.keyCode == 123) {
+                alert("F12被禁用");
+                event.keyCode = 0;
+                event.returnValue = false;
+            }
+            if (window.event && window.event.keyCode == 13) {
+                window.event.keyCode = 505;
+            }
+            if (window.event && window.event.keyCode == 8) {
+                alert(str + "\n请使用Del键进行字符的删除操作！");
+                window.event.returnValue = false;
+            }
 
+        }
+    </script> 
 <meta name="generator" content="Hexo 5.2.0"></head>
 
 
@@ -1075,7 +1092,7 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2022/06/14/as/">
+                    <a href="/2022/06/14/arpwatch/">
                         <div class="card-image">
                             
                             
@@ -1110,7 +1127,7 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2022/06/14/arpwatch/">
+                    <a href="/2022/06/14/as/">
                         <div class="card-image">
                             
                             
@@ -1282,6 +1299,7 @@
 </div>
     </div>
     <script data-pjax src='/js/artitalk.min.js'></script>
+    <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="159451959418" m="1"></script>
 </footer>
 
 <div class="progress-bar"></div>

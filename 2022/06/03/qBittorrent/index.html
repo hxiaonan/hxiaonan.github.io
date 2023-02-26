@@ -28,7 +28,24 @@
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="/libs/jquery/jquery.min.js"></script>
+    
+    <script>
+        document.onkeydown = function () {
+            if (window.event && window.event.keyCode == 123) {
+                alert("F12被禁用");
+                event.keyCode = 0;
+                event.returnValue = false;
+            }
+            if (window.event && window.event.keyCode == 13) {
+                window.event.keyCode = 505;
+            }
+            if (window.event && window.event.keyCode == 8) {
+                alert(str + "\n请使用Del键进行字符的删除操作！");
+                window.event.returnValue = false;
+            }
 
+        }
+    </script> 
 <meta name="generator" content="Hexo 5.2.0"></head>
 
 
@@ -1024,13 +1041,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/06/03/qCoolTweak/">
+                <a href="/2022/06/03/freemessage/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="qCoolTweak">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="freemessage">
                         
-                        <span class="card-title">qCoolTweak</span>
+                        <span class="card-title">freemessage</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1073,13 +1090,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/06/02/RoboIntern/">
+                <a href="/2022/06/03/qCoolTweak/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="RoboIntern 1.024">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="qCoolTweak">
                         
-                        <span class="card-title">RoboIntern 1.024</span>
+                        <span class="card-title">qCoolTweak</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1090,7 +1107,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-06-02
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-06-03
                             </span>
                         <span class="publish-author">
                             
@@ -1392,6 +1409,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 </div>
     </div>
     <script data-pjax src='/js/artitalk.min.js'></script>
+    <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="159451959418" m="1"></script>
 </footer>
 
 <div class="progress-bar"></div>

@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Acunetix Web Vulnerability</title>
+    <url>/2021/01/30/AWVS/</url>
+    <content><![CDATA[<blockquote>
+声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+因为网盘不支持特殊的分卷后缀，所以下载下来手动重命名，解压001后缀的文件即可。
+
+<h3 id="立即下载Windows-acunetix-13-0-200205121-zip-001-zip-提取密码：42mk"><a href="#立即下载Windows-acunetix-13-0-200205121-zip-001-zip-提取密码：42mk" class="headerlink" title="立即下载Windows acunetix_13.0.200205121.zip.001.zip,提取密码：42mk"></a><a href="https://www.90pan.com/b2284885" title="Windows acunetix_13.0.200205121">立即下载Windows acunetix_13.0.200205121.zip.001.zip,提取密码：42mk</a></h3><p>手动重命名为 Windows acunetix_13.0.200205121.zip.001</p>
+<h3 id="立即下载Windows-acunetix-13-0-200205121-zip-002-zip-提取密码：mo08"><a href="#立即下载Windows-acunetix-13-0-200205121-zip-002-zip-提取密码：mo08" class="headerlink" title="立即下载Windows acunetix_13.0.200205121.zip.002.zip,提取密码：mo08"></a><a href="https://www.90pan.com/b2284883" title="Windows acunetix_13.0.200205121">立即下载Windows acunetix_13.0.200205121.zip.002.zip,提取密码：mo08</a></h3><p>手动重命名为 Windows acunetix_13.0.200205121.zip.002</p>
+<h3>软件介绍</h3>
+Acunetix Web Vulnerability Scanner（AWVS）经典商业漏扫工具，最近更新了13的版本，本文分享的AWVS的破解版是网上大佬们分享出来
+它通过网络爬虫测试你的网站安全，检测流行安全漏洞，它的官方网站是：https://www.acunetix.com，我刚才看了一眼没有找到试用版下载链接，之前是有的，可以免费试用14天，当然你也可以去网上搜索破解版进行下载安装
+<h3>软件安装</h3>
+Windows
+
+<p>下一步下一步安装即可。破解过程：</p>
+<pre><code>wvsc.exe 覆盖C:\Program Files (x86)\Acunetix\13.0.200205121目录下同名文件
+license_info.json 覆盖C:\ProgramData\Acunetix\shared\license目录下同名文件</code></pre>
+<p>以上操作都做完依然没有效果的话，那么重启电脑试试看呢？</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>漏扫</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Acrosync 文件夹同步工具</title>
     <url>/2022/06/01/Acrosync/</url>
     <content><![CDATA[<blockquote>
@@ -8,6 +36,30 @@
 </blockquote>
 
 <h3 id="立即下载，密码：6049"><a href="#立即下载，密码：6049" class="headerlink" title="立即下载，密码：6049"></a><a href="https://url39.ctfile.com/f/37081239-588337159-904961" title="Acrosync文件夹同步工具">立即下载，密码：6049</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>Acrosync是一个文件夹同步工具，它支持Dropbox风格的自动文件上传以及类似于Time Machine的每小时增量备份。 Acrosync基于rsync协议，这意味着它可以与任何Mac或Linux计算机甚至NAS设备同步，而无需安装服务器。它带有易于使用的图形界面，通过该界面您可以轻松地为不同任务设置多个同步配置文件。配置完成后，只需单击一下即可开始同步。由于巧妙的rsync算法，仅会传输新文件和修改过的文件，对于每个修改过的文件，仅会传输已更改的部分。在“备份”模式下，有一个内置的文件系统监视器，它将持续监视本地文件夹，并在检测到新文件或修改过的文件后自动开始传输它们。完全备份可以在特定时间每小时，每天或每周执行一次。此外，您可以打开快照选项以创建快速且节省空间的增量快照，这些快照是完整备份，但共享相同的未更改文件副本，这与Time Machine在Mac上的操作非常相似。每个配置文件的配置页面可方便地设置以下高级选项：andbull;通过ssh或rsyncd andbull连接；选择除标准ssh或rsyncd端口andbull以外的其他端口；使用公钥认证（带或不带短语）和公牛进行ssh登录；通过模式和公牛包含或排除文件；传播删除和公牛；限制下载和上传速度Acrosync与rDrive托管提供商（例如HiDrive和Strongspace）以及QNAP和Synology NASes兼容</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>办公</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BitTorrent for WindowsV7.10.5.45785</title>
+    <url>/2021/02/21/BitTorrent/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载-提取密码：owe5"><a href="#立即下载-提取密码：owe5" class="headerlink" title="立即下载,提取密码：owe5"></a><a href="https://www.90pan.com/b2343943" title="BitTorrent for WindowsV7.10.5.45785">立即下载,提取密码：owe5</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>一个免费的文件传输软件<br>BitTorrent是下载和共享文件的工具。它使用户可以连接到同名网络下载和上传torrents。该软件通过对等网络工作。您可以使用内置搜索引擎在internet上搜索文件，并在下载时检查其进度。<br>从多种文件类型中选择<br>BitTorrent不仅是一种点对点文件传输协议，而且是一种可用于连接PC网络的软件。该软件重量轻，但最新版本具有许多功能。你可以用它来下载许多不受版权保护的不同材料。包括电影、游戏、音乐、节目等等。<br>BitTorrent还允许您共享文件，将它们转换为新的Torrent。选择要下载的文件时，您可以选择所需的内容。有复选框，您只能选择要下载的文件。例如，如果您正在使用BitTorrent下载电影，则可以只选择主文件，而不选择字幕或其他捆绑的内容。<br>快速简单的流程<br>有一个免费版本的BitTorrent，或者你可以升级到专业版添加功能，没有广告。界面确实包含广告，但仍然很容易导航。Windows10的用户可以下载这个程序，并将它设置为在计算机启动时运行。torrents很快就可以开始下载，您可以在文件下载时观看或收听。<br>从“选项”菜单中，可以配置不同的设置和首选项。由于您可以根据自己的喜好调整所有内容，并安排下载，因此该程序并不具有侵入性。事实上，您可以简单地让它在后台运行，这样您就可以实现所需的一切。只需一眼就可以轻松查看下载进度以及哪些torrent可用。<br>控制下载<br>程序的主界面显示您选择下载的文件的信息，并允许您控制下载过程。您可以检查每个种子流的种子数、对等点数和跟踪器数。还有一个RSS跟踪器，提醒你有新的torrent可用。还有一个搜索栏，用于查找激流。它会带你去BitTorrent.com网站搜索时，而不是在其他torrent网站上找到它。<br>BitTorrent的功能并不丰富，但它确实为您提供了完成核心任务的选择。两个特别有用的特性是计划下载的能力，当你想在互联网流量不大的情况下下载时，它会很有用。您也可以从浏览器或Android应用程序使用遥控器下载功能。<br>您可以监视和调整下载和上载的速度，这对于尽快完成任务或管理多个活动非常有用。在添加文件与朋友共享时，只需拖放选定的文件，即可创建一个链接。您可以发送链接，以便其他人可以访问该文件。<br>torrents的备选方案<br>您可能已经注意到，自从BitTorrent购买了uTorrent之后，这些特性和接口有很多共同点。当涉及到torrent下载时，它们是既安全又简单的选择。不过，还有其他的项目可以满足你的需要。<br>另一种可能也是免费的是Vuze。它是一个开源程序，比Bittorrent提供更彻底的搜索功能。然而，你会发现这个软件要重得多，而且它会占用大量的资源和带宽。一般来说，它很容易搜索和下载，这是你需要的。<br>如果你正在寻找的是一个程序，做你需要的一切在一个简单的方式，那么qBittorrent是一个很好的选择。您可以在不设置向导或插件的情况下执行大多数操作，如下载torrents、搜索文件和创建torrents。<br>任何寻求极简主义和简单程序的人都会对Qt感兴趣。只需单击一下，就可以执行许多主要操作。这包括优先考虑你的下载和调整速度限制。你可以标记和分类你的洪流，使之易于访问一切迅速。不过，极简主义的界面是以有限的高级功能为代价的。<br>简洁明了的torrent下载<br>BitTorrent的所有基本功能都做得很好。它很容易使用，广告也不太令人讨厌，你可以设置它运行只是你喜欢它。最吸引人的因素是程序的轻量级和无要求性，这使得在后台使用或保持运行是一种乐趣。<br>最新版本的BitTorrent在状态栏中添加了语言选择选项。它还使程序默认为用户的操作系统语言。一个阻止DNS设置的默认值被恢复的错误已经被修复，作为一个与加密的对等连接相关的崩溃问题。</p>
+<h3 id="软件截图"><a href="#软件截图" class="headerlink" title="软件截图"></a>软件截图</h3><p><img src="https://7.dusays.com/2021/02/21/3cfa8e6eaf02f.webp" alt="1706570113.webp"><br><img src="https://7.dusays.com/2021/02/21/50a7942414406.webp" alt="1062391187.webp"><br><img src="https://7.dusays.com/2021/02/21/fa8b40c13e870.webp" alt="892329390.webp"><br><img src="https://7.dusays.com/2021/02/21/f0ca019ec6d84.webp" alt="1614168164.webp"><br><img src="https://7.dusays.com/2021/02/21/82c4c47742bf1.webp" alt="3448894451.webp"></p>
+<p>优点</p>
+<p>易于使用和导航</p>
+<p>设置下载首选项</p>
+<p>计划下载</p>
+<p>轻量级程序</p>
+<p>缺点</p>
+<p>有限搜索功能</p>
 ]]></content>
       <categories>
         <category>windows</category>
@@ -211,23 +263,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Panopreter Basic Chinese Simplified 3.0.92</title>
-    <url>/2022/06/03/Panopreter/</url>
-    <content><![CDATA[<blockquote>
-    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
-</blockquote>
-
-<h3 id="立即下载，密码：6049"><a href="#立即下载，密码：6049" class="headerlink" title="立即下载，密码：6049"></a><a href="https://url39.ctfile.com/f/37081239-589324313-03ed23" title="Panopreter Basic Chinese Simplified 3.0.92">立即下载，密码：6049</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>文字转语音<br>大声朗读文本并将语音保存为 mp3 和 wav 音频文件</p>
-<p>Panopreter Basic 以自然的声音读取文本、文本文件、rft 文件、网页和 word 文档，并将文本和文件转换为 wav 和 mp3 格式的语音音频文件。用户可以调整语音音量和速度。正在阅读的单词或句子将突出显示。支持批量文件转换，支持多种语言和语音，支持UNICODE字体。</p>
-]]></content>
-      <categories>
-        <category>windows</category>
-      </categories>
-      <tags>
-        <tag>办公</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Osu！是一个简单的节奏游戏</title>
     <url>/2021/03/08/Osu/</url>
     <content><![CDATA[<blockquote>
@@ -242,6 +277,23 @@
       </categories>
       <tags>
         <tag>games</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Panopreter Basic Chinese Simplified 3.0.92</title>
+    <url>/2022/06/03/Panopreter/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载，密码：6049"><a href="#立即下载，密码：6049" class="headerlink" title="立即下载，密码：6049"></a><a href="https://url39.ctfile.com/f/37081239-589324313-03ed23" title="Panopreter Basic Chinese Simplified 3.0.92">立即下载，密码：6049</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>文字转语音<br>大声朗读文本并将语音保存为 mp3 和 wav 音频文件</p>
+<p>Panopreter Basic 以自然的声音读取文本、文本文件、rft 文件、网页和 word 文档，并将文本和文件转换为 wav 和 mp3 格式的语音音频文件。用户可以调整语音音量和速度。正在阅读的单词或句子将突出显示。支持批量文件转换，支持多种语言和语音，支持UNICODE字体。</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>办公</tag>
       </tags>
   </entry>
   <entry>
@@ -416,6 +468,22 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Recruit marriage</title>
+    <url>/2019/05/03/Recruit-marriage/</url>
+    <content><![CDATA[<p>Men Seeking Women</p>
+<pre><code>Full name:A jealous boy
+
+Age：Last year eighteen
+
+Occupation：I lost my job when the company moved to another state
+
+A partner in marriage：a girl
+
+I think everything we do should use our hearts. Once you fully open the heart for someone
+,please carefull and patiently love her.</code></pre>
+]]></content>
+  </entry>
+  <entry>
     <title>RoboIntern 1.024</title>
     <url>/2022/06/02/RoboIntern/</url>
     <content><![CDATA[<blockquote>
@@ -451,22 +519,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Recruit marriage</title>
-    <url>/2019/05/03/Recruit-marriage/</url>
-    <content><![CDATA[<p>Men Seeking Women</p>
-<pre><code>Full name:A jealous boy
-
-Age：Last year eighteen
-
-Occupation：I lost my job when the company moved to another state
-
-A partner in marriage：a girl
-
-I think everything we do should use our hearts. Once you fully open the heart for someone
-,please carefull and patiently love her.</code></pre>
-]]></content>
-  </entry>
-  <entry>
     <title>SizeExplorer Free 4.1</title>
     <url>/2022/06/01/SizeExplorer%20Free/</url>
     <content><![CDATA[<blockquote>
@@ -476,6 +528,25 @@ I think everything we do should use our hearts. Once you fully open the heart fo
 <h3 id="立即下载-密码：6049"><a href="#立即下载-密码：6049" class="headerlink" title="立即下载,密码：6049 "></a><a href="https://url39.ctfile.com/f/37081239-588219996-47ba67" title="SizeExplorer Free 4.1">立即下载,密码：6049 </a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>SizeExplorer Free 4.1<br>管理您的磁盘空间</p>
 <p>管理硬盘混乱主要是指弄清哪些文件占用了所有空间。诸如SizeExplorer Free之类的实用程序可帮助您准确地找到阻止您下载“ West Wing.and”的第三季的文件夹和文件。 Itand’s是具有一些有价值功能的易于使用的磁盘分析器。</p>
 <p>该界面是令人愉快的并且大多是直观的，并且如果需要的话还有一个帮助文件。 SizeExplorer速度很快：大约两分钟内就运行了170,000个文件。所得的类似于Windows Explorer的视图以彩色条和百分比列出了每个项目和整个磁盘的使用情况。您可以通过多种方式对列表进行排序。实际上，该程序的行为类似于Explorer。例如，您可以浏览文件夹以及直接从列表中打开和删除文件。我们还赞赏分析器功能以及众多报告和图形视图。此功能将目录显示为饼图以及以文件类型和扩展名指示文件分布的图形。尽管实际的实用性使我们望而却步，但数据却很有趣。 SizeExplorerand的最佳功能是能够在单个列表中查看大文件。您不必单击文件夹或在文件夹之间来回比较文件大小。</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>办公</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Super Tools</title>
+    <url>/2021/02/21/SuperTools/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载-提取密码：r2qb"><a href="#立即下载-提取密码：r2qb" class="headerlink" title="立即下载,提取密码：r2qb"></a><a href="https://www.90pan.com/b2340799" title="实用的电脑工具箱">立即下载,提取密码：r2qb</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>今天给大家介绍一款非常实用的电脑工具箱，包含了很多实用的工具和快捷操作，比如录屏、卸载工具；控制面板、磁盘清理等快捷打开等。<br>1、解压后双击exe文件，运行软件。</p>
+<p>2、打开后可以看到有常用工具和系统操作两个分类。每个分类下都有不少工具，火绒剑、卸载工具、录屏、控制面板、网络连接、鼠标设置等。</p>
+<p>3、每个软件，点击后即可使用，如图：<br><img src="https://7.dusays.com/2021/02/21/538a0a8d59fc2.png" alt="微信截图_20210221104440.png"><br>4、系统操作，也是点击后即可快速打开，无需一步步找或者背快捷键了。</p>
+<h3 id="软件截图："><a href="#软件截图：" class="headerlink" title="软件截图："></a>软件截图：</h3><p><img src="https://7.dusays.com/2021/02/21/63a2b85a4a192.png"><br><img src="https://7.dusays.com/2021/02/21/ac7784b3498bf.png" alt="微信截图_20210221104025.png"><br><img src="https://7.dusays.com/2021/02/21/538a0a8d59fc2.png" alt="微信截图_20210221104440.png"> </p>
 ]]></content>
       <categories>
         <category>windows</category>
@@ -499,25 +570,6 @@ I think everything we do should use our hearts. Once you fully open the heart fo
 <p>技巧 :也可以在这里管理那些作为 Chromium 插件来安装的脚本。<br>设置多样性<br><img src="https://7.dusays.com/2021/03/10/134f798dc6187.png" alt="config_mode.png"><br>您可以为设置页面在三种不同的等级中进行选择。不常用的选项将被隐藏,通过这种方式来简化页面。 ( 视频教程)<br>脚本自动更新<br><img src="https://7.dusays.com/2021/03/10/a6af19562dda9.png" alt="script_update.png"><br>您可以对脚本的检查更新频率进行设置。不再因为过时的脚本而产生漏洞。:)<br>安全<br><img src="https://7.dusays.com/2021/03/10/4df33250b9bbf.png" alt="security.png"><br>单击图片进行放大<br>只有偏执狂才能生存!把所有不该使用脚本的网站都列入黑名单。</p>
 <p>兼容性<br><img src="https://7.dusays.com/2021/03/10/7e466993251a3.png" alt="compatibility.png"><br>许多为火狐用户脚本管理器攥写的用户脚本叫做 Greasemonkey (&lt;= 3.x),这就是为什么 Tampermonkey 要提供一个兼容层并自动检测配套设置。<br>Chrome 同步<br><img src="https://7.dusays.com/2021/03/10/f6f1f603b91f1.png" alt="sync.png"><br>您正在使用多个 Chrome 浏览器,一个家用,一个工作用?您希望您可以同步自己的脚本?那么,您仅需设置 Tampermonkey 的同步功能。<br>CodeMirror 编辑器<br><img src="https://7.dusays.com/2021/03/10/013160e2d5a89.png" alt="editor_settings.png"><br>单击图片进行放大<br>您需要开发并编辑一个脚本?没问题!Tampermonkey 提供一个嵌入式的编辑器。</p>
 <p>JSHint 语法检查<br><img src="https://7.dusays.com/2021/03/10/de7a12f6863c3.png" alt="editor.png"><br>单击图片进行放大<br>您的脚本无法运行?Tampermonkey 的语法检查或许可以帮您找到问题…:)<br>快速开发<br><img src="https://7.dusays.com/2021/03/10/e690aa4729a69.png" alt="allow_access_to_file_urls.png"><br>单击图片进行放大<br>Tampermonkey 的编辑器是很棒的，然而您拥有自己的编辑器，它更快、更好……解决办法是启用“允许访问文件网址”，然后您就可以通过@require调用您脚本的本地副本了。<br>卸载<br>如果您对 Tampermonkey 不满意(这不大可能发生,但是谁知道呢;),您可以在 Chrome 浏览器的插件页面移除它。</p>
-]]></content>
-      <categories>
-        <category>windows</category>
-      </categories>
-      <tags>
-        <tag>办公</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Super Tools</title>
-    <url>/2021/02/21/SuperTools/</url>
-    <content><![CDATA[<blockquote>
-    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
-</blockquote>
-
-<h3 id="立即下载-提取密码：r2qb"><a href="#立即下载-提取密码：r2qb" class="headerlink" title="立即下载,提取密码：r2qb"></a><a href="https://www.90pan.com/b2340799" title="实用的电脑工具箱">立即下载,提取密码：r2qb</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>今天给大家介绍一款非常实用的电脑工具箱，包含了很多实用的工具和快捷操作，比如录屏、卸载工具；控制面板、磁盘清理等快捷打开等。<br>1、解压后双击exe文件，运行软件。</p>
-<p>2、打开后可以看到有常用工具和系统操作两个分类。每个分类下都有不少工具，火绒剑、卸载工具、录屏、控制面板、网络连接、鼠标设置等。</p>
-<p>3、每个软件，点击后即可使用，如图：<br><img src="https://7.dusays.com/2021/02/21/538a0a8d59fc2.png" alt="微信截图_20210221104440.png"><br>4、系统操作，也是点击后即可快速打开，无需一步步找或者背快捷键了。</p>
-<h3 id="软件截图："><a href="#软件截图：" class="headerlink" title="软件截图："></a>软件截图：</h3><p><img src="https://7.dusays.com/2021/02/21/63a2b85a4a192.png"><br><img src="https://7.dusays.com/2021/02/21/ac7784b3498bf.png" alt="微信截图_20210221104025.png"><br><img src="https://7.dusays.com/2021/02/21/538a0a8d59fc2.png" alt="微信截图_20210221104440.png"> </p>
 ]]></content>
       <categories>
         <category>windows</category>
@@ -583,6 +635,24 @@ I think everything we do should use our hearts. Once you fully open the heart fo
       </tags>
   </entry>
   <entry>
+    <title>Cok Wechat Recovery for WindowsV4.86</title>
+    <url>/2021/02/24/WechatRecovery/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载-密码：6049"><a href="#立即下载-密码：6049" class="headerlink" title="立即下载,密码：6049 "></a><a href="https://url39.ctfile.com/f/37081239-587822900-0e58a2" title="Cok Wechat Recovery for WindowsV4.86">立即下载,密码：6049 </a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p><img src="https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/21112244-a4d5-11e6-8af8-00163ec9f5fa/3497608193/cok-wechat-recovery-screenshot.jpg"><br>从iPhone恢复已删除的微信聊天历史记录，并从Android手机导出微信消息<br>当我们不小心删除了手机上一些重要的微信信息时，t肯定很难过。Cok微信恢复可以帮助我们恢复iPhone中删除的微信聊天记录，并将微信聊天记录从android手机导出到电脑。忘记微信密码没关系，因为这个软件不需要密码就可以查看聊天记录。写入的微信聊天日志经过加密后存储在您的手机中，音频信息经过更好的加密，除非使用Cok-Wechat-Recovery，否则任何音频播放器软件都无法播放智能手机导出的微信音频文件。</p>
+<p>1.可以从所有iPhone和iPad中检索已删除的微信信息。包括iPhone SE、iPhone 6S、iPhone 6、iPhone 5S、iPad mini、iPad Pro、iPad air等。</p>
+<p>2.可以将所有android手机的微信聊天历史导出到电脑中查看。包括三生、华为、美的、LG、摩托罗拉、宏达电、联想等。</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>办公</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>WinMerge 是一款 Windows 系统下的免费开源的文件比较/合并工具</title>
     <url>/2021/03/08/WinMerge/</url>
     <content><![CDATA[<blockquote>
@@ -597,24 +667,6 @@ I think everything we do should use our hearts. Once you fully open the heart fo
 <p>表格比较<br>支持CSV/TSV格式的表格比较，高亮显示差异数据，支持复制差异内容进行合并：</p>
 <p><img src="https://7.dusays.com/2021/03/08/8c25cf718ae7e.png" alt="微信图片_20210308101803.png"></p>
 <p>WinMerge的简单介绍就到这里了，感兴趣的朋友赶紧下载安装体验一下吧！</p>
-]]></content>
-      <categories>
-        <category>windows</category>
-      </categories>
-      <tags>
-        <tag>办公</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Cok Wechat Recovery for WindowsV4.86</title>
-    <url>/2021/02/24/WechatRecovery/</url>
-    <content><![CDATA[<blockquote>
-    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
-</blockquote>
-
-<h3 id="立即下载-密码：6049"><a href="#立即下载-密码：6049" class="headerlink" title="立即下载,密码：6049 "></a><a href="https://url39.ctfile.com/f/37081239-587822900-0e58a2" title="Cok Wechat Recovery for WindowsV4.86">立即下载,密码：6049 </a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p><img src="https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/21112244-a4d5-11e6-8af8-00163ec9f5fa/3497608193/cok-wechat-recovery-screenshot.jpg"><br>从iPhone恢复已删除的微信聊天历史记录，并从Android手机导出微信消息<br>当我们不小心删除了手机上一些重要的微信信息时，t肯定很难过。Cok微信恢复可以帮助我们恢复iPhone中删除的微信聊天记录，并将微信聊天记录从android手机导出到电脑。忘记微信密码没关系，因为这个软件不需要密码就可以查看聊天记录。写入的微信聊天日志经过加密后存储在您的手机中，音频信息经过更好的加密，除非使用Cok-Wechat-Recovery，否则任何音频播放器软件都无法播放智能手机导出的微信音频文件。</p>
-<p>1.可以从所有iPhone和iPad中检索已删除的微信信息。包括iPhone SE、iPhone 6S、iPhone 6、iPhone 5S、iPad mini、iPad Pro、iPad air等。</p>
-<p>2.可以将所有android手机的微信聊天历史导出到电脑中查看。包括三生、华为、美的、LG、摩托罗拉、宏达电、联想等。</p>
 ]]></content>
       <categories>
         <category>windows</category>
@@ -641,18 +693,6 @@ I think everything we do should use our hearts. Once you fully open the heart fo
       </tags>
   </entry>
   <entry>
-    <title>ab命令</title>
-    <url>/2022/06/14/ab/</url>
-    <content><![CDATA[<h1 id="ab"><a href="#ab" class="headerlink" title="ab"></a>ab</h1><p>Apache服务器的性能测试工具</p>
-<h2 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明"></a>补充说明</h2><p><strong>ab命令</strong> 是一个测试你 Apache http 服务器的工具，你可以通过这个工具，指定一个单位时间内向 apache 发出的请求数量来看看你的 Apache 和机器配合的性能如何。</p>
-<h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ab [ -A auth-username:password ] [ -c concurrency ] [ -C cookie-name=value</span><br><span class="line">] [ -d ] [ -e csv-file ] [ -g gnuplot-file ] [ -h ] [ -H custom-header ] [</span><br><span class="line">-i  ]  [  -k  ]  [  -n  requests  ] [ -p POST-file ] [ -P proxy-auth-user‐</span><br><span class="line">name:password ] [ -q ] [ -s ] [ -S ] [ -t timelimit ] [ -T content-type  ]</span><br><span class="line">[  -v verbosity] [ -V ] [ -w ] [ -x &lt;table&gt;-attributes ] [ -X proxy[:port]</span><br><span class="line">]  [  -y  &lt;tr&gt;-attributes  ]  [  -z   &lt;td&gt;-attributes   ]   [http://]host‐</span><br><span class="line">name[:port]/path</span><br></pre></td></tr></table></figure>
-
-<h3 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">-A auth-username:password</span><br><span class="line">      #  支持基本的验证证书,用户名和密码之间使用&quot;冒号&quot;                    :</span><br><span class="line">      # 分隔开,ab将以明文方式传送过去.不管服务器是不是需要</span><br><span class="line">      # ,也就是说你的服务器需要支持401认证.</span><br><span class="line"></span><br><span class="line">-c concurrency</span><br><span class="line">      # 同时向服务器端发送的请求数目，默认状态下是一次 只执行一个http请求.</span><br><span class="line"></span><br><span class="line">-C cookie-name=value</span><br><span class="line">      # Add a Cookie: line to the request. The argument is typically in the</span><br><span class="line">      # form of a name=value pair. This field is repeatable.</span><br><span class="line"></span><br><span class="line">-d    #  Do not display  the  &quot;percentage  served  within  XX  [ms]  table&quot;.</span><br><span class="line">      # (legacy support).</span><br><span class="line"></span><br><span class="line">-e csv-file</span><br><span class="line">      # Write  a  Comma  separated value (CSV) file which contains for each</span><br><span class="line">      # percentage (from 1% to 100%) the time (in milli seconds) it took to</span><br><span class="line">      # serve  that percentage of the requests. This is usually more useful</span><br><span class="line">      # than the &#x27;gnuplot&#x27; file; as the results are already &#x27;binned&#x27;.</span><br><span class="line"></span><br><span class="line">-g gnuplot-file</span><br><span class="line">      # Write all measured values out as a &#x27;gnuplot&#x27; or TSV  (Tab  separate</span><br><span class="line">      # values)  file.  This file can easily be imported into packages like</span><br><span class="line">      # Gnuplot, IDL, Mathematica, Igor or even Excell. The labels  are  on</span><br><span class="line">      # the first line of the file.</span><br><span class="line">-h    # 显示使用说明</span><br><span class="line">-H custom-header</span><br><span class="line">      # 向请求包追加附加的标题字串.此参数应该是有效的标题         行(header</span><br><span class="line">      # line)形式,通常使用冒号&quot;:&quot;来分隔有效配对 (valid  pair)例如  &#x27;Accept-</span><br><span class="line">      # Encoding: zip/zop;8 bit&#x27;;</span><br><span class="line"></span><br><span class="line">-i    # 使用一个 http 头(HEAD) 来替换 GET方法.不可以掺入POST 方法</span><br><span class="line"></span><br><span class="line">-k    #  允许http      KeepAlive      ；也就是说执行多个请求在一个      http</span><br><span class="line">      # 会话当中，默认是不允许的也就是no KeepAlive啦;)</span><br><span class="line"></span><br><span class="line">-n requests</span><br><span class="line">      # 执行一次测试会话的时候所发出的请求数目,默认是执行一个单一的请求</span><br><span class="line">      # 当然了这样的测试结果也就没什么意义了</span><br><span class="line"></span><br><span class="line">-p POST-file</span><br><span class="line">      # 测试程序也就是ab,将向Apache server发送带有HTTP POST 的请求.</span><br><span class="line"></span><br><span class="line">-P proxy-auth-username:password</span><br><span class="line">      # 当需要通过代理测试一台 HTTP 服务器的时候而你的代理</span><br><span class="line">      # 又需要用户名密码验证,这时你可以使用这个选项,同样</span><br><span class="line">      # 用户名与密码之间使用冒号&quot;:&quot;分隔开,ab将之以明文的方式</span><br><span class="line">      # 发送出去,当然,前提是你的代理是处于407认证状态的</span><br><span class="line"></span><br><span class="line">-q    #  When processing more than 150 requests, ab outputs a progress count</span><br><span class="line">      # on  stderr  every  10% or 100 requests or so. The -q flag will sup‐</span><br><span class="line">      # press these messages.</span><br><span class="line"></span><br><span class="line">-s    #  When compiled in (ab -h will show you) use the SSL protected  https</span><br><span class="line">      # rather  than  the  http  protocol. This feature is experimental and</span><br><span class="line">      # very rudimentary. You probably do not want to use it.</span><br><span class="line"></span><br><span class="line">-S    #  Do not display the median and standard deviation values,  nor  dis‐</span><br><span class="line">      # play  the  warning/error  messages  when the average and median are</span><br><span class="line">      # more than one or two times the standard deviation  apart.  And  de‐</span><br><span class="line">      # fault to the min/avg/max values. (legacy support).</span><br><span class="line"></span><br><span class="line">-t timelimit</span><br><span class="line">      #  设置测试的时间的长短，使用这个选项ab将自动设置</span><br><span class="line">      # 测试请求会话数目为50000，然后以你设置的时间为</span><br><span class="line">      # 固定周期.默认状态下是没有时限的，也就是直到完成</span><br><span class="line">      # 你所设置的请求数目为止.</span><br><span class="line"></span><br><span class="line">-T content-type</span><br><span class="line">      # 内容类型标头,使用在POST数据的时候.</span><br><span class="line"></span><br><span class="line">-v verbosity</span><br><span class="line">      # 设置冗余级别,4级打印出每个请求标头的详细信息,</span><br><span class="line">      # 3级打印出回应代码(例如,404,200),2级打印出警告 信息和指示消息</span><br><span class="line"></span><br><span class="line">-V    # 显示版本号并且退出</span><br><span class="line">-w    # 打印输出结果到HTML表中. 默认的表是两列n行白底黑框</span><br><span class="line"></span><br><span class="line">-x &lt;table&gt;-attributes</span><br><span class="line">      # 使用字串来描述表的属性,该属性字串应该插入到&lt;table 这里 &gt;</span><br><span class="line"></span><br><span class="line">-X proxy[:port]</span><br><span class="line">      # Use a proxy server for the requests.</span><br><span class="line"></span><br><span class="line">-y &lt;tr&gt;-attributes</span><br><span class="line">      # 用于生成html表格每行的属性名 (&lt;tr&gt;)</span><br><span class="line"></span><br><span class="line">-z &lt;td&gt;-attributes</span><br><span class="line">      # 用于生成html表格每列的属性名 (&lt;td&gt;)</span><br></pre></td></tr></table></figure>
-
-<h3 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h3><p>主机：被测试主机。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>WinSetupFromUSB</title>
     <url>/2021/02/01/WinSetupFromUSB/</url>
     <content><![CDATA[<blockquote>声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
@@ -672,6 +712,18 @@ I think everything we do should use our hearts. Once you fully open the heart fo
       <tags>
         <tag>办公</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>ab命令</title>
+    <url>/2022/06/14/ab/</url>
+    <content><![CDATA[<h1 id="ab"><a href="#ab" class="headerlink" title="ab"></a>ab</h1><p>Apache服务器的性能测试工具</p>
+<h2 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明"></a>补充说明</h2><p><strong>ab命令</strong> 是一个测试你 Apache http 服务器的工具，你可以通过这个工具，指定一个单位时间内向 apache 发出的请求数量来看看你的 Apache 和机器配合的性能如何。</p>
+<h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ab [ -A auth-username:password ] [ -c concurrency ] [ -C cookie-name=value</span><br><span class="line">] [ -d ] [ -e csv-file ] [ -g gnuplot-file ] [ -h ] [ -H custom-header ] [</span><br><span class="line">-i  ]  [  -k  ]  [  -n  requests  ] [ -p POST-file ] [ -P proxy-auth-user‐</span><br><span class="line">name:password ] [ -q ] [ -s ] [ -S ] [ -t timelimit ] [ -T content-type  ]</span><br><span class="line">[  -v verbosity] [ -V ] [ -w ] [ -x &lt;table&gt;-attributes ] [ -X proxy[:port]</span><br><span class="line">]  [  -y  &lt;tr&gt;-attributes  ]  [  -z   &lt;td&gt;-attributes   ]   [http://]host‐</span><br><span class="line">name[:port]/path</span><br></pre></td></tr></table></figure>
+
+<h3 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">-A auth-username:password</span><br><span class="line">      #  支持基本的验证证书,用户名和密码之间使用&quot;冒号&quot;                    :</span><br><span class="line">      # 分隔开,ab将以明文方式传送过去.不管服务器是不是需要</span><br><span class="line">      # ,也就是说你的服务器需要支持401认证.</span><br><span class="line"></span><br><span class="line">-c concurrency</span><br><span class="line">      # 同时向服务器端发送的请求数目，默认状态下是一次 只执行一个http请求.</span><br><span class="line"></span><br><span class="line">-C cookie-name=value</span><br><span class="line">      # Add a Cookie: line to the request. The argument is typically in the</span><br><span class="line">      # form of a name=value pair. This field is repeatable.</span><br><span class="line"></span><br><span class="line">-d    #  Do not display  the  &quot;percentage  served  within  XX  [ms]  table&quot;.</span><br><span class="line">      # (legacy support).</span><br><span class="line"></span><br><span class="line">-e csv-file</span><br><span class="line">      # Write  a  Comma  separated value (CSV) file which contains for each</span><br><span class="line">      # percentage (from 1% to 100%) the time (in milli seconds) it took to</span><br><span class="line">      # serve  that percentage of the requests. This is usually more useful</span><br><span class="line">      # than the &#x27;gnuplot&#x27; file; as the results are already &#x27;binned&#x27;.</span><br><span class="line"></span><br><span class="line">-g gnuplot-file</span><br><span class="line">      # Write all measured values out as a &#x27;gnuplot&#x27; or TSV  (Tab  separate</span><br><span class="line">      # values)  file.  This file can easily be imported into packages like</span><br><span class="line">      # Gnuplot, IDL, Mathematica, Igor or even Excell. The labels  are  on</span><br><span class="line">      # the first line of the file.</span><br><span class="line">-h    # 显示使用说明</span><br><span class="line">-H custom-header</span><br><span class="line">      # 向请求包追加附加的标题字串.此参数应该是有效的标题         行(header</span><br><span class="line">      # line)形式,通常使用冒号&quot;:&quot;来分隔有效配对 (valid  pair)例如  &#x27;Accept-</span><br><span class="line">      # Encoding: zip/zop;8 bit&#x27;;</span><br><span class="line"></span><br><span class="line">-i    # 使用一个 http 头(HEAD) 来替换 GET方法.不可以掺入POST 方法</span><br><span class="line"></span><br><span class="line">-k    #  允许http      KeepAlive      ；也就是说执行多个请求在一个      http</span><br><span class="line">      # 会话当中，默认是不允许的也就是no KeepAlive啦;)</span><br><span class="line"></span><br><span class="line">-n requests</span><br><span class="line">      # 执行一次测试会话的时候所发出的请求数目,默认是执行一个单一的请求</span><br><span class="line">      # 当然了这样的测试结果也就没什么意义了</span><br><span class="line"></span><br><span class="line">-p POST-file</span><br><span class="line">      # 测试程序也就是ab,将向Apache server发送带有HTTP POST 的请求.</span><br><span class="line"></span><br><span class="line">-P proxy-auth-username:password</span><br><span class="line">      # 当需要通过代理测试一台 HTTP 服务器的时候而你的代理</span><br><span class="line">      # 又需要用户名密码验证,这时你可以使用这个选项,同样</span><br><span class="line">      # 用户名与密码之间使用冒号&quot;:&quot;分隔开,ab将之以明文的方式</span><br><span class="line">      # 发送出去,当然,前提是你的代理是处于407认证状态的</span><br><span class="line"></span><br><span class="line">-q    #  When processing more than 150 requests, ab outputs a progress count</span><br><span class="line">      # on  stderr  every  10% or 100 requests or so. The -q flag will sup‐</span><br><span class="line">      # press these messages.</span><br><span class="line"></span><br><span class="line">-s    #  When compiled in (ab -h will show you) use the SSL protected  https</span><br><span class="line">      # rather  than  the  http  protocol. This feature is experimental and</span><br><span class="line">      # very rudimentary. You probably do not want to use it.</span><br><span class="line"></span><br><span class="line">-S    #  Do not display the median and standard deviation values,  nor  dis‐</span><br><span class="line">      # play  the  warning/error  messages  when the average and median are</span><br><span class="line">      # more than one or two times the standard deviation  apart.  And  de‐</span><br><span class="line">      # fault to the min/avg/max values. (legacy support).</span><br><span class="line"></span><br><span class="line">-t timelimit</span><br><span class="line">      #  设置测试的时间的长短，使用这个选项ab将自动设置</span><br><span class="line">      # 测试请求会话数目为50000，然后以你设置的时间为</span><br><span class="line">      # 固定周期.默认状态下是没有时限的，也就是直到完成</span><br><span class="line">      # 你所设置的请求数目为止.</span><br><span class="line"></span><br><span class="line">-T content-type</span><br><span class="line">      # 内容类型标头,使用在POST数据的时候.</span><br><span class="line"></span><br><span class="line">-v verbosity</span><br><span class="line">      # 设置冗余级别,4级打印出每个请求标头的详细信息,</span><br><span class="line">      # 3级打印出回应代码(例如,404,200),2级打印出警告 信息和指示消息</span><br><span class="line"></span><br><span class="line">-V    # 显示版本号并且退出</span><br><span class="line">-w    # 打印输出结果到HTML表中. 默认的表是两列n行白底黑框</span><br><span class="line"></span><br><span class="line">-x &lt;table&gt;-attributes</span><br><span class="line">      # 使用字串来描述表的属性,该属性字串应该插入到&lt;table 这里 &gt;</span><br><span class="line"></span><br><span class="line">-X proxy[:port]</span><br><span class="line">      # Use a proxy server for the requests.</span><br><span class="line"></span><br><span class="line">-y &lt;tr&gt;-attributes</span><br><span class="line">      # 用于生成html表格每行的属性名 (&lt;tr&gt;)</span><br><span class="line"></span><br><span class="line">-z &lt;td&gt;-attributes</span><br><span class="line">      # 用于生成html表格每列的属性名 (&lt;td&gt;)</span><br></pre></td></tr></table></figure>
+
+<h3 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h3><p>主机：被测试主机。</p>
+]]></content>
   </entry>
   <entry>
     <title>accept</title>
@@ -794,24 +846,6 @@ I think everything we do should use our hearts. Once you fully open the heart fo
 ]]></content>
   </entry>
   <entry>
-    <title>apk</title>
-    <url>/2022/06/14/apk/</url>
-    <content><![CDATA[<h1 id="apk"><a href="#apk" class="headerlink" title="apk"></a>apk</h1><p>Alpine Linux 下的包管理工具</p>
-<h2 id="使用实例"><a href="#使用实例" class="headerlink" title="使用实例"></a>使用实例</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apk install xxx</span><br><span class="line">apk search xxx # 支持正则</span><br><span class="line">apk info xxx # 查看包的详细信息</span><br><span class="line">apk show # list local package</span><br><span class="line"><span class="meta">#</span><span class="bash"> 卸载并删除 包</span></span><br><span class="line">apk del openssh openntp vim</span><br></pre></td></tr></table></figure>
-
-<h3 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h3><p>upgrade命令升级系统已安装的所以软件包（一般包括内核），当然也可指定仅升级部分软件包（通过-u或–upgrade选择指定）。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apk update # 更新最新本地镜像源</span><br><span class="line">apk upgrade # 升级软件</span><br><span class="line">apk add --upgrade busybox # 指定升级部分软件包</span><br></pre></td></tr></table></figure>
-
-<h3 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apk search # 查找所以可用软件包</span><br><span class="line">apk search -v # 查找所以可用软件包及其描述内容</span><br><span class="line">apk search -v &#x27;acf*&#x27; # 通过软件包名称查找软件包</span><br><span class="line">apk search -v -d &#x27;docker&#x27; # 通过描述文件查找特定的软件包</span><br></pre></td></tr></table></figure>
-
-<h3 id="查看包信息"><a href="#查看包信息" class="headerlink" title="查看包信息"></a>查看包信息</h3><p>info命令用于显示软件包的信息。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apk info # 列出所有已安装的软件包</span><br><span class="line">apk info -a zlib # 显示完整的软件包信息</span><br><span class="line">apk info --who-owns /sbin/lbu # 显示指定文件属于的包</span><br></pre></td></tr></table></figure>
-
-<h2 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h2><p>还是蛮喜欢 alpine 的，简单纯粹</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apk add iproute2 # ss vs netstat</span><br><span class="line">ss -ptl</span><br><span class="line">apk add drill # drill vs nslookup&amp;dig</span><br><span class="line"></span><br><span class="line">crond # 开启 cron 服务</span><br><span class="line">crontab -l -e</span><br><span class="line"></span><br><span class="line">apk add xxx</span><br><span class="line">apk search -v xxx</span><br><span class="line">apk info -a xxx</span><br><span class="line">apk info</span><br><span class="line">echo -e &quot;http://mirrors.aliyun.com/alpine/v3.6/main\nhttp://mirrors.aliyun.com/alpine/v3.6/community&quot; &gt; /etc/apk/repositories</span><br><span class="line">apk update</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> storage</span></span><br><span class="line">ibu # alpine local backup</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> network</span></span><br><span class="line">echo &quot;shortname&quot; &gt; /etc/hostname</span><br><span class="line">hostname -F /etc/hostname</span><br><span class="line">/etc/hosts</span><br><span class="line">/etc/resolv.conf # conig DNS</span><br><span class="line">modprobe ipv6 # enable ipv6</span><br><span class="line">echo &quot;ipv6&quot; &gt;&gt; /etc/modules</span><br><span class="line">iface # config interface</span><br><span class="line">apk add iptables ip6tables iptables-doc</span><br><span class="line">/etc/init.d/networking restart # activate change</span><br><span class="line">apke add iputils # IPv6 traceroute</span><br><span class="line">traceroute6 ipv6.google.com</span><br><span class="line">awall # alpine wall</span><br><span class="line"><span class="meta">#</span><span class="bash"> setup a openvpn server</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> post-install</span></span><br><span class="line">/etc/apk/repositories</span><br><span class="line">apk add cherokee --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ --allow-untrusted</span><br><span class="line">apk search -v --description &#x27;NTP&#x27; # show description and search from description</span><br><span class="line">apk info -a zlib</span><br><span class="line">apk info -vv|sort</span><br><span class="line">apk info -r -R # require / depency</span><br><span class="line">apk version -v -l &#x27;&lt;&#x27; # show available updates</span><br><span class="line">apk upgrade -U -a</span><br><span class="line">apk add -u xxx # update xxx</span><br><span class="line"></span><br><span class="line">/etc/runlevels # runlevel</span><br><span class="line">apk add openrc # use openrc for init system</span><br><span class="line">rc-update add xxx # set to start on</span><br><span class="line">rc-service xxx start # equal -&gt; /etc/init.d/xxx start</span><br><span class="line">rc-status</span><br><span class="line"></span><br><span class="line">adduser xxx</span><br><span class="line">passwd xxx</span><br><span class="line"></span><br><span class="line">apk add ansible # server</span><br><span class="line">ssh-keygen</span><br><span class="line">/etc/ansible/hosts</span><br><span class="line">apk add python # node</span><br><span class="line">ssh-copy-id</span><br><span class="line"></span><br><span class="line">apk add man man-pages mdocml-apropos less less-doc</span><br><span class="line">export PAGER=less</span><br><span class="line">/etc/rc.conf # /etc/rc.conf -&gt; funny character</span><br><span class="line">apk add bash bash-doc bash-completion # bash</span><br><span class="line">apk add util-linux pciutils usbutils coreutils binutils findutils grep # grep / awk</span><br><span class="line">apk add build-base gcc abuild binutils binutils-doc gcc-doc # compile</span><br><span class="line">apk add cmake cmake-doc extra-cmake-modules extra-cmake-modules-doc</span><br><span class="line">apk add ccache ccache-doc</span><br><span class="line"></span><br><span class="line">apk add docker # docker</span><br><span class="line">rc-update add docker boot</span><br><span class="line">rc-service docker start</span><br><span class="line">apk add py-pip</span><br><span class="line">pip install docker-compose</span><br><span class="line">ln -s /usr/bin/docker-compose /usr/bin/doc</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> application</span></span><br><span class="line">apk add openssh # ssh</span><br><span class="line">rc-update add sshd</span><br><span class="line">/etc/init.d/sshd start</span><br><span class="line">/etc/sshd_config</span><br><span class="line">apk add dropbear # another openssh implementation</span><br></pre></td></tr></table></figure>
-]]></content>
-  </entry>
-  <entry>
     <title>apachectl</title>
     <url>/2022/06/14/apachectl/</url>
     <content><![CDATA[<h1 id="apachectl"><a href="#apachectl" class="headerlink" title="apachectl"></a>apachectl</h1><p>Apache服务器前端控制工具</p>
@@ -828,6 +862,24 @@ I think everything we do should use our hearts. Once you fully open the heart fo
 <li>status：显示服务器摘要的状态信息；</li>
 <li>stop：停止Apache服务器。</li>
 </ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>apk</title>
+    <url>/2022/06/14/apk/</url>
+    <content><![CDATA[<h1 id="apk"><a href="#apk" class="headerlink" title="apk"></a>apk</h1><p>Alpine Linux 下的包管理工具</p>
+<h2 id="使用实例"><a href="#使用实例" class="headerlink" title="使用实例"></a>使用实例</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apk install xxx</span><br><span class="line">apk search xxx # 支持正则</span><br><span class="line">apk info xxx # 查看包的详细信息</span><br><span class="line">apk show # list local package</span><br><span class="line"><span class="meta">#</span><span class="bash"> 卸载并删除 包</span></span><br><span class="line">apk del openssh openntp vim</span><br></pre></td></tr></table></figure>
+
+<h3 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h3><p>upgrade命令升级系统已安装的所以软件包（一般包括内核），当然也可指定仅升级部分软件包（通过-u或–upgrade选择指定）。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apk update # 更新最新本地镜像源</span><br><span class="line">apk upgrade # 升级软件</span><br><span class="line">apk add --upgrade busybox # 指定升级部分软件包</span><br></pre></td></tr></table></figure>
+
+<h3 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apk search # 查找所以可用软件包</span><br><span class="line">apk search -v # 查找所以可用软件包及其描述内容</span><br><span class="line">apk search -v &#x27;acf*&#x27; # 通过软件包名称查找软件包</span><br><span class="line">apk search -v -d &#x27;docker&#x27; # 通过描述文件查找特定的软件包</span><br></pre></td></tr></table></figure>
+
+<h3 id="查看包信息"><a href="#查看包信息" class="headerlink" title="查看包信息"></a>查看包信息</h3><p>info命令用于显示软件包的信息。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apk info # 列出所有已安装的软件包</span><br><span class="line">apk info -a zlib # 显示完整的软件包信息</span><br><span class="line">apk info --who-owns /sbin/lbu # 显示指定文件属于的包</span><br></pre></td></tr></table></figure>
+
+<h2 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h2><p>还是蛮喜欢 alpine 的，简单纯粹</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apk add iproute2 # ss vs netstat</span><br><span class="line">ss -ptl</span><br><span class="line">apk add drill # drill vs nslookup&amp;dig</span><br><span class="line"></span><br><span class="line">crond # 开启 cron 服务</span><br><span class="line">crontab -l -e</span><br><span class="line"></span><br><span class="line">apk add xxx</span><br><span class="line">apk search -v xxx</span><br><span class="line">apk info -a xxx</span><br><span class="line">apk info</span><br><span class="line">echo -e &quot;http://mirrors.aliyun.com/alpine/v3.6/main\nhttp://mirrors.aliyun.com/alpine/v3.6/community&quot; &gt; /etc/apk/repositories</span><br><span class="line">apk update</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> storage</span></span><br><span class="line">ibu # alpine local backup</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> network</span></span><br><span class="line">echo &quot;shortname&quot; &gt; /etc/hostname</span><br><span class="line">hostname -F /etc/hostname</span><br><span class="line">/etc/hosts</span><br><span class="line">/etc/resolv.conf # conig DNS</span><br><span class="line">modprobe ipv6 # enable ipv6</span><br><span class="line">echo &quot;ipv6&quot; &gt;&gt; /etc/modules</span><br><span class="line">iface # config interface</span><br><span class="line">apk add iptables ip6tables iptables-doc</span><br><span class="line">/etc/init.d/networking restart # activate change</span><br><span class="line">apke add iputils # IPv6 traceroute</span><br><span class="line">traceroute6 ipv6.google.com</span><br><span class="line">awall # alpine wall</span><br><span class="line"><span class="meta">#</span><span class="bash"> setup a openvpn server</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> post-install</span></span><br><span class="line">/etc/apk/repositories</span><br><span class="line">apk add cherokee --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ --allow-untrusted</span><br><span class="line">apk search -v --description &#x27;NTP&#x27; # show description and search from description</span><br><span class="line">apk info -a zlib</span><br><span class="line">apk info -vv|sort</span><br><span class="line">apk info -r -R # require / depency</span><br><span class="line">apk version -v -l &#x27;&lt;&#x27; # show available updates</span><br><span class="line">apk upgrade -U -a</span><br><span class="line">apk add -u xxx # update xxx</span><br><span class="line"></span><br><span class="line">/etc/runlevels # runlevel</span><br><span class="line">apk add openrc # use openrc for init system</span><br><span class="line">rc-update add xxx # set to start on</span><br><span class="line">rc-service xxx start # equal -&gt; /etc/init.d/xxx start</span><br><span class="line">rc-status</span><br><span class="line"></span><br><span class="line">adduser xxx</span><br><span class="line">passwd xxx</span><br><span class="line"></span><br><span class="line">apk add ansible # server</span><br><span class="line">ssh-keygen</span><br><span class="line">/etc/ansible/hosts</span><br><span class="line">apk add python # node</span><br><span class="line">ssh-copy-id</span><br><span class="line"></span><br><span class="line">apk add man man-pages mdocml-apropos less less-doc</span><br><span class="line">export PAGER=less</span><br><span class="line">/etc/rc.conf # /etc/rc.conf -&gt; funny character</span><br><span class="line">apk add bash bash-doc bash-completion # bash</span><br><span class="line">apk add util-linux pciutils usbutils coreutils binutils findutils grep # grep / awk</span><br><span class="line">apk add build-base gcc abuild binutils binutils-doc gcc-doc # compile</span><br><span class="line">apk add cmake cmake-doc extra-cmake-modules extra-cmake-modules-doc</span><br><span class="line">apk add ccache ccache-doc</span><br><span class="line"></span><br><span class="line">apk add docker # docker</span><br><span class="line">rc-update add docker boot</span><br><span class="line">rc-service docker start</span><br><span class="line">apk add py-pip</span><br><span class="line">pip install docker-compose</span><br><span class="line">ln -s /usr/bin/docker-compose /usr/bin/doc</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> application</span></span><br><span class="line">apk add openssh # ssh</span><br><span class="line">rc-update add sshd</span><br><span class="line">/etc/init.d/sshd start</span><br><span class="line">/etc/sshd_config</span><br><span class="line">apk add dropbear # another openssh implementation</span><br></pre></td></tr></table></figure>
 ]]></content>
   </entry>
   <entry>
@@ -921,58 +973,6 @@ I think everything we do should use our hearts. Once you fully open the heart fo
 
 <h3 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h3><p>文件：指定要排序的包含debian包信息的索引文件。</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Acunetix Web Vulnerability</title>
-    <url>/2021/01/30/AWVS/</url>
-    <content><![CDATA[<blockquote>
-声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
-</blockquote>
-因为网盘不支持特殊的分卷后缀，所以下载下来手动重命名，解压001后缀的文件即可。
-
-<h3 id="立即下载Windows-acunetix-13-0-200205121-zip-001-zip-提取密码：42mk"><a href="#立即下载Windows-acunetix-13-0-200205121-zip-001-zip-提取密码：42mk" class="headerlink" title="立即下载Windows acunetix_13.0.200205121.zip.001.zip,提取密码：42mk"></a><a href="https://www.90pan.com/b2284885" title="Windows acunetix_13.0.200205121">立即下载Windows acunetix_13.0.200205121.zip.001.zip,提取密码：42mk</a></h3><p>手动重命名为 Windows acunetix_13.0.200205121.zip.001</p>
-<h3 id="立即下载Windows-acunetix-13-0-200205121-zip-002-zip-提取密码：mo08"><a href="#立即下载Windows-acunetix-13-0-200205121-zip-002-zip-提取密码：mo08" class="headerlink" title="立即下载Windows acunetix_13.0.200205121.zip.002.zip,提取密码：mo08"></a><a href="https://www.90pan.com/b2284883" title="Windows acunetix_13.0.200205121">立即下载Windows acunetix_13.0.200205121.zip.002.zip,提取密码：mo08</a></h3><p>手动重命名为 Windows acunetix_13.0.200205121.zip.002</p>
-<h3>软件介绍</h3>
-Acunetix Web Vulnerability Scanner（AWVS）经典商业漏扫工具，最近更新了13的版本，本文分享的AWVS的破解版是网上大佬们分享出来
-它通过网络爬虫测试你的网站安全，检测流行安全漏洞，它的官方网站是：https://www.acunetix.com，我刚才看了一眼没有找到试用版下载链接，之前是有的，可以免费试用14天，当然你也可以去网上搜索破解版进行下载安装
-<h3>软件安装</h3>
-Windows
-
-<p>下一步下一步安装即可。破解过程：</p>
-<pre><code>wvsc.exe 覆盖C:\Program Files (x86)\Acunetix\13.0.200205121目录下同名文件
-license_info.json 覆盖C:\ProgramData\Acunetix\shared\license目录下同名文件</code></pre>
-<p>以上操作都做完依然没有效果的话，那么重启电脑试试看呢？</p>
-]]></content>
-      <categories>
-        <category>windows</category>
-      </categories>
-      <tags>
-        <tag>漏扫</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>BitTorrent for WindowsV7.10.5.45785</title>
-    <url>/2021/02/21/BitTorrent/</url>
-    <content><![CDATA[<blockquote>
-    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
-</blockquote>
-
-<h3 id="立即下载-提取密码：owe5"><a href="#立即下载-提取密码：owe5" class="headerlink" title="立即下载,提取密码：owe5"></a><a href="https://www.90pan.com/b2343943" title="BitTorrent for WindowsV7.10.5.45785">立即下载,提取密码：owe5</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>一个免费的文件传输软件<br>BitTorrent是下载和共享文件的工具。它使用户可以连接到同名网络下载和上传torrents。该软件通过对等网络工作。您可以使用内置搜索引擎在internet上搜索文件，并在下载时检查其进度。<br>从多种文件类型中选择<br>BitTorrent不仅是一种点对点文件传输协议，而且是一种可用于连接PC网络的软件。该软件重量轻，但最新版本具有许多功能。你可以用它来下载许多不受版权保护的不同材料。包括电影、游戏、音乐、节目等等。<br>BitTorrent还允许您共享文件，将它们转换为新的Torrent。选择要下载的文件时，您可以选择所需的内容。有复选框，您只能选择要下载的文件。例如，如果您正在使用BitTorrent下载电影，则可以只选择主文件，而不选择字幕或其他捆绑的内容。<br>快速简单的流程<br>有一个免费版本的BitTorrent，或者你可以升级到专业版添加功能，没有广告。界面确实包含广告，但仍然很容易导航。Windows10的用户可以下载这个程序，并将它设置为在计算机启动时运行。torrents很快就可以开始下载，您可以在文件下载时观看或收听。<br>从“选项”菜单中，可以配置不同的设置和首选项。由于您可以根据自己的喜好调整所有内容，并安排下载，因此该程序并不具有侵入性。事实上，您可以简单地让它在后台运行，这样您就可以实现所需的一切。只需一眼就可以轻松查看下载进度以及哪些torrent可用。<br>控制下载<br>程序的主界面显示您选择下载的文件的信息，并允许您控制下载过程。您可以检查每个种子流的种子数、对等点数和跟踪器数。还有一个RSS跟踪器，提醒你有新的torrent可用。还有一个搜索栏，用于查找激流。它会带你去BitTorrent.com网站搜索时，而不是在其他torrent网站上找到它。<br>BitTorrent的功能并不丰富，但它确实为您提供了完成核心任务的选择。两个特别有用的特性是计划下载的能力，当你想在互联网流量不大的情况下下载时，它会很有用。您也可以从浏览器或Android应用程序使用遥控器下载功能。<br>您可以监视和调整下载和上载的速度，这对于尽快完成任务或管理多个活动非常有用。在添加文件与朋友共享时，只需拖放选定的文件，即可创建一个链接。您可以发送链接，以便其他人可以访问该文件。<br>torrents的备选方案<br>您可能已经注意到，自从BitTorrent购买了uTorrent之后，这些特性和接口有很多共同点。当涉及到torrent下载时，它们是既安全又简单的选择。不过，还有其他的项目可以满足你的需要。<br>另一种可能也是免费的是Vuze。它是一个开源程序，比Bittorrent提供更彻底的搜索功能。然而，你会发现这个软件要重得多，而且它会占用大量的资源和带宽。一般来说，它很容易搜索和下载，这是你需要的。<br>如果你正在寻找的是一个程序，做你需要的一切在一个简单的方式，那么qBittorrent是一个很好的选择。您可以在不设置向导或插件的情况下执行大多数操作，如下载torrents、搜索文件和创建torrents。<br>任何寻求极简主义和简单程序的人都会对Qt感兴趣。只需单击一下，就可以执行许多主要操作。这包括优先考虑你的下载和调整速度限制。你可以标记和分类你的洪流，使之易于访问一切迅速。不过，极简主义的界面是以有限的高级功能为代价的。<br>简洁明了的torrent下载<br>BitTorrent的所有基本功能都做得很好。它很容易使用，广告也不太令人讨厌，你可以设置它运行只是你喜欢它。最吸引人的因素是程序的轻量级和无要求性，这使得在后台使用或保持运行是一种乐趣。<br>最新版本的BitTorrent在状态栏中添加了语言选择选项。它还使程序默认为用户的操作系统语言。一个阻止DNS设置的默认值被恢复的错误已经被修复，作为一个与加密的对等连接相关的崩溃问题。</p>
-<h3 id="软件截图"><a href="#软件截图" class="headerlink" title="软件截图"></a>软件截图</h3><p><img src="https://7.dusays.com/2021/02/21/3cfa8e6eaf02f.webp" alt="1706570113.webp"><br><img src="https://7.dusays.com/2021/02/21/50a7942414406.webp" alt="1062391187.webp"><br><img src="https://7.dusays.com/2021/02/21/fa8b40c13e870.webp" alt="892329390.webp"><br><img src="https://7.dusays.com/2021/02/21/f0ca019ec6d84.webp" alt="1614168164.webp"><br><img src="https://7.dusays.com/2021/02/21/82c4c47742bf1.webp" alt="3448894451.webp"></p>
-<p>优点</p>
-<p>易于使用和导航</p>
-<p>设置下载首选项</p>
-<p>计划下载</p>
-<p>轻量级程序</p>
-<p>缺点</p>
-<p>有限搜索功能</p>
-]]></content>
-      <categories>
-        <category>windows</category>
-      </categories>
-      <tags>
-        <tag>办公</tag>
-      </tags>
   </entry>
   <entry>
     <title>aptitude</title>
@@ -1129,18 +1129,6 @@ license_info.json 覆盖C:\ProgramData\Acunetix\shared\license目录下同名文
   </entry>
   <entry>
     <title></title>
-    <url>/2022/06/14/as/</url>
-    <content><![CDATA[<h1 id="as"><a href="#as" class="headerlink" title="as"></a>as</h1><p>汇编语言编译器</p>
-<h2 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明"></a>补充说明</h2><p><strong>as命令</strong> GNU组织推出的一款汇编语言编译器，它支持多种不同类型的处理器。</p>
-<h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">as(选项)(参数)</span><br></pre></td></tr></table></figure>
-
-<h3 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">-ac：忽略失败条件；</span><br><span class="line">-ad：忽略调试指令；</span><br><span class="line">-ah：包括高级源；</span><br><span class="line">-al：包括装配；</span><br><span class="line">-am：包括宏扩展；</span><br><span class="line">-an：忽略形式处理；</span><br><span class="line">-as：包括符号；</span><br><span class="line">=file：设置列出文件的名字；</span><br><span class="line">--alternate：以交互宏模式开始；</span><br><span class="line">-f：跳过空白和注释预处理；</span><br><span class="line">-g：产生调试信息；</span><br><span class="line">-J：对于有符号溢出不显示警告信息；</span><br><span class="line">-L：在符号表中保留本地符号；</span><br><span class="line">-o：指定要生成的目标文件；</span><br><span class="line">--statistics：打印汇编所用的最大空间和总时间。</span><br></pre></td></tr></table></figure>
-
-<h3 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h3><p>汇编文件：指定要汇编的源文件。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title></title>
     <url>/2022/06/14/arpwatch/</url>
     <content><![CDATA[<h1 id="arpwatch"><a href="#arpwatch" class="headerlink" title="arpwatch"></a>arpwatch</h1><p>监听网络上ARP的记录</p>
 <h2 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明"></a>补充说明</h2><p><strong>arpwatch命令</strong> 用来监听网络上arp的记录。</p>
@@ -1149,6 +1137,18 @@ license_info.json 覆盖C:\ProgramData\Acunetix\shared\license目录下同名文
 <h3 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">-d：启动排错模式；</span><br><span class="line">-f&lt;记录文件&gt;：设置存储ARP记录的文件，预设为/var/arpwatch/arp.dat；</span><br><span class="line">-i&lt;接口&gt;：指定监听ARP的接口，预设的接口为eth0；</span><br><span class="line">-r&lt;记录文件&gt;：从指定的文件中读取ARP记录，而不是从网络上监听。</span><br></pre></td></tr></table></figure>
 
 
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2022/06/14/as/</url>
+    <content><![CDATA[<h1 id="as"><a href="#as" class="headerlink" title="as"></a>as</h1><p>汇编语言编译器</p>
+<h2 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明"></a>补充说明</h2><p><strong>as命令</strong> GNU组织推出的一款汇编语言编译器，它支持多种不同类型的处理器。</p>
+<h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">as(选项)(参数)</span><br></pre></td></tr></table></figure>
+
+<h3 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">-ac：忽略失败条件；</span><br><span class="line">-ad：忽略调试指令；</span><br><span class="line">-ah：包括高级源；</span><br><span class="line">-al：包括装配；</span><br><span class="line">-am：包括宏扩展；</span><br><span class="line">-an：忽略形式处理；</span><br><span class="line">-as：包括符号；</span><br><span class="line">=file：设置列出文件的名字；</span><br><span class="line">--alternate：以交互宏模式开始；</span><br><span class="line">-f：跳过空白和注释预处理；</span><br><span class="line">-g：产生调试信息；</span><br><span class="line">-J：对于有符号溢出不显示警告信息；</span><br><span class="line">-L：在符号表中保留本地符号；</span><br><span class="line">-o：指定要生成的目标文件；</span><br><span class="line">--statistics：打印汇编所用的最大空间和总时间。</span><br></pre></td></tr></table></figure>
+
+<h3 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h3><p>汇编文件：指定要汇编的源文件。</p>
 ]]></content>
   </entry>
   <entry>
@@ -1284,32 +1284,6 @@ license_info.json 覆盖C:\ProgramData\Acunetix\shared\license目录下同名文
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">atq        # 显示当前已经设置的任务</span><br><span class="line">2 Mon May 17 08:00:00 2010 a root</span><br><span class="line">1 Sat May 15 17:00:00 2010 a root</span><br><span class="line"></span><br><span class="line">atrm 2     # 删除任务2</span><br></pre></td></tr></table></figure>
 
 
-]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2022/06/14/axel/</url>
-    <content><![CDATA[<h1 id="axel"><a href="#axel" class="headerlink" title="axel"></a>axel</h1><p>多线程下载工具</p>
-<h2 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明"></a>补充说明</h2><p><strong>axel</strong> 是Linux下一个不错的HTTP/ftp高速下载工具。支持多线程下载、断点续传，且可以从多个地址或者从一个地址的多个连接来下载同一个文件。适合网速不给力时多线程下载提高下载速度。比如在国内VPS或服务器上下载lnmp一键安装包用Axel就比wget快。</p>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>CentOS安装Axel：</p>
-<p>目前yum源上没有Axel，我们可以到 <a href="http://pkgs.repoforge.org/axel/">http://pkgs.repoforge.org/axel/</a> 下载rpm包安装。</p>
-<p>32位CentOS执行下面命令：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wget -c http://pkgs.repoforge.org/axel/axel-2.4-1.el5.rf.i386.rpm</span><br><span class="line">rpm -ivh axel-2.4-1.el5.rf.i386.rpm</span><br></pre></td></tr></table></figure>
-
-<p>64位CentOS执行下面命令：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wget -c http://pkgs.repoforge.org/axel/axel-2.4-1.el5.rf.x86_64.rpm</span><br><span class="line">rpm -ivh axel-2.4-1.el5.rf.x86_64.rpm</span><br></pre></td></tr></table></figure>
-
-<p>Debian/Ubuntu安装Axel：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apt-get install axel</span><br></pre></td></tr></table></figure>
-
-<h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">axel [options] url1 [url2] [url...]</span><br></pre></td></tr></table></figure>
-
-<h3 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">--max-speed=x , -s x         # 最高速度x</span><br><span class="line">--num-connections=x , -n x   # 连接数x</span><br><span class="line">--output=f , -o f            # 下载为本地文件f</span><br><span class="line">--search[=x] , -S [x]        # 搜索镜像</span><br><span class="line">--header=x , -H x            # 添加头文件字符串x（指定 HTTP header）</span><br><span class="line">--user-agent=x , -U x        # 设置用户代理（指定 HTTP user agent）</span><br><span class="line">--no-proxy ， -N             # 不使用代理服务器</span><br><span class="line">--quiet ， -q                # 静默模式</span><br><span class="line">--verbose ，-v               # 更多状态信息</span><br><span class="line">--alternate ， -a            # Alternate progress indicator</span><br><span class="line">--help ，-h                  # 帮助</span><br><span class="line">--version ，-V               # 版本信息</span><br></pre></td></tr></table></figure>
-
-<h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3><p>如下载lnmp安装包指定10个线程，存到 <code>/tmp/</code>：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">axel -n 10 -o /tmp/ http://www.jsdig.com/lnmp.tar.gz</span><br></pre></td></tr></table></figure>
-
-<p>如果下载过程中下载中断可以再执行下载命令即可恢复上次的下载进度。</p>
 ]]></content>
   </entry>
   <entry>
@@ -2038,6 +2012,32 @@ AutoIt 目前最新是v3版本:autoit-v3-setup.exe
 ]]></content>
   </entry>
   <entry>
+    <title></title>
+    <url>/2022/06/14/axel/</url>
+    <content><![CDATA[<h1 id="axel"><a href="#axel" class="headerlink" title="axel"></a>axel</h1><p>多线程下载工具</p>
+<h2 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明"></a>补充说明</h2><p><strong>axel</strong> 是Linux下一个不错的HTTP/ftp高速下载工具。支持多线程下载、断点续传，且可以从多个地址或者从一个地址的多个连接来下载同一个文件。适合网速不给力时多线程下载提高下载速度。比如在国内VPS或服务器上下载lnmp一键安装包用Axel就比wget快。</p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>CentOS安装Axel：</p>
+<p>目前yum源上没有Axel，我们可以到 <a href="http://pkgs.repoforge.org/axel/">http://pkgs.repoforge.org/axel/</a> 下载rpm包安装。</p>
+<p>32位CentOS执行下面命令：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wget -c http://pkgs.repoforge.org/axel/axel-2.4-1.el5.rf.i386.rpm</span><br><span class="line">rpm -ivh axel-2.4-1.el5.rf.i386.rpm</span><br></pre></td></tr></table></figure>
+
+<p>64位CentOS执行下面命令：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wget -c http://pkgs.repoforge.org/axel/axel-2.4-1.el5.rf.x86_64.rpm</span><br><span class="line">rpm -ivh axel-2.4-1.el5.rf.x86_64.rpm</span><br></pre></td></tr></table></figure>
+
+<p>Debian/Ubuntu安装Axel：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apt-get install axel</span><br></pre></td></tr></table></figure>
+
+<h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">axel [options] url1 [url2] [url...]</span><br></pre></td></tr></table></figure>
+
+<h3 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">--max-speed=x , -s x         # 最高速度x</span><br><span class="line">--num-connections=x , -n x   # 连接数x</span><br><span class="line">--output=f , -o f            # 下载为本地文件f</span><br><span class="line">--search[=x] , -S [x]        # 搜索镜像</span><br><span class="line">--header=x , -H x            # 添加头文件字符串x（指定 HTTP header）</span><br><span class="line">--user-agent=x , -U x        # 设置用户代理（指定 HTTP user agent）</span><br><span class="line">--no-proxy ， -N             # 不使用代理服务器</span><br><span class="line">--quiet ， -q                # 静默模式</span><br><span class="line">--verbose ，-v               # 更多状态信息</span><br><span class="line">--alternate ， -a            # Alternate progress indicator</span><br><span class="line">--help ，-h                  # 帮助</span><br><span class="line">--version ，-V               # 版本信息</span><br></pre></td></tr></table></figure>
+
+<h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3><p>如下载lnmp安装包指定10个线程，存到 <code>/tmp/</code>：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">axel -n 10 -o /tmp/ http://www.jsdig.com/lnmp.tar.gz</span><br></pre></td></tr></table></figure>
+
+<p>如果下载过程中下载中断可以再执行下载命令即可恢复上次的下载进度。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>badblocks</title>
     <url>/2022/06/14/badblocks/</url>
     <content><![CDATA[<h1 id="badblocks"><a href="#badblocks" class="headerlink" title="badblocks"></a>badblocks</h1><p>查找磁盘中损坏的区块</p>
@@ -2143,46 +2143,6 @@ BANDICAM(班迪录屏)5.0.1破解
 ]]></content>
   </entry>
   <entry>
-    <title>bg</title>
-    <url>/2022/06/14/bg/</url>
-    <content><![CDATA[<h1 id="bg"><a href="#bg" class="headerlink" title="bg"></a>bg</h1><p>将前台终端作业移动到后台运行</p>
-<h2 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">bg [job_spec ...]</span><br></pre></td></tr></table></figure>
-
-<h2 id="主要用途"><a href="#主要用途" class="headerlink" title="主要用途"></a>主要用途</h2><ul>
-<li><p>用于将作业放到后台运行，使前台可以执行其他任务。该命令的运行效果与在指令后面添加符号<code>&amp;</code>的效果是相同的，都是将其放到系统后台执行。</p>
-</li>
-<li><p>若后台任务中只有一个，则使用该命令时可以省略任务号。</p>
-</li>
-</ul>
-<h2 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h2><p>job_spec（可选）：指定要移动到后台执行的作业标识符，可以是一到多个。</p>
-<h2 id="返回值"><a href="#返回值" class="headerlink" title="返回值"></a>返回值</h2><p>返回成功除非未开启作业控制或发生了错误。</p>
-<h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 运行sleep命令，然后按下ctrl+z。</span></span><br><span class="line">sleep 60</span><br><span class="line">^Z</span><br><span class="line">[1]+  Stopped                 sleep 60</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> 使用<span class="built_in">bg</span>命令使得作业在后台运行。</span></span><br><span class="line">bg %1</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> 返回信息：</span></span><br><span class="line">[1]+ sleep 60 &amp;</span><br></pre></td></tr></table></figure>
-
-<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><ol>
-<li><code>bash</code>的作业控制命令包括<code>bg fg kill wait disown suspend</code>。</li>
-<li>该命令需要<code>set</code>选项<code>monitor</code>处于开启状态时才能执行；查看作业控制状态：输入<code>set -o</code>查看<code>monitor</code>行；执行<code>set -o monitor</code>或<code>set -m</code>开启该选项。</li>
-<li>该命令是bash内建命令，相关的帮助信息请查看<code>help</code>命令。</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>bind</title>
-    <url>/2022/06/14/bind/</url>
-    <content><![CDATA[<h1 id="bind"><a href="#bind" class="headerlink" title="bind"></a>bind</h1><p>显示或设置键盘按键与其相关的功能</p>
-<h2 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明"></a>补充说明</h2><p><strong>bind命令</strong> 用于显示和设置命令行的键盘序列绑定功能。通过这一命令，可以提高命令行中操作效率。您可以利用bind命令了解有哪些按键组合与其功能，也可以自行指定要用哪些按键组合。</p>
-<h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">bind(选项)</span><br></pre></td></tr></table></figure>
-
-<h3 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">-d：显示按键配置的内容；</span><br><span class="line">-f&lt;按键配置文件&gt;：载入指定的按键配置文件；</span><br><span class="line">-l：列出所有的功能；</span><br><span class="line">-m&lt;按键配置&gt;：指定按键配置；</span><br><span class="line">-q&lt;功能&gt;：显示指定功能的按键；</span><br><span class="line">-v：列出目前的按键配置与其功能。</span><br></pre></td></tr></table></figure>
-
-<h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">bind -x &#x27;&quot;\C-l&quot;:ls -l&#x27;    #直接按 CTRL+L 就列出目录</span><br></pre></td></tr></table></figure>
-
-<p>其中keyseq可以使用<code>showkey -a</code>命令来获取：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">showkey -a</span><br><span class="line"></span><br><span class="line">Press any keys - Ctrl-D will terminate this program</span><br><span class="line"></span><br><span class="line">^[[A     27 0033 0x1b  上</span><br><span class="line">         91 0133 0x5b</span><br><span class="line">         65 0101 0x41</span><br><span class="line">^[[B     27 0033 0x1b  下</span><br><span class="line">         91 0133 0x5b</span><br><span class="line">         66 0102 0x42</span><br><span class="line">^[[D     27 0033 0x1b  左</span><br><span class="line">         91 0133 0x5b</span><br><span class="line">         68 0104 0x44</span><br><span class="line">^[[C     27 0033 0x1b 右</span><br><span class="line">         91 0133 0x5b</span><br><span class="line">         67 0103 0x43</span><br><span class="line">         32 0040 0x20</span><br><span class="line">^M       13 0015 0x0d 字母M</span><br><span class="line">^C        3 0003 0x03 Ctrl-C</span><br><span class="line">^D        4 0004 0x04 Ctrl-D 退出</span><br></pre></td></tr></table></figure>
-
-
-]]></content>
-  </entry>
-  <entry>
     <title>batch</title>
     <url>/2022/06/14/batch/</url>
     <content><![CDATA[<h1 id="batch"><a href="#batch" class="headerlink" title="batch"></a>batch</h1><p>在系统不繁忙的时候执行定时任务</p>
@@ -2223,6 +2183,46 @@ BANDICAM(班迪录屏)5.0.1破解
 <p>执行结果为：192，这是用bc将二进制转换为十进制。</p>
 <p>计算平方和平方根：</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">echo &quot;10^10&quot; | bc</span><br><span class="line">echo &quot;sqrt(100)&quot; | bc</span><br></pre></td></tr></table></figure>
+
+
+]]></content>
+  </entry>
+  <entry>
+    <title>bg</title>
+    <url>/2022/06/14/bg/</url>
+    <content><![CDATA[<h1 id="bg"><a href="#bg" class="headerlink" title="bg"></a>bg</h1><p>将前台终端作业移动到后台运行</p>
+<h2 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">bg [job_spec ...]</span><br></pre></td></tr></table></figure>
+
+<h2 id="主要用途"><a href="#主要用途" class="headerlink" title="主要用途"></a>主要用途</h2><ul>
+<li><p>用于将作业放到后台运行，使前台可以执行其他任务。该命令的运行效果与在指令后面添加符号<code>&amp;</code>的效果是相同的，都是将其放到系统后台执行。</p>
+</li>
+<li><p>若后台任务中只有一个，则使用该命令时可以省略任务号。</p>
+</li>
+</ul>
+<h2 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h2><p>job_spec（可选）：指定要移动到后台执行的作业标识符，可以是一到多个。</p>
+<h2 id="返回值"><a href="#返回值" class="headerlink" title="返回值"></a>返回值</h2><p>返回成功除非未开启作业控制或发生了错误。</p>
+<h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 运行sleep命令，然后按下ctrl+z。</span></span><br><span class="line">sleep 60</span><br><span class="line">^Z</span><br><span class="line">[1]+  Stopped                 sleep 60</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> 使用<span class="built_in">bg</span>命令使得作业在后台运行。</span></span><br><span class="line">bg %1</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> 返回信息：</span></span><br><span class="line">[1]+ sleep 60 &amp;</span><br></pre></td></tr></table></figure>
+
+<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><ol>
+<li><code>bash</code>的作业控制命令包括<code>bg fg kill wait disown suspend</code>。</li>
+<li>该命令需要<code>set</code>选项<code>monitor</code>处于开启状态时才能执行；查看作业控制状态：输入<code>set -o</code>查看<code>monitor</code>行；执行<code>set -o monitor</code>或<code>set -m</code>开启该选项。</li>
+<li>该命令是bash内建命令，相关的帮助信息请查看<code>help</code>命令。</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>bind</title>
+    <url>/2022/06/14/bind/</url>
+    <content><![CDATA[<h1 id="bind"><a href="#bind" class="headerlink" title="bind"></a>bind</h1><p>显示或设置键盘按键与其相关的功能</p>
+<h2 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明"></a>补充说明</h2><p><strong>bind命令</strong> 用于显示和设置命令行的键盘序列绑定功能。通过这一命令，可以提高命令行中操作效率。您可以利用bind命令了解有哪些按键组合与其功能，也可以自行指定要用哪些按键组合。</p>
+<h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">bind(选项)</span><br></pre></td></tr></table></figure>
+
+<h3 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">-d：显示按键配置的内容；</span><br><span class="line">-f&lt;按键配置文件&gt;：载入指定的按键配置文件；</span><br><span class="line">-l：列出所有的功能；</span><br><span class="line">-m&lt;按键配置&gt;：指定按键配置；</span><br><span class="line">-q&lt;功能&gt;：显示指定功能的按键；</span><br><span class="line">-v：列出目前的按键配置与其功能。</span><br></pre></td></tr></table></figure>
+
+<h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">bind -x &#x27;&quot;\C-l&quot;:ls -l&#x27;    #直接按 CTRL+L 就列出目录</span><br></pre></td></tr></table></figure>
+
+<p>其中keyseq可以使用<code>showkey -a</code>命令来获取：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">showkey -a</span><br><span class="line"></span><br><span class="line">Press any keys - Ctrl-D will terminate this program</span><br><span class="line"></span><br><span class="line">^[[A     27 0033 0x1b  上</span><br><span class="line">         91 0133 0x5b</span><br><span class="line">         65 0101 0x41</span><br><span class="line">^[[B     27 0033 0x1b  下</span><br><span class="line">         91 0133 0x5b</span><br><span class="line">         66 0102 0x42</span><br><span class="line">^[[D     27 0033 0x1b  左</span><br><span class="line">         91 0133 0x5b</span><br><span class="line">         68 0104 0x44</span><br><span class="line">^[[C     27 0033 0x1b 右</span><br><span class="line">         91 0133 0x5b</span><br><span class="line">         67 0103 0x43</span><br><span class="line">         32 0040 0x20</span><br><span class="line">^M       13 0015 0x0d 字母M</span><br><span class="line">^C        3 0003 0x03 Ctrl-C</span><br><span class="line">^D        4 0004 0x04 Ctrl-D 退出</span><br></pre></td></tr></table></figure>
 
 
 ]]></content>
@@ -2362,6 +2362,22 @@ BANDICAM(班迪录屏)5.0.1破解
 ]]></content>
   </entry>
   <entry>
+    <title>bunzip2</title>
+    <url>/2022/06/14/bunzip2/</url>
+    <content><![CDATA[<h1 id="bunzip2"><a href="#bunzip2" class="headerlink" title="bunzip2"></a>bunzip2</h1><p>创一个bz2文件压缩包</p>
+<h2 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明"></a>补充说明</h2><p><strong>bunzip2命令</strong> 解压缩由bzip2指令创建的”.bz2”压缩包。对文件进行压缩与解压缩。此命令类似于“gzip/gunzip”命令，只能对文件进行压缩。对于目录只能压缩目录下的所有文件，压缩完成后，在目录下生成以“.bz2”为后缀的压缩包。bunzip2其实是bzip2的符号链接，即软链接，因此压缩解压都可以通过bzip2实现。</p>
+<h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">bunzip2(选项)(参数)</span><br></pre></td></tr></table></figure>
+
+<h3 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">-f或--force：解压缩时，若输出的文件与现有文件同名时，预设不会覆盖现有的文件；</span><br><span class="line">-k或——keep：在解压缩后，预设会删除原来的压缩文件。若要保留压缩文件，请使用此参数；</span><br><span class="line">-s或——small：降低程序执行时，内存的使用量；</span><br><span class="line">-v或——verbose：解压缩文件时，显示详细的信息；</span><br><span class="line">-l，--license，-V或——version：显示版本信息。</span><br></pre></td></tr></table></figure>
+
+<h3 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h3><p>.bz2压缩包：指定需要解压缩的.bz2压缩包。</p>
+<h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3><p>将<code>/opt</code>目录下的etc.zip、var.zip和backup.zip进行压缩，设置压缩率为最高，同时在压缩完毕后不删除原始文件，显示压缩过程的详细信息。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">bzip2 -9vk /opt/etc.zip /opt/var.zip /opt/backup.zip</span><br></pre></td></tr></table></figure>
+
+<p>压缩完毕后，在<code>/opt</code>下就会生成相应的etc.zip.bz2、var.zip.bz2和backup.zip.bz2文件。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>builtin</title>
     <url>/2022/06/14/builtin/</url>
     <content><![CDATA[<h1 id="builtin"><a href="#builtin" class="headerlink" title="builtin"></a>builtin</h1><p>执行bash内建命令。</p>
@@ -2396,22 +2412,6 @@ BANDICAM(班迪录屏)5.0.1破解
 <h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">bye</span><br></pre></td></tr></table></figure>
 
 <h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">bye</span><br></pre></td></tr></table></figure>
-]]></content>
-  </entry>
-  <entry>
-    <title>bunzip2</title>
-    <url>/2022/06/14/bunzip2/</url>
-    <content><![CDATA[<h1 id="bunzip2"><a href="#bunzip2" class="headerlink" title="bunzip2"></a>bunzip2</h1><p>创一个bz2文件压缩包</p>
-<h2 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明"></a>补充说明</h2><p><strong>bunzip2命令</strong> 解压缩由bzip2指令创建的”.bz2”压缩包。对文件进行压缩与解压缩。此命令类似于“gzip/gunzip”命令，只能对文件进行压缩。对于目录只能压缩目录下的所有文件，压缩完成后，在目录下生成以“.bz2”为后缀的压缩包。bunzip2其实是bzip2的符号链接，即软链接，因此压缩解压都可以通过bzip2实现。</p>
-<h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">bunzip2(选项)(参数)</span><br></pre></td></tr></table></figure>
-
-<h3 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">-f或--force：解压缩时，若输出的文件与现有文件同名时，预设不会覆盖现有的文件；</span><br><span class="line">-k或——keep：在解压缩后，预设会删除原来的压缩文件。若要保留压缩文件，请使用此参数；</span><br><span class="line">-s或——small：降低程序执行时，内存的使用量；</span><br><span class="line">-v或——verbose：解压缩文件时，显示详细的信息；</span><br><span class="line">-l，--license，-V或——version：显示版本信息。</span><br></pre></td></tr></table></figure>
-
-<h3 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h3><p>.bz2压缩包：指定需要解压缩的.bz2压缩包。</p>
-<h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3><p>将<code>/opt</code>目录下的etc.zip、var.zip和backup.zip进行压缩，设置压缩率为最高，同时在压缩完毕后不删除原始文件，显示压缩过程的详细信息。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">bzip2 -9vk /opt/etc.zip /opt/var.zip /opt/backup.zip</span><br></pre></td></tr></table></figure>
-
-<p>压缩完毕后，在<code>/opt</code>下就会生成相应的etc.zip.bz2、var.zip.bz2和backup.zip.bz2文件。</p>
 ]]></content>
   </entry>
   <entry>
@@ -2588,46 +2588,6 @@ BANDICAM(班迪录屏)5.0.1破解
       </tags>
   </entry>
   <entry>
-    <title>CleanWipe14.0最新版</title>
-    <url>/2021/02/19/cleanwipe/</url>
-    <content><![CDATA[<blockquote>
-    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
-</blockquote>
-
-<h3 id="立即下载-提取密码：6049"><a href="#立即下载-提取密码：6049" class="headerlink" title="立即下载,提取密码：6049"></a><a href="https://url39.ctfile.com/f/37081239-588374889-937d6c" title="CleanWipe14.0最新版">立即下载,提取密码：6049</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>您可以使用多种方法卸载Symantec Endpoint Protection产品组件，例如通过Windows控制面板。如果这些常见方法失败，则可以使用CleanWipe实用程序。</p><br>首次出现卸载问题时，Symantec技术支持部门不建议使用CleanWipe。当通常的卸载方法不成功时，您应该只使用CleanWipe作为最后的手段。<br>您应始终使用最新版本的CleanWipe删除Symantec Endpoint Protection。CleanWipe可以删除较旧的Symantec Endpoint Protection安装。但是，您不应使用旧版本的CleanWipe删除较新版本的Symantec Endpoint Protection。此操作可能会产生意外结果。</p>
-<p>1、解压CleanWipe.zip文件的内容。</p>
-<p>2、将包含CleanWipe.exe的文件夹复制到要运行的它的计算机上。</p>
-<p>3、双击Cleanwipe.exe,然后单击下一步。</p>
-<p>4、接受许可协议，然后单击下一步</p>
-<p>5、选择要删除的Symantec产品，然后单击下一步</p>
-<p>6、该工具运行完毕后，系统会提示你重新启动计算机，计算机重启后，Cleanwipe将重新打开并继续运行。</p>
-<p>7、单击下一步。</p>
-<p>8、单击完成！</p>
-]]></content>
-      <categories>
-        <category>windows</category>
-      </categories>
-      <tags>
-        <tag>办公</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Copy Multiple Files In Folders or Subfolders Into One Folder Software v7.0</title>
-    <url>/2022/06/01/cmfifosiofs/</url>
-    <content><![CDATA[<blockquote>
-    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
-</blockquote>
-
-<h3 id="立即下载，密码：6049"><a href="#立即下载，密码：6049" class="headerlink" title="立即下载，密码：6049"></a><a href="https://url39.ctfile.com/f/37081239-588338338-927212" title="Copy Multiple Files In Folders or Subfolders Into One Folder Software v7.0">立即下载，密码：6049</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>Copy Multiple Files In Folders or Subfolders Into One Folder Software该软件为想要将多个文件夹的内容复制到一个文件夹的用户提供了一种解决方案。该软件非常适合备份数据或移动数据，可以快速执行复制。只需通过选择或拖放来添加文件夹。文件夹排队后，您可以按包含或不包含指定字符串的名称对文件夹进行排序。该软件可以通过自动批量组织您的文件来节省您的时间。</p>
-]]></content>
-      <categories>
-        <category>windows</category>
-      </categories>
-      <tags>
-        <tag>办公</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>专业的仓库管理软件</title>
     <url>/2021/02/21/ckgl/</url>
     <content><![CDATA[<blockquote>
@@ -2669,6 +2629,46 @@ BANDICAM(班迪录屏)5.0.1破解
 <p>出货。按照订单的数量准确出货，交接单要收货方签名以证明货物已经出仓。</p>
 <p>退货。如遇不合格的产品，应该尽快联系供货商退货，并出具质检部门的不合格产品原因说明，如遇同一个产品有多个供应商，应该找出每个供应商产品的特征，分别退货。</p>
 <p>做账。将收货、出货、退货的单据汇总后，尽快做账，并在每月末盘点以做到账实相符。</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>办公</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CleanWipe14.0最新版</title>
+    <url>/2021/02/19/cleanwipe/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载-提取密码：6049"><a href="#立即下载-提取密码：6049" class="headerlink" title="立即下载,提取密码：6049"></a><a href="https://url39.ctfile.com/f/37081239-588374889-937d6c" title="CleanWipe14.0最新版">立即下载,提取密码：6049</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>您可以使用多种方法卸载Symantec Endpoint Protection产品组件，例如通过Windows控制面板。如果这些常见方法失败，则可以使用CleanWipe实用程序。</p><br>首次出现卸载问题时，Symantec技术支持部门不建议使用CleanWipe。当通常的卸载方法不成功时，您应该只使用CleanWipe作为最后的手段。<br>您应始终使用最新版本的CleanWipe删除Symantec Endpoint Protection。CleanWipe可以删除较旧的Symantec Endpoint Protection安装。但是，您不应使用旧版本的CleanWipe删除较新版本的Symantec Endpoint Protection。此操作可能会产生意外结果。</p>
+<p>1、解压CleanWipe.zip文件的内容。</p>
+<p>2、将包含CleanWipe.exe的文件夹复制到要运行的它的计算机上。</p>
+<p>3、双击Cleanwipe.exe,然后单击下一步。</p>
+<p>4、接受许可协议，然后单击下一步</p>
+<p>5、选择要删除的Symantec产品，然后单击下一步</p>
+<p>6、该工具运行完毕后，系统会提示你重新启动计算机，计算机重启后，Cleanwipe将重新打开并继续运行。</p>
+<p>7、单击下一步。</p>
+<p>8、单击完成！</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>办公</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Copy Multiple Files In Folders or Subfolders Into One Folder Software v7.0</title>
+    <url>/2022/06/01/cmfifosiofs/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载，密码：6049"><a href="#立即下载，密码：6049" class="headerlink" title="立即下载，密码：6049"></a><a href="https://url39.ctfile.com/f/37081239-588338338-927212" title="Copy Multiple Files In Folders or Subfolders Into One Folder Software v7.0">立即下载，密码：6049</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>Copy Multiple Files In Folders or Subfolders Into One Folder Software该软件为想要将多个文件夹的内容复制到一个文件夹的用户提供了一种解决方案。该软件非常适合备份数据或移动数据，可以快速执行复制。只需通过选择或拖放来添加文件夹。文件夹排队后，您可以按包含或不包含指定字符串的名称对文件夹进行排序。该软件可以通过自动批量组织您的文件来节省您的时间。</p>
 ]]></content>
       <categories>
         <category>windows</category>
@@ -2761,43 +2761,6 @@ BANDICAM(班迪录屏)5.0.1破解
       </tags>
   </entry>
   <entry>
-    <title>iTop Data Recovery</title>
-    <url>/2022/06/01/iTopData/</url>
-    <content><![CDATA[<blockquote>
-    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
-</blockquote>
-
-<h3 id="立即下载，密码：6049"><a href="#立即下载，密码：6049" class="headerlink" title="立即下载，密码：6049"></a><a href="https://url39.ctfile.com/f/37081239-588368298-0863ba" title="iTop Data Recovery  ">立即下载，密码：6049</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>检索 1000 多种格式的丢失 Windows 文件，评估文件可恢复性，并在恢复前预览数据<br>iTop Data Recovery 是一个严肃的解决方案，用于从 Windows 回收站、硬盘驱动器、SSD、外部磁盘、USB 驱动器、存储卡、数码相机等中恢复丢失或删除的文件。您可以使用它来检索文档、照片、视频、音乐、系统文件等。</p>
-<p>iTop Data Recovery 使恢复过程非常简单，您只需点击几下即可。选择文件位置和文件类型，点击扫描按钮，即可出现可恢复数据信息。您可以在扫描前选择特殊文件类型和位置或选择所有文件类型和位置。彻底扫描后，iTop Data Recovery 不仅会显示文件名、原始位置和大小等基本信息，还会显示每个文件的可恢复性评估以及恢复前的数据预览。然后您可以选择所需的数据并单击“恢复”按钮。</p>
-]]></content>
-      <categories>
-        <category>windows</category>
-      </categories>
-      <tags>
-        <tag>办公</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>futureopps 防偷拍，摄像头检测神器</title>
-    <url>/2021/02/19/futureopps/</url>
-    <content><![CDATA[<blockquote>
-    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
-</blockquote>
-
-<h3 id="立即下载-提取密码：ff6g"><a href="#立即下载-提取密码：ff6g" class="headerlink" title="立即下载,提取密码：ff6g"></a><a href="https://www.90pan.com/b2340694" title="防偷拍，摄像头检测神器">立即下载,提取密码：ff6g</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>不少小伙伴都有出差或者旅游，然后住酒店的需求。但现在不少坏人会在酒店等场所安装隐藏的摄像头，偷拍个人隐私，有时候让人防不胜防。今天给小伙伴们介绍一个可以检测各种摄像头的神奇小工具，让你轻松保护自己的隐私，防止被偷拍！</p>
-<p>1、安装后打开，可以看到有检测有线摄像机、红外摄像机、无线摄像头等功能。</p>
-<p>2、点击对应功能后，软件自动开始检测</p>
-<p>3、点击检测红外摄像机，用手机摄像头在房间内到处扫视即可。</p>
-<p>4、点击检测无线摄像头，连接wifi、打开蓝牙等，即可看到当前周围wifi下是否有可以的无线摄像头。</p>
-]]></content>
-      <categories>
-        <category>androids</category>
-      </categories>
-      <tags>
-        <tag>办公</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>freemessage</title>
     <url>/2022/06/03/freemessage/</url>
     <content><![CDATA[<h2></a>国内免费验证码平台</h2><ul>
@@ -2848,6 +2811,43 @@ BANDICAM(班迪录屏)5.0.1破解
 <li><a target="_blank" rel="noopener external nofollow noreferrer" href="http://receivesmsonline.in/">http://receivesmsonline.in/</a> </li>
 <li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://sms-receive.net/">https://sms-receive.net/</a> </li>
 <li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.receivesms.net/">https://www.receivesms.net/</a> </li>]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>办公</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>futureopps 防偷拍，摄像头检测神器</title>
+    <url>/2021/02/19/futureopps/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载-提取密码：ff6g"><a href="#立即下载-提取密码：ff6g" class="headerlink" title="立即下载,提取密码：ff6g"></a><a href="https://www.90pan.com/b2340694" title="防偷拍，摄像头检测神器">立即下载,提取密码：ff6g</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>不少小伙伴都有出差或者旅游，然后住酒店的需求。但现在不少坏人会在酒店等场所安装隐藏的摄像头，偷拍个人隐私，有时候让人防不胜防。今天给小伙伴们介绍一个可以检测各种摄像头的神奇小工具，让你轻松保护自己的隐私，防止被偷拍！</p>
+<p>1、安装后打开，可以看到有检测有线摄像机、红外摄像机、无线摄像头等功能。</p>
+<p>2、点击对应功能后，软件自动开始检测</p>
+<p>3、点击检测红外摄像机，用手机摄像头在房间内到处扫视即可。</p>
+<p>4、点击检测无线摄像头，连接wifi、打开蓝牙等，即可看到当前周围wifi下是否有可以的无线摄像头。</p>
+]]></content>
+      <categories>
+        <category>androids</category>
+      </categories>
+      <tags>
+        <tag>办公</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>iTop Data Recovery</title>
+    <url>/2022/06/01/iTopData/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载，密码：6049"><a href="#立即下载，密码：6049" class="headerlink" title="立即下载，密码：6049"></a><a href="https://url39.ctfile.com/f/37081239-588368298-0863ba" title="iTop Data Recovery  ">立即下载，密码：6049</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>检索 1000 多种格式的丢失 Windows 文件，评估文件可恢复性，并在恢复前预览数据<br>iTop Data Recovery 是一个严肃的解决方案，用于从 Windows 回收站、硬盘驱动器、SSD、外部磁盘、USB 驱动器、存储卡、数码相机等中恢复丢失或删除的文件。您可以使用它来检索文档、照片、视频、音乐、系统文件等。</p>
+<p>iTop Data Recovery 使恢复过程非常简单，您只需点击几下即可。选择文件位置和文件类型，点击扫描按钮，即可出现可恢复数据信息。您可以在扫描前选择特殊文件类型和位置或选择所有文件类型和位置。彻底扫描后，iTop Data Recovery 不仅会显示文件名、原始位置和大小等基本信息，还会显示每个文件的可恢复性评估以及恢复前的数据预览。然后您可以选择所需的数据并单击“恢复”按钮。</p>
+]]></content>
       <categories>
         <category>windows</category>
       </categories>
@@ -2947,11 +2947,74 @@ $ firewall-cmd --version #eg : 0.4.3.2</code></pre>
 ]]></content>
   </entry>
   <entry>
+    <title>免ROOT自动化助手v9.9.9</title>
+    <url>/2021/01/30/mrootzdhzs/</url>
+    <content><![CDATA[<blockquote>声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载-提取密码：310h"><a href="#立即下载-提取密码：310h" class="headerlink" title="立即下载 提取密码：310h"></a><a href="https://www.90pan.com/b2274669" title="免ROOT自动化助手v9.9.9">立即下载 提取密码：310h</a></h3><h3>软件介绍</h3>
+免ROOT自动化助手免ROOT自动化助手是款简悬浮快捷应用，可以帮助大家更加快捷方便的使用手机，使用它可以设置非常快捷的一键设置，瞬间开启手机应用或者是功能，实用性非常的强。是一款真正免ROOT的自动化执行工具，旨在减少用户对手机的重复操作或点击，实现一键直达的功能。悬浮球优化帅呆了，上键中断自动化下键唤醒语音助手。快捷操作手机应用，减少对手机的重复操作。界面非常的简洁，而且没有任何的广告。让你可以一键就达到某个功能，例如你需要打开朋友圈可能需要几步操作，支持更多功能：点击，长按，复制，系统切换等。里面的附加功能倒是多样，一键使用，使你的手机更加的畅快，有点类似宏，不过更加智能一点，可是原理基本一致，对于某些用户来说应该会让生活变得更方便，不过普通人很难用到它就对了，但是里面的附加功能倒是多样，很实用的呢，例如滑动编辑等！另外，你也可以借助这款工具实现更多有趣的功能。
+免ROOT自动化助手去广告版
+<h3>软件功能</h3>
+1、免root执行自动化
+
+<p>使用者只需要申请应用的辅助功能，无需root（获取超级权限）即可编辑和添加自动化任务。</p>
+<p>2、支持定时执行任务<br>用户可以设置定时时间执行自动化，如：早上八点钉钉打卡，中午12点设置静音，晚上九点打卡飞行模式等等。</p>
+<p>3、支持悬浮菜单操作<br>目前APP提供悬浮菜单操作功能，例如：左滑，右滑，上滑，下滑，点击，长按等，目的是为了方便拥有不用打开APP即可操作。</p>
+<p>4、支持语音唤醒功能<br>考虑到用户开车时需要用到自动化，APP提供了语音唤醒功能，唤醒关键字为：“小R小R”，“小R你好”，“你好小R” (任一唤醒词均可)。</p>
+<p>5、支持语音控制功能<br>APP进行唤醒后，可以进行语音控制自动化，如：“你好小R,帮我打xx电话”，“你好小R,打开蓝牙然后播放音乐”。</p>
+<h3>软件功能</h3>
+1、快捷操作手机应用，减少对手机的重复操作。
+
+<p>2、悬浮球优化帅呆了，上键中断自动化下键唤醒语音助手。</p>
+<p>3、界面非常的简洁，而且没有任何的广告。</p>
+<h3>软件亮点</h3>
+1.支持免root使用；
+
+<p>2.支持发送到通知栏进行控制；</p>
+<p>3.支持更多功能：单击，长按，复制，系统开关等；</p>
+<h3>软件截图</h3>
+
+<p><img src="https://7.dusays.com/2021/02/07/56a695a7142da.jpg"></p>
+<p><img src="https://7.dusays.com/2021/02/07/b6dd1169f40b4.jpg"></p>
+<p><img src="https://7.dusays.com/2021/02/07/b0a49d360fa5b.jpg"></p>
+<p><img src="https://7.dusays.com/2021/02/07/c6f6126040aac.jpg"></p>
+]]></content>
+      <categories>
+        <category>androids</category>
+      </categories>
+      <tags>
+        <tag>办公</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>multChrome.v1.3.0.exe</title>
+    <url>/2021/01/30/multChrome.v1.3.0/</url>
+    <content><![CDATA[<blockquote>声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+Chrome多开管理器是一款功能齐全Chrome浏览器使用简单小号多开的助手，顾名思义，就是能多开Chrome，这时可能有朋友会问了，Chrome不是本来就能开无数个窗口吗?这个多指的是多用户，每个用户的Chrome都是独立的，这样就可以同时使用多个账户登录同一个网站。
+
+<h3 id="立即下载-提取密码：0a58"><a href="#立即下载-提取密码：0a58" class="headerlink" title="立即下载,提取密码：0a58"></a><a href="https://www.90pan.com/b2295377" title="multChrome.v1.3.0.exe">立即下载,提取密码：0a58</a></h3><h3 id="软件说明："><a href="#软件说明：" class="headerlink" title="软件说明："></a>软件说明：</h3><p>1.Chrome多开管理器，对需要的人有用，不需要的人没用（废话）</p>
+<p>2.用途是以多用户身份开启多个Chrome，实现单网站多账号登录（土方法是用隐私模式多开一个窗口，或是用其他浏览器多开，高级一点的方法是自己设置Chrome启动用户，这个程序相当于简化设置过程并统一管理）</p>
+<p>3.用的是Python + Pyside2</p>
+<h3 id="软件图片"><a href="#软件图片" class="headerlink" title="软件图片"></a>软件图片</h3><p><img src="https://7.dusays.com/2021/02/06/c3d559c687e61.gif"><br><img src="https://7.dusays.com/2021/02/06/af8a6fca557e1.png"><br>谷歌浏览器默认安装路径C:\Program Files (x86)\Google\Chrome\Application</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>科技</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>音乐曲目不定时更新</title>
     <url>/2022/06/02/music/</url>
     <content><![CDATA[<blockquote>
     声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
 </blockquote>
+
+
+
 
 <h3 id="立即下载"><a href="#立即下载" class="headerlink" title="立即下载"></a><a href="https://url39.ctfile.com/d/37081239-49112549-604e24" title="music文件夹 ">立即下载</a></h3><p>有需要可以点击右下角的蓝色聊天窗口获取密码<br>音乐曲目不定时更新</p>
 <ul>
@@ -3035,47 +3098,6 @@ $ firewall-cmd --version #eg : 0.4.3.2</code></pre>
       </categories>
       <tags>
         <tag>珍藏</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>免ROOT自动化助手v9.9.9</title>
-    <url>/2021/01/30/mrootzdhzs/</url>
-    <content><![CDATA[<blockquote>声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
-</blockquote>
-
-<h3 id="立即下载-提取密码：310h"><a href="#立即下载-提取密码：310h" class="headerlink" title="立即下载 提取密码：310h"></a><a href="https://www.90pan.com/b2274669" title="免ROOT自动化助手v9.9.9">立即下载 提取密码：310h</a></h3><h3>软件介绍</h3>
-免ROOT自动化助手免ROOT自动化助手是款简悬浮快捷应用，可以帮助大家更加快捷方便的使用手机，使用它可以设置非常快捷的一键设置，瞬间开启手机应用或者是功能，实用性非常的强。是一款真正免ROOT的自动化执行工具，旨在减少用户对手机的重复操作或点击，实现一键直达的功能。悬浮球优化帅呆了，上键中断自动化下键唤醒语音助手。快捷操作手机应用，减少对手机的重复操作。界面非常的简洁，而且没有任何的广告。让你可以一键就达到某个功能，例如你需要打开朋友圈可能需要几步操作，支持更多功能：点击，长按，复制，系统切换等。里面的附加功能倒是多样，一键使用，使你的手机更加的畅快，有点类似宏，不过更加智能一点，可是原理基本一致，对于某些用户来说应该会让生活变得更方便，不过普通人很难用到它就对了，但是里面的附加功能倒是多样，很实用的呢，例如滑动编辑等！另外，你也可以借助这款工具实现更多有趣的功能。
-免ROOT自动化助手去广告版
-<h3>软件功能</h3>
-1、免root执行自动化
-
-<p>使用者只需要申请应用的辅助功能，无需root（获取超级权限）即可编辑和添加自动化任务。</p>
-<p>2、支持定时执行任务<br>用户可以设置定时时间执行自动化，如：早上八点钉钉打卡，中午12点设置静音，晚上九点打卡飞行模式等等。</p>
-<p>3、支持悬浮菜单操作<br>目前APP提供悬浮菜单操作功能，例如：左滑，右滑，上滑，下滑，点击，长按等，目的是为了方便拥有不用打开APP即可操作。</p>
-<p>4、支持语音唤醒功能<br>考虑到用户开车时需要用到自动化，APP提供了语音唤醒功能，唤醒关键字为：“小R小R”，“小R你好”，“你好小R” (任一唤醒词均可)。</p>
-<p>5、支持语音控制功能<br>APP进行唤醒后，可以进行语音控制自动化，如：“你好小R,帮我打xx电话”，“你好小R,打开蓝牙然后播放音乐”。</p>
-<h3>软件功能</h3>
-1、快捷操作手机应用，减少对手机的重复操作。
-
-<p>2、悬浮球优化帅呆了，上键中断自动化下键唤醒语音助手。</p>
-<p>3、界面非常的简洁，而且没有任何的广告。</p>
-<h3>软件亮点</h3>
-1.支持免root使用；
-
-<p>2.支持发送到通知栏进行控制；</p>
-<p>3.支持更多功能：单击，长按，复制，系统开关等；</p>
-<h3>软件截图</h3>
-
-<p><img src="https://7.dusays.com/2021/02/07/56a695a7142da.jpg"></p>
-<p><img src="https://7.dusays.com/2021/02/07/b6dd1169f40b4.jpg"></p>
-<p><img src="https://7.dusays.com/2021/02/07/b0a49d360fa5b.jpg"></p>
-<p><img src="https://7.dusays.com/2021/02/07/c6f6126040aac.jpg"></p>
-]]></content>
-      <categories>
-        <category>androids</category>
-      </categories>
-      <tags>
-        <tag>办公</tag>
       </tags>
   </entry>
   <entry>
@@ -3163,42 +3185,6 @@ Query OK, 0 rows affected (0.00 sec)
       </tags>
   </entry>
   <entry>
-    <title>multChrome.v1.3.0.exe</title>
-    <url>/2021/01/30/multChrome.v1.3.0/</url>
-    <content><![CDATA[<blockquote>声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
-</blockquote>
-Chrome多开管理器是一款功能齐全Chrome浏览器使用简单小号多开的助手，顾名思义，就是能多开Chrome，这时可能有朋友会问了，Chrome不是本来就能开无数个窗口吗?这个多指的是多用户，每个用户的Chrome都是独立的，这样就可以同时使用多个账户登录同一个网站。
-
-<h3 id="立即下载-提取密码：0a58"><a href="#立即下载-提取密码：0a58" class="headerlink" title="立即下载,提取密码：0a58"></a><a href="https://www.90pan.com/b2295377" title="multChrome.v1.3.0.exe">立即下载,提取密码：0a58</a></h3><h3 id="软件说明："><a href="#软件说明：" class="headerlink" title="软件说明："></a>软件说明：</h3><p>1.Chrome多开管理器，对需要的人有用，不需要的人没用（废话）</p>
-<p>2.用途是以多用户身份开启多个Chrome，实现单网站多账号登录（土方法是用隐私模式多开一个窗口，或是用其他浏览器多开，高级一点的方法是自己设置Chrome启动用户，这个程序相当于简化设置过程并统一管理）</p>
-<p>3.用的是Python + Pyside2</p>
-<h3 id="软件图片"><a href="#软件图片" class="headerlink" title="软件图片"></a>软件图片</h3><p><img src="https://7.dusays.com/2021/02/06/c3d559c687e61.gif"><br><img src="https://7.dusays.com/2021/02/06/af8a6fca557e1.png"><br>谷歌浏览器默认安装路径C:\Program Files (x86)\Google\Chrome\Application</p>
-]]></content>
-      <categories>
-        <category>windows</category>
-      </categories>
-      <tags>
-        <tag>科技</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>qCoolTweak</title>
-    <url>/2022/06/03/qCoolTweak/</url>
-    <content><![CDATA[<blockquote>
-    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
-</blockquote>
-
-<h3 id="立即下载，密码：6049"><a href="#立即下载，密码：6049" class="headerlink" title="立即下载，密码：6049"></a><a href="https://url39.ctfile.com/f/37081239-589237374-cecb64" title="qCoolTweak 3.1 ">立即下载，密码：6049</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>单击即可调整大小、添加水印并将您的图片分享到社交网络</p>
-<p>一切都只需点击 CoolTweak ！使用 CoolTweak 调整大小、添加水印和分享图片从未如此简单。完全免费，这个智能软件直接从您所有图像的右键单击上下文菜单中弹出并一次性处理它们。不再浪费时间，只需单击一下即可处理所有文件。所有这些非常方便的功能使 CoolTweak 成为必不可少的工具。最重要的是，您可以使用非常直观的菜单编辑器自定义和管理所有菜单及其操作。随意更改它们并构建您喜欢的菜单。不要再等待让您的生活变得更简单，让 CoolTweak 为您处理所有繁琐的任务。</p>
-]]></content>
-      <categories>
-        <category>windows</category>
-      </categories>
-      <tags>
-        <tag>办公</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>PDFill PDF Editor(PDF编辑器)14.0最新版</title>
     <url>/2021/02/19/pdfeditor/</url>
     <content><![CDATA[<blockquote>
@@ -3252,6 +3238,42 @@ PDFill PDF Editor是一款能够帮助我们对PDF文件去进行快速编辑和
 <h3 id="立即下载"><a href="#立即下载" class="headerlink" title="立即下载"></a><a href="https://www.90pan.com/o152274" title=" PyCharm Professional">立即下载</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>Pycharm Professional长期免费使用方法（学生党）<br>众所周知，充钱才能使你变得更强，在Pycharm这个IDE上也是如此。Pycharm Professional相较于免费的社区版的Pycharm多了许多强大的功能，然鹅，它需要充钱。而你是否还在苦逼地用着社区版的Pycharm？你是否还因为Pycharm Professional免费30天期限而苦恼？这里我来分享一个Pycharm Professional长期免费的使用方法。</p>
 <p>如果你是一个学生党，并且拥有一个属于自己的校园邮箱——恭喜你，你可以长期免费使用（白嫖 ）Pycharm Professional！</p>
 <p>具体操作的步骤可以看这个链接里（JetBrains官网，写的很详尽了）：<a href="https://sales.jetbrains.com/hc/zh-cn/articles/207154369-%E5%AD%A6%E7%94%9F%E6%8E%88%E6%9D%83%E7%94%B3%E8%AF%B7%E6%96%B9%E5%BC%8F">https://sales.jetbrains.com/hc/zh-cn/articles/207154369-%E5%AD%A6%E7%94%9F%E6%8E%88%E6%9D%83%E7%94%B3%E8%AF%B7%E6%96%B9%E5%BC%8F</a> (学生授权申请方式)</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>办公</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>qBittorrent 4.4.3.1</title>
+    <url>/2022/06/03/qBittorrent/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载，密码：6049"><a href="#立即下载，密码：6049" class="headerlink" title="立即下载，密码：6049"></a><a href="https://url39.ctfile.com/f/37081239-589236973-b96f04" title="qBittorrent 4.4.3.1 ">立即下载，密码：6049</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>使用免费且可靠的P2P Bittorrent客户端</p>
+<p>qBittorrent项目的目的是提供一种替代andAtilde; ???? Atilde; ??? andAtilde; ?? andAtilde;？andAcirc; andmicro; Torrent的开源软件。</p>
+<p>此外，qBittorrent在所有主要平台（Linux，Mac OS X，Windows，OS / 2，FreeBSD）上运行并提供相同的功能。</p>
+<p>qBittorrent基于Qt工具包和libtorrent-rasterbar库。</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>办公</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>qCoolTweak</title>
+    <url>/2022/06/03/qCoolTweak/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载，密码：6049"><a href="#立即下载，密码：6049" class="headerlink" title="立即下载，密码：6049"></a><a href="https://url39.ctfile.com/f/37081239-589237374-cecb64" title="qCoolTweak 3.1 ">立即下载，密码：6049</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>单击即可调整大小、添加水印并将您的图片分享到社交网络</p>
+<p>一切都只需点击 CoolTweak ！使用 CoolTweak 调整大小、添加水印和分享图片从未如此简单。完全免费，这个智能软件直接从您所有图像的右键单击上下文菜单中弹出并一次性处理它们。不再浪费时间，只需单击一下即可处理所有文件。所有这些非常方便的功能使 CoolTweak 成为必不可少的工具。最重要的是，您可以使用非常直观的菜单编辑器自定义和管理所有菜单及其操作。随意更改它们并构建您喜欢的菜单。不要再等待让您的生活变得更简单，让 CoolTweak 为您处理所有繁琐的任务。</p>
 ]]></content>
       <categories>
         <category>windows</category>
@@ -3577,6 +3599,14 @@ SQLyog中文破解版
       </tags>
   </entry>
   <entry>
+    <title>数据恢复工具免安装版</title>
+    <url>/2021/01/25/studio/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+  </entry>
+  <entry>
     <title>System logs</title>
     <url>/2020/06/07/system-logs/</url>
     <content><![CDATA[<p>分析和存储日志</p>
@@ -3658,12 +3688,20 @@ journalctl命令从最旧的日志条目开始显示完整的系统日志，以�
       </tags>
   </entry>
   <entry>
-    <title>数据恢复工具免安装版</title>
-    <url>/2021/01/25/studio/</url>
-    <content><![CDATA[]]></content>
+    <title>Tor Browser for windows</title>
+    <url>/2021/03/08/tor/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+
+<h3 id="立即下载，密码：025w"><a href="#立即下载，密码：025w" class="headerlink" title="立即下载，密码：025w"></a><a href="https://www.90pan.com/b2397616" title="Tor Browser for windows">立即下载，密码：025w</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>有关Tor Browser for windows的帮助信息（&amp;I）<br>什么是Tor浏览器？<br>Tor浏览器是更广泛的Tor项目的一部分。它基于mozillafirefox，使用该程序的一个修改版本，但是附带了额外的隐私保护，这是Tor项目的主要重点。这使得浏览器成为具有安全意识的网络冲浪者的理想选择。<br>Tor浏览器是如何安装的？<br>安装软件可能不容易。一旦相关文件下载完毕，执行它，并将浏览器提取到自己的文件夹中。从那里，只要运行浏览器，您就可以开始了。<br>使用Tor浏览器有什么好处？<br>浏览器的设计目的是通过防止任何潜在的观察者关注访问的网站来保护用户的隐私。在当今世界，越来越多的人意识到网络监控，浏览器提供了一种吸引人的方式，可以私下上网。<br>Tor浏览器可用于哪些平台？<br>目前，浏览器可用于Windows、Mac、Linux和Android。简而言之，目前大多数（但并非全部）流行平台都包含在软件中。<br>使用Tor浏览器安全吗？<br>虽然浏览器确实提供了极大的隐私增强，但用户仍需要遵循某些步骤，以确保他们的浏览是安全的。其中包括只查看sights的HTTPS版本，避免使用插件，下载可能与其他不太安全的软件相关的文档时要小心。<br>围绕Tor浏览器有哪些争议？<br>如上所述，浏览器用户仍将面临一些安全问题。由于浏览器可能被用来掩盖非法活动，人们对该软件的存在也有更广泛的道德担忧。<br>拥有和使用Tor浏览器合法吗？<br>使用浏览器本身并不违法。然而，这样做可能会让用户受到怀疑，因为浏览器可能被用作在线实施非法行为的手段。任何打算使用浏览器的人都应该充分研究围绕Tor的法律和道德争议。<br>在哪里可以获得Tor浏览器？<br>浏览器可从官方Tor网站下载。网站提供了获取程序所需的所有信息。此外，该网站还为更多有兴趣扩展主软件的代码熟练用户提供浏览器的开源服务。<br>使用Tor浏览器有什么好处？<br>这款浏览器旨在保护用户的隐私，防止任何潜在的观察者监视访问过的网站。在当今世界，越来越多的人意识到网络监控的重要性，浏览器提供了一种很有吸引力的私人上网方式。<br>Tor浏览器可以免费使用吗？<br>是的，Tor完全免费下载、安装和使用。开源软件也可以免费使用，用户可以自由地修改和扩展软件。<br>Tor浏览器经常使用缓慢吗？<br>不幸的是，是的。Tor有一种运行缓慢的趋势，这是它间接处理用户互联网流量的结果。那些计划使用Tor的人应该记住这一点，并考虑他们是否有耐心使用它。另一方面，更专注的用户会发现，对于匿名性而言，延迟是一个值得权衡的问题。</p>
+]]></content>
       <categories>
         <category>windows</category>
       </categories>
+      <tags>
+        <tag>办公</tag>
+      </tags>
   </entry>
   <entry>
     <title>懒人专用，全网VIP视频免费破解去广告、全网音乐直接下载、百度网盘直接下载、知乎视频下载等多合一版</title>
@@ -3698,22 +3736,6 @@ journalctl命令从最旧的日志条目开始显示完整的系统日志，以�
 <p>知乎视频下载 Chromium 内核浏览器配置：<br>1.进入Tampermonkey的设置页面，“通用”里的配置模式选择“初学者”。<br>2.在“下载BETA”中的下载模式选择“浏览器API”。<br>3.弹出权限提示选择允许即可。<br>Firefox需要在地址栏中输入 about:config 进入 Firefox 配置页，将 security.csp.enable 值改为 false。</p>
 <p>知乎视频默认为 MPEG-TS 格式，无法在微信中直接播放，所以增加了实时转换为 MP4 格式的功能，但是转换过程较慢，建议只对小视频进行转换并耐心等待。</p>
 <p>视频解析功能没有任何广告，所以通过优惠券查询功能带来的商品推广返利补贴解析网站服务器费用，不会对您有任何打扰。</p>
-]]></content>
-      <categories>
-        <category>windows</category>
-      </categories>
-      <tags>
-        <tag>办公</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tor Browser for windows</title>
-    <url>/2021/03/08/tor/</url>
-    <content><![CDATA[<blockquote>
-    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
-</blockquote>
-
-<h3 id="立即下载，密码：025w"><a href="#立即下载，密码：025w" class="headerlink" title="立即下载，密码：025w"></a><a href="https://www.90pan.com/b2397616" title="Tor Browser for windows">立即下载，密码：025w</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>有关Tor Browser for windows的帮助信息（&amp;I）<br>什么是Tor浏览器？<br>Tor浏览器是更广泛的Tor项目的一部分。它基于mozillafirefox，使用该程序的一个修改版本，但是附带了额外的隐私保护，这是Tor项目的主要重点。这使得浏览器成为具有安全意识的网络冲浪者的理想选择。<br>Tor浏览器是如何安装的？<br>安装软件可能不容易。一旦相关文件下载完毕，执行它，并将浏览器提取到自己的文件夹中。从那里，只要运行浏览器，您就可以开始了。<br>使用Tor浏览器有什么好处？<br>浏览器的设计目的是通过防止任何潜在的观察者关注访问的网站来保护用户的隐私。在当今世界，越来越多的人意识到网络监控，浏览器提供了一种吸引人的方式，可以私下上网。<br>Tor浏览器可用于哪些平台？<br>目前，浏览器可用于Windows、Mac、Linux和Android。简而言之，目前大多数（但并非全部）流行平台都包含在软件中。<br>使用Tor浏览器安全吗？<br>虽然浏览器确实提供了极大的隐私增强，但用户仍需要遵循某些步骤，以确保他们的浏览是安全的。其中包括只查看sights的HTTPS版本，避免使用插件，下载可能与其他不太安全的软件相关的文档时要小心。<br>围绕Tor浏览器有哪些争议？<br>如上所述，浏览器用户仍将面临一些安全问题。由于浏览器可能被用来掩盖非法活动，人们对该软件的存在也有更广泛的道德担忧。<br>拥有和使用Tor浏览器合法吗？<br>使用浏览器本身并不违法。然而，这样做可能会让用户受到怀疑，因为浏览器可能被用作在线实施非法行为的手段。任何打算使用浏览器的人都应该充分研究围绕Tor的法律和道德争议。<br>在哪里可以获得Tor浏览器？<br>浏览器可从官方Tor网站下载。网站提供了获取程序所需的所有信息。此外，该网站还为更多有兴趣扩展主软件的代码熟练用户提供浏览器的开源服务。<br>使用Tor浏览器有什么好处？<br>这款浏览器旨在保护用户的隐私，防止任何潜在的观察者监视访问过的网站。在当今世界，越来越多的人意识到网络监控的重要性，浏览器提供了一种很有吸引力的私人上网方式。<br>Tor浏览器可以免费使用吗？<br>是的，Tor完全免费下载、安装和使用。开源软件也可以免费使用，用户可以自由地修改和扩展软件。<br>Tor浏览器经常使用缓慢吗？<br>不幸的是，是的。Tor有一种运行缓慢的趋势，这是它间接处理用户互联网流量的结果。那些计划使用Tor的人应该记住这一点，并考虑他们是否有耐心使用它。另一方面，更专注的用户会发现，对于匿名性而言，延迟是一个值得权衡的问题。</p>
 ]]></content>
       <categories>
         <category>windows</category>
@@ -3852,25 +3874,6 @@ Ctrl + ~显示/隐藏窗口（ESC下方的波浪线，热键更顺手！）
       </categories>
       <tags>
         <tag>科技</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>qBittorrent 4.4.3.1</title>
-    <url>/2022/06/03/qBittorrent/</url>
-    <content><![CDATA[<blockquote>
-    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
-</blockquote>
-
-<h3 id="立即下载，密码：6049"><a href="#立即下载，密码：6049" class="headerlink" title="立即下载，密码：6049"></a><a href="https://url39.ctfile.com/f/37081239-589236973-b96f04" title="qBittorrent 4.4.3.1 ">立即下载，密码：6049</a></h3><h3 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h3><p>使用免费且可靠的P2P Bittorrent客户端</p>
-<p>qBittorrent项目的目的是提供一种替代andAtilde; ???? Atilde; ??? andAtilde; ?? andAtilde;？andAcirc; andmicro; Torrent的开源软件。</p>
-<p>此外，qBittorrent在所有主要平台（Linux，Mac OS X，Windows，OS / 2，FreeBSD）上运行并提供相同的功能。</p>
-<p>qBittorrent基于Qt工具包和libtorrent-rasterbar库。</p>
-]]></content>
-      <categories>
-        <category>windows</category>
-      </categories>
-      <tags>
-        <tag>办公</tag>
       </tags>
   </entry>
 </search>
