@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://suixin.ltd/shipinjiexi/shipinjiexi.html</loc>
+    
+    <lastmod>2023-10-04</lastmod>
+    
+  </url> 
+  <url>
+    <loc>https://suixin.ltd/2023/10/04/redesktop/</loc>
+    
+    <lastmod>2023-10-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixin.ltd/2023/10/04/hack/</loc>
+    
+    <lastmod>2023-10-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixin.ltd/2023/10/04/web/</loc>
+    
+    <lastmod>2023-10-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://suixin.ltd/2023/09/24/redis/</loc>
+    
+    <lastmod>2023-10-04</lastmod>
+    
+  </url>
   
   <url>
     <loc>https://suixin.ltd/2023/09/24/googlechrome/</loc>
@@ -1152,7 +1185,7 @@
 
   <url>
     <loc>https://suixin.ltd/</loc>
-    <lastmod>2023-09-24</lastmod>
+    <lastmod>2023-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1160,63 +1193,70 @@
   
   <url>
     <loc>https://suixin.ltd/tags/%E6%BC%8F%E6%89%AB/</loc>
-    <lastmod>2023-09-24</lastmod>
+    <lastmod>2023-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/tags/%E5%8A%9E%E5%85%AC/</loc>
-    <lastmod>2023-09-24</lastmod>
+    <lastmod>2023-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/tags/%E7%A7%91%E6%8A%80/</loc>
-    <lastmod>2023-09-24</lastmod>
+    <lastmod>2023-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/tags/games/</loc>
-    <lastmod>2023-09-24</lastmod>
+    <lastmod>2023-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/tags/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2023-09-24</lastmod>
+    <lastmod>2023-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/tags/%E7%A7%91%E5%AD%A6/</loc>
-    <lastmod>2023-09-24</lastmod>
+    <lastmod>2023-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/tags/%E7%8F%8D%E8%97%8F/</loc>
-    <lastmod>2023-09-24</lastmod>
+    <lastmod>2023-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/tags/linux/</loc>
-    <lastmod>2023-09-24</lastmod>
+    <lastmod>2023-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/tags/%E7%9B%B4%E6%92%AD/</loc>
-    <lastmod>2023-09-24</lastmod>
+    <lastmod>2023-10-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://suixin.ltd/tags/%E8%B5%84%E6%96%99/</loc>
+    <lastmod>2023-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1225,28 +1265,35 @@
   
   <url>
     <loc>https://suixin.ltd/categories/windows/</loc>
-    <lastmod>2023-09-24</lastmod>
+    <lastmod>2023-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/categories/androids/</loc>
-    <lastmod>2023-09-24</lastmod>
+    <lastmod>2023-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/categories/apples/</loc>
-    <lastmod>2023-09-24</lastmod>
+    <lastmod>2023-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://suixin.ltd/categories/music/</loc>
-    <lastmod>2023-09-24</lastmod>
+    <lastmod>2023-10-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://suixin.ltd/categories/files/</loc>
+    <lastmod>2023-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

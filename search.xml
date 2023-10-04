@@ -4264,4 +4264,160 @@ pdftodocx.rar下载地址
         <tag>办公</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Redis全套学习笔记</title>
+    <url>/2023/09/24/redis/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+<button class="btn btn-circle">
+    <a href="https://url39.ctfile.com/f/37081239-831929152-1f9e73" >点击下载</a>
+</button>
+
+<p>Redis全套学习笔记.docx (访问密码: 2344)</p>
+<h4 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h4><p>1、redis概述和安装<br>    1.1、安装redis<br>    1.2、启动redis<br>    方式1：前台启动（不推荐）<br>    方式2：后端启动（推荐）<br>    1.3、关闭redis<br>    1.4、进入redis命令窗口<br>    1.5、redis命令大全<br>    1.6、redis介绍相关知识<br>2、redis 5大数据类型<br>    2.1、redis键（key）<br>    2.2、redis字符串（String）<br>    2.2.1、简介<br>    2.2.2、常用命令<br>    set：添加键值对<br>    get：获取值<br>    apend：追价值<br>    strlen：获取值的长度<br>    setnx：key不存在时，设置key的值<br>    incr：原子递增1<br>    decr：原子递减1<br>    incrby/decrby：递增或者递减指定的数字<br>    mset：同时设置多个key-value<br>    mget：获取多个key对应的值<br>    msetnx：当多个key都不存在时，则设置成功<br>    getrange：获取值的范围，类似java中的substring<br>    setrange：覆盖指定位置的值<br>    setex：设置键值&amp;过期时间（秒）<br>    getset：以新换旧，设置新值同时返回旧值<br>    2.2.3、数据结构<br>    2.3、redis列表（List）<br>    2.3.1、简介<br>    2.3.2、常用命令<br>    lpush/rpush：从左边或者右边插入一个或多个值<br>    lrange：从列表左边获取指定范围内的值<br>    lpop/rpop：从左边或者右边弹出多个元素<br>    rpoplpush：从一个列表右边弹出一个元素放到另外一个列表中     lindex：获取指定索引位置的元素（从左到右）<br>    llen：获得列表长度<br>    linsert：在某个值的前或者后面插入一个值<br>    lrem：删除指定数量的某个元素<br>    lset：替换指定位置的值<br>    2.3.4、数据结构<br>    2.4、redis集合（Set）<br>    2.4.1、简介<br>    2.4.2、常用命令<br>    sadd：添加一个或多个元素<br>    smembers：取出所有元素<br>    sismember：判断集合中是否有某个值<br>    scard：返回集合中元素的个数<br>    srem：删除多个元素<br>    spop：随机弹出多个值</p>
+<pre><code>srandmember：随机获取多个元素，不会从集合中删除 
+smove：将某个原创从一个集合移动到另一个集合 
+sinter：取多个集合的交集 
+sinterstore：将多个集合的交集放到一个新的集合中 
+sunion：取多个集合的并集，自动去重 
+sunionstore：将多个集合的并集放到一个新的集合中 
+sdiff：取多个集合的差集 
+sdiffstore：将多个集合的差集放到一个新的集合中 
+3.4.3、数据结构 
+2.5、redis哈希（Hash）
+2.5.1、简介 
+2.5.2、常用命令 
+hset：设置多个field的值 
+hget：获取指定filed的值 
+hgetall：返回hash表所有的域和值 
+hmset：和hset类似（已弃用）
+hexists：判断给定的field是否存在，1：存在，0：不存在 
+hkeys：列出所有的filed 
+hvals：列出所有的value 
+hlen：返回filed的数量 
+hincrby：filed的值加上指定的增量 
+hsetnx：当filed不存在的时候，设置filed的值 
+2.5.3、数据结构 
+2.6、redis有序集合zset（sorted set）
+2.6.1、简介 
+2.6.2、常用命令 
+zadd：添加元素 
+zrange：score升序，获取指定索引范围的元素 
+zrevrange：score降序，获取指定索引范围的元素 
+zrangebyscore：按照score升序，返回指定score范围内的数据     zrevrangebyscore：按照score降序，返回指定score范围内的数据     zincrby：为指定元素的score加上指定的增量 
+zrem：删除集合中多个元素 
+zremrangebyrank：根据索引范围删除元素 
+zremrangebyscore：根据score的范围删除元素 
+zcount：统计指定score范围内元素的个数 
+zrank：按照score升序，返回某个元素在集合中的排名 
+zrevrank：按照score降序，返回某个元素在集合中的排名 
+zscore：返回集合中指定元素的score 
+2.6.3、数据结构 </code></pre>
+<p>3、redis的发布和订阅<br>    3.1、什么是发布和订阅<br>    3.2、redis的发布和订阅<br>    3.3、发布和订阅的命令行实现<br>    3.4、发布和订阅常用命令<br>    3.4.1、subscribe：订阅一个或者多个频道<br>    3.4.2、publish：发布消息到指定的频道<br>    3.4.2、psubscribe：订阅一个或多个符合给定模式的频道<br>4、redis新的3种数据类型<br>    4.1、Bitmaps：位操作字符串<br>    4.1.1、简介<br>    4.1.2、常用命令<br>    setbit：设置某个偏移量的值（0或1）<br>    getbit：获取某个偏移位的值<br>    bitcount：统计bit位都为1的数量<br>    bittop：对一个多个bitmaps执行位操作<br>    4.1.3、bitmaps与set比较<br>    4.2、HyperLoglog</p>
+<pre><code>4.2.1、简介 
+4.2.2、命令 
+pfadd：添加多个元素 
+pfcount：获取多个HLL合并后元素的个数 
+pfmerge：将多个HLL合并后元素放入另外一个HLL 
+4.3、Geographic 
+4.3.1、简介 
+4.3.2、命令 
+geoadd：添加多个位置的经纬度 
+geopos：获取多个位置的坐标值 
+geodist：获取两个位置的直线距离 
+georadius：以给定的经纬度为中心，找出某一半径内的元素 5、Jedis操作Redis6 
+5.1、介绍 
+5.2、Jedis的用法 
+5.2.1、引入maven依赖 
+5.2.2、使用redis的api操作redis </code></pre>
+<p>6、SpringBoot整合Redis<br>    6.1、引入redis的maven配置<br>    6.2、application.properties中配置redis信息<br>    6.3、使用RedisTemplate工具类操作redis<br>    6.4、RedisTemplate示例代码<br>7、redis事务操作<br>    7.1、redis事务定义<br>    7.2、Multi、Exec、discard<br>    7.2.1、相关的几个命令<br>    multi：标记一个事务块的开始<br>    exec：执行所有事务块内的命令<br>    discard：取消事务<br>    7.3、事务的错误处理<br>    7.3.1、情况1：组队中命令有误，导致所有命令取消执行<br>    7.3.2、情况2：组队中没有问题，执行中部分成功部分失败     7.4、事务冲突的问题<br>    7.4.1、例子<br>    7.4.2、悲观锁<br>    7.4.3、乐观锁<br>    7.4.4、watch key [key …]<br>    7.4.5、unwatch：取消监视<br>    7.5、redis事务三特性<br>    （1）单独的隔离操作<br>    （2）没有隔离级别的概念<br>    （3）不能保证原子性<br>8、redis持久化之RDB（Redis DataBase）<br>    8.1、总体介绍<br>    8.2、RDB（Redis DataBase）<br>    8.2.1、RDB是什么？<br>8.2.2、备份是如何执行的<br>8.2.3、Fork<br>8.2.4、RDB持久化流程<br>8.2.5、指定备份文件的名称<br>8.2.6、指定备份文件存放的目录<br>8.2.7、触发RDB备份<br>    方式1：自动备份，需配置备份规则<br>    方式2：手动执行命令备份（save | bgsave）<br>    方式3：flushall命令<br>8.2.8、redis.conf 其他一些配置<br>    stop-writes-on-bgsave-error：当磁盘满时，是否关闭redis的写操作     rdbcompression：rdb备份是否开启压缩</p>
+<p>rdbchecksum：是否检查rdb备份文件的完整性<br>8.2.9、rdb的备份和恢复<br>8.2.10、优势<br>8.2.10、劣势<br>8.2.11、如何停止RDB？<br>9、redis持久化之AOF（Append Only File）<br>    9.1、AOF（Append Only File）<br>    9.1.1、是什么<br>    9.1.2、AOF持久化流程<br>    9.1.3、AOF默认不开启<br>    9.1.4、AOF和RDB同时开启，redis听谁的？<br>9.1.5、AOF启动/修复/恢复<br>9.1.6、AOF同步频率设置<br>    appendfsync always：每次写入立即同步<br>    appendfsync everysec：每秒同步<br>    appendfsync no：不主动同步<br>9.1.7、rewrite压缩（AOF文件压缩）<br>    rewrite压缩是什么？<br>重写原理，如何实现重写？<br>触发机制，何时重写？<br>    bgrewriteaof：手动触发重写<br>    auto-aof-rewrite-percentage：设置重写基准值<br>    auto-aof-rewrite-min-size：设置重写基准值<br>    举个例子<br>    重写流程<br>    no-appendfsync-on-rewrite：重写时，不会执行appendfsync操作     9.1.8、AOF优势<br>    9.1.9、劣势<br>    9.1.10、小总结<br>9.2、总结<br>    9.2.1、用哪个好？<br>    9.2.2、官网建议<br>10、redis主从复制<br>    10.1、是什么？<br>10.2、能干嘛？<br>10.3、主从复制：怎么玩？<br>10.3.1、配置1主2从<br>10.3.2、配置主从<br>    1）创建案例工作目录：master-slave<br>    2）将redis.conf复制到master-slave目录<br>    3）创建master的配置文件：redis-6379.conf<br>    4）创建slave1的配置文件：redis-6380.conf<br>    5）创建slave2的配置文件：redis-6381.conf<br>    6）启动master<br>    7）启动slave1<br>    8）启动slave2<br>    9）查看主机的信息<br>    10）查看slave1的信息<br>    11）同样查看slave2的信息<br>    12）验证主从同步效果<br>10.3.3、主从复制原理<br>10.3.4、小结<br>    主redis挂掉以后情况会如何？从机是上位还是原地待命？<br>从挂掉后又恢复了，会继续从主同步数据么？<br>    info Replication：查看主从复制信息<br>10.2、常用的主从结构<br>    10.2.1、一主二从<br>    1）创建案例工作目录：master-slave</p>
+<pre><code>2）将redis.conf复制到master-slave目录 
+3）创建master的配置文件：redis-6379.conf 
+4）创建slave1的配置文件：redis-6380.conf 
+5）创建slave2的配置文件：redis-6381.conf 
+6）启动master 
+7）启动slave1 
+8）启动slave2 
+9）分别登陆3台机器，查看各自主从信息 
+10）配置slave1为master的从库 
+11）配置slave2为master的从库 
+12）再来看看master的主从信息 
+10.2.2、薪火相传 
+10.2.3、反客为主 </code></pre>
+<p>10.3、哨兵(Sentinel)模式<br>    10.3.1、什么是哨兵模式？<br>10.3.2、原理<br>10.3.3、怎么玩？<br>    1）需求：配置1主2从3个哨兵<br>    2）创建案例工作目录：sentinel<br>    3）将redis.conf复制到sentinel目录<br>    4）创建master的配置文件：redis-6379.conf<br>    5）创建slave1的配置文件：redis-6380.conf<br>    6）创建slave2的配置文件：redis-6381.conf<br>    7）启动master、slave1、slave2<br>    8）配置slave1为master的从库<br>    11）配置slave2为master的从库<br>    12）验证主从复制是否正常<br>    13）创建sentinel1的配置文件：sentinel-26379.conf<br>    14）创建sentinel2的配置文件：sentinel-26380.conf<br>    15）创建sentinel3的配置文件：sentinel-26381.conf<br>    16）启动3个sentinel<br>    17）分别查看3个sentinel的信息<br>    18）验证故障自动转移是否成功<br>    19）恢复旧的master自动俯首称臣<br>    10.3.4、更多Sentinel介绍<br>    10.3.5、SpringBoot整合Sentinel模式<br>    1）引入redis的maven配置<br>    2）application.properties中配置redis sentinel信息<br>    3）使用RedisTemplate工具类操作redis<br>    2）RedisTemplate示例代码<br>11、redis集群（Cluster）<br>    11.1、存在的问题<br>    11.2、什么是集群<br>    11.3、集群如何配置？<br>1）需求：配置3主3从集群<br>2）创建案例工作目录：cluster<br>3）将redis.conf复制到cluster目录<br>4）创建master1的配置文件：redis-6379.conf<br>5）创建master2的配置文件：redis-6380.conf<br>6）创建master3的配置文件：redis-6381.conf<br>4）创建slave1的配置文件：redis-6389.conf<br>5）创建slave2的配置文件：redis-6390.conf<br>6）创建slave3的配置文件：redis-6391.conf<br>7）启动master、slave1、slave2<br>8）查看6个redis的启动情况<br>9）确保node-xxxx.conf文件已正常生成<br>10）将6个节点合成一个集群<br>11）连接集群节点，查看集群信息：cluster nodes</p>
+<p>12）验证集群数据的读写操作<br>11.4、redis集群如何分配这6个节点？<br>    11.5、什么是slots（槽）<br>    11.6、在集群中录入值<br>    11.7、slot相关的一些命令<br>    11.8、故障恢复<br>    11.0、SpringBoot整合redis集群<br>    1）引入redis的maven配置<br>    2）application.properties中配置redis cluster信息<br>    3）使用RedisTemplate工具类操作redis<br>    2）RedisTemplate示例代码<br>12、redis应用问题解决<br>    12.1、缓存穿透<br>    12.1.1、问题描述<br>    12.1.2、解决方案<br>    （1）对空值缓存<br>    （2）设置可访问的名单（白名单）<br>    （3）采用布隆过滤器<br>    （4）进行实时监控<br>    12.2、缓存击穿<br>    12.2.1、问题描述<br>    12.2.2、解决方案<br>    （1）预先设置热门数据，适时调整过期时间<br>    （2）使用锁<br>    12.3、缓存雪崩<br>    12.3.1、问题描述<br>    12.3.2、解决方案<br>    （1）构建多级缓存<br>    （2）使用锁或队列<br>    （3）监控缓存过期，提前更新<br>    （4）将缓存失效时间分散开<br>    12.4、分布式锁<br>    12.4.1、问题描述<br>    12.4.2、分布式锁主流的实现方案<br>    12.4.3、解决方案：使用redis实现分布式锁<br>    （1）上锁的过程<br>    （2）为什么要设置过期时间？<br>（3）如果设置的有效期太短怎么办？<br>（4）解决锁误删的问题<br>（5）还是存在误删的可能（原子操作问题）<br>（6）终极方案：Lua脚本来释放锁<br>（7）分布式锁总结</p>
+]]></content>
+      <categories>
+        <category>files</category>
+      </categories>
+      <tags>
+        <tag>资料</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Web渗透测试.pdf</title>
+    <url>/2023/10/04/web/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+<button class="btn btn-circle">
+    <a href="https://url39.ctfile.com/f/37081239-952927578-c65e15" >点击下载</a>
+</button>
+
+<p>Web渗透测试.pdf  (访问密码: 2344)</p>
+<h4 id="部分目录"><a href="#部分目录" class="headerlink" title="部分目录"></a>部分目录</h4><p>第一章 渗透测试概要及环境配置<br>1.1 WEB应用渗透测试基础<br>1.2 渗透测试方法<br>1.3 Kali 渗透测试基础<br>…</p>
+<p>第二章 侦察<br>..</p>
+<p>第三章 服务器端攻击</p>
+<p>..</p>
+]]></content>
+      <categories>
+        <category>files</category>
+      </categories>
+      <tags>
+        <tag>资料</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>24小时学会黑客攻防.pdf</title>
+    <url>/2023/10/04/hack/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+<button class="btn btn-circle">
+    <a href="https://url39.ctfile.com/f/37081239-952927410-110677" >点击下载</a>
+</button>
+
+<p>24小时学会黑客攻防.pdf   (访问密码: 2344)</p>
+<h4 id="部分目录"><a href="#部分目录" class="headerlink" title="部分目录"></a>部分目录</h4><p>黑客攻防基础</p>
+<p>了解黑客<br>什么是黑客<br>客的攻击流程.<br>黑客所需的理论知识<br>黑客攻防的准备工作<br>认识IP地址<br>认识端口.<br>黑客攻防的常用命令<br>安装与配置测试系统<br>黑客常用的攻击工具<br>目标扫描工具-流光..<br>目标攻击工具–SQLTools<br>扩大入侵工具一-Sniffer Pro.<br>澳探器工具一影音神操.<br>黑客对网站信息的收集<br>基本信息收集<br>注册信息收集<br>结构信息收集</p>
+]]></content>
+      <categories>
+        <category>files</category>
+      </categories>
+      <tags>
+        <tag>资料</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>W远程控制编写技术.pdf</title>
+    <url>/2023/10/04/redesktop/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+<button class="btn btn-circle">
+    <a href="https://url39.ctfile.com/f/37081239-952927491-9916da" >点击下载</a>
+</button>
+
+<p>远程控制编写技术.pdf:  (访问密码: 2344)</p>
+<h4 id="部分目录"><a href="#部分目录" class="headerlink" title="部分目录"></a>部分目录</h4><p>第1章网络及应用协议<br>1.1 计算机网络的基本概念<br>1.1. 计算机网络的定义<br>1.1.2 计算机网络的基功能<br>l,1.3计算机网络体系结构<br>1.1.40SI 体系结构<br>1.2网络设备及工作原理<br>1.2.1 网络适配器46.46571.2.2网络集线器<br>1.2.3 交换机······1.2.4 路由器1.2.5 拨号设备<br>1.3 网络应用协议简介1.4 TCP/IP防议分析I.4.I 分层<br>1.4 TCP/TP郎议分析<br>1.4.1 分层<br>1.4.2 P地址a. . ..<br>1.4.3客户机/服务器模型<br>1.4.4端口号<br>1.4.5网际协议<br>1.4.6 动态选路协议······<br>1.4.7 用户数据报协议···<br>L.4.8 广播···<br>第2章远程控制及应用<br>2,1远程控制概述·········<br>2.1.1 远程控制的概念2.1.2 远程控制软件的功能2.1.3如何选择远程控制工2.2 远程控制、木马、病毒2.3 远程唤醒的基本原理</p>
+]]></content>
+      <categories>
+        <category>files</category>
+      </categories>
+      <tags>
+        <tag>资料</tag>
+      </tags>
+  </entry>
 </search>
