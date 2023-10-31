@@ -4420,4 +4420,84 @@ georadius：以给定的经纬度为中心，找出某一半径内的元素 5、
         <tag>资料</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Docker虚拟化&amp;CentOS&amp;镜像案例实战.pdf</title>
+    <url>/2023/10/30/docker/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+<button class="btn btn-circle">
+    <a href="https://url39.ctfile.com/f/37081239-955191609-171da9" >点击下载</a>
+</button>
+
+<p>Docker虚拟化&amp;CentOS&amp;镜像案例实战.pdf  (访问密码: 2344)</p>
+<h4 id="部分目录"><a href="#部分目录" class="headerlink" title="部分目录"></a>部分目录</h4><p>Docker虚拟化&amp;CentOS&amp;镜像案例实战</p>
+<ol>
+<li>构建Docker虚拟化最新版平台；</li>
+<li>Docker代替VMware构建CentOS虚拟机；</li>
+<li>Docker桥接网络设置&amp;轻松创建20台虚拟机；</li>
+<li>Docker镜像备份&amp;私有仓库企业实战。<br>1、构建 Docker 虚拟化最新版平台<br>1）虚拟化技术的概念<br>◼ 虚拟化技术主要是将物理资源转变为逻辑上可以管理的资源，以打破物理资源<br>结构之间的壁垒，让计算的元件运行在虚拟的基础上，而不是直接运行在物理<br>资源上。<br>◼ 虚拟化技术的底层要进行虚拟的硬件设备物理机，通过虚拟化技术软件可以将<br>物理机虚拟生成 N 台虚拟机，应用程序、软件服务（Nginx、MYSQL、Reids、<br>MQ、ZK、Kafka）是运行在虚拟机上的，而不是直接运行在物理机资源上。<br>2）虚拟化技术的意义<br>虚拟化技术主要是为了最大化利用高配物理机的资源，提高机器资源利用率，还可<br>以实现对软件服务、进程资源进行隔离、限制，虚拟机（容器）和虚拟机之间是相<br>互独立的、互不影响。<br>3）虚拟化技术的种类<br>◼ VMware ESXI；<br>◼ KVM；<br>◼ XEN；<br>◼ Open-vz；<br>◼ Hyper-v；<br>◼ Podman；<br>◼ Docker。<br>4）Docker 虚拟化技术概念<br>Docker 是如上众多虚拟化技术中的一种，是目前互联网 IT 企业中使用最多的虚拟<br>化技术软件，其特点：轻量级、高性能、安全、稳定等。主要是为了解决企业轻量<br>级操作系统和应用容器而诞生的。<br>5）基于 CentOS7、8.x Linux 系统，部署一套 Docker 最新版虚拟化平台，采用二<br>进制 Tar 包方式（CE 社区版），部署的方法和指令如下：<br>#提前安装 Linux 下载工具（类似迅雷软件）；<br>yum install -y wget<br>#从 Docker 官网下载软件包；（-c continue 断点续传，-P path 指定下载目录）<br>wget -c<br><a href="https://download.docker.com/linux/static/stable/x86_64/docker-24.0.4.tgz">https://download.docker.com/linux/static/stable/x86_64/docker-24.0.4.tgz</a> </li>
+</ol>
+<p>-P /usr/src/<br>cd /usr/src/<br>ls -l docker-24.0.4.tgz<br>#通过 Tar 工具对其解压；（-x extract 解压，-z gzip 压缩格式，-v verbose 详细<br>显示，-f file 文件属性）<br>tar -xzvf docker-24.0.4.tgz<br>#Cd 切换至 Docker 解压目录；<br>cd docker/<br>#创建 Docker 程序部署目录；<br>mkdir -p /usr/local/docker/<br>#将 Docker 程序文件拷贝至部署目录；<br>\cp * /usr/local/docker/<br>#查看 Docker 程序是否部署成功；<br>ls -l /usr/local/docker/<br>#启动 Docker 引擎服务；<br>nohup /usr/local/docker/dockerd -H 0.0.0.0:2375 -H<br>unix:///var/run/docker.sock &amp;<br>#查看 Docker 服务进程；<br>ps -ef|grep -aiE docker<br>#查看 Docker 版本信息；<br>docker –version<br>6）通过 Linux 命令行终端启动 Docker 引擎服务，报错信息一，如下所示：<br>time=”2023-08-23T20:28:21.184873646+08:00” level=warning msg=”failed<br>to find docker-init: exec: &quot;docker-init&quot;: executable file not found in $PATH”<br>解决方法：<br>#将 Docker 部署目录加入到 PATH 环境变量中即可；<br>cat&gt;&gt;/etc/profile&lt;&lt;EOF<br>export PATH=$PATH:/usr/local/docker/<br>EOF<br>#使其 PATH 环境变量重新生效；<br>source /etc/profile<br>7）根据如上 Docker 指令操作，Docker 虚拟化平台部署成功，查看其进程和版本<br>信息，如图所示：<br>8）基于 CentOS7、8.x Linux 系统，部署一套 Docker 最新版虚拟化平台，采用<br>YUM 方式部署（CE 社区版），部署的方法和指令如下：<br>#安装国内阿里源;<br>wget -P /etc/yum.repos.d/<br><a href="http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.re">http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.re</a><br>po<br>#安装 Docker-CE 版本;<br>yum install docker-ce -y<br>#查 Docker 版本是否安装;<br>rpm -qa|grep -E “docker”<br>#启动 Docker 引擎服务;<br>service docker restart<br>systemctl restart docker.service<br>#查看 Docker 服务进程;<br>ps -ef|grep docker<br>#查看 Docker 版本信息；<br>docker –version<br>2、Docker 代替 VMware 构建 CentOS 虚拟机<br>1）通过 Docker 虚拟化平台构建一台 CentOS7、8 虚拟机，要求启动 sshd 服务对<br>外监听 22 端口，最终实现通过 Linux 客户端、Xshell|CRT 能够远程登录 Linux 服<br>务器。<br>2）在 Docker 官方中搜索 CentOS 镜像文件，镜像文件为虚拟机系统（容器）提<br>供底层数据文件支撑的。操作的方法和指令如下：<br>docker search centos7<br>3）从 Docker 官方中下载 CentOS 镜像文件，下载至 Docker 宿主机特定的目录。<br>操作的方法和指令如下：<br>#下载镜像；<br>docker pull ansible/centos7-ansibl</p>
+]]></content>
+      <categories>
+        <category>files</category>
+      </categories>
+      <tags>
+        <tag>资料</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>黑客暴力破解Linux超级特权实战.pdf</title>
+    <url>/2023/10/30/hydra/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+<button class="btn btn-circle">
+    <a href="https://url39.ctfile.com/f/37081239-955191630-bad56c" >点击下载</a>
+</button>
+
+<p>黑客暴力破解Linux超级特权实战.pdf  (访问密码: 2344)</p>
+<h4 id="部分目录"><a href="#部分目录" class="headerlink" title="部分目录"></a>部分目录</h4><p>黑客暴力破解Linux超级特权实战</p>
+<ol>
+<li>黑客暴力破解Linux服务器超级特权</li>
+<li>设置规则抵挡黑客暴力破解Linux服务器<br>1、黑客暴力破解Linux服务器超级特权<br>1）暴力破解的概念<br>暴力破解是黑客人员最常使用的攻击方式之一，其攻击门槛很低、操作简单，小<br>白用户简单学习即会。但是其破坏性极大，一旦服务器、网站、业务系统、FTP<br>文件服务器遭受黑客暴力破解，黑客人员很容易获取其用户名和密码。<br>2）暴力破解的原理<br>黑客人员使用暴力破解软件（Hydra、Medusa），并发的去读取用户名字典文<br>件、密码字典文件，企图使用字典文件中的用户名和密码远程以SSH<br>Linux服务器正确的用户名和密码。（密码穷举）</li>
+</ol>
+<p>3）Hydra（九头蛇）是一款开源的、免费的暴力破解软件，是由世界上著名的<br>黑客组织THC对外开放的，主要是用于破解服务器系统、门户网站、数据库、FTP<br>文件服务器等的用户名和密码的。<br>4）基于CentOS7、8.x Linux系统，部署一套Hydra工具平台，采用MAKE源码<br>编译方式，部署的方法和指令如下：<br>#从THC官网下载Hydra软件包；<br>ls -l thc-hydra-master.tar.gz<br>#通过Tar工具对其解压；（-x extract解压，-z gzip压缩格式，-v verbose详<br>细显示，-f file文件属性）<br>tar -xzvf thc-hydra-master.tar.gz<br>#Cd切换至Hydra解压目录；<br>cd thc-hydra-master/<br>#因为Hydra是基于C语言开发的源代码程序，默认不能被Linux操作系统直接<br>使用，需借助C编译器将源代码文件编译生成二进制文件，所以需执行源代码软<br>件包部署核心三个步骤。<br>#提前解决编译Hydra程序时所需的依赖环境、库文件；<br>yum install -y gcc libssh*<br>#预编译；（–prefix指定软件服务部署的路径，无需提前创建）<br>./configure –prefix=/usr/local/hydra/<br>主要是检测Linux系统安装该软件包所需的依赖环境、库文件，检测Linux系统<br>是否存在GCC编译器，指定软件服务部署的路径，自定义软件服务特定的参数、</p>
+]]></content>
+      <categories>
+        <category>files</category>
+      </categories>
+      <tags>
+        <tag>资料</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Zabbix6.x故障排错&amp;Nginx状态实战.pdf</title>
+    <url>/2023/10/30/zabbix/</url>
+    <content><![CDATA[<blockquote>
+    声明：本站所有资源均搜集于互联网或网友分享，仅供学习与交流，如果侵犯到你的权益，请及时联系我删除该资源。
+</blockquote>
+<button class="btn btn-circle">
+    <a href="https://url39.ctfile.com/f/37081239-955191621-39f78b" >点击下载</a>
+</button>
+
+<p>Zabbix6.x故障排错&amp;Nginx状态实战.pdf  (访问密码: 2344)</p>
+<h4 id="部分目录"><a href="#部分目录" class="headerlink" title="部分目录"></a>部分目录</h4><p>Zabbix6.x故障排错&amp;Nginx状态实战</p>
+<ol>
+<li>实战排错Zabbix6.x监控平台故障</li>
+<li>Zabbix批量发现Linux服务器&amp;监控</li>
+<li>Zabbix6.x监控Nginx WEB运行状态</li>
+<li>Zabbix6.x设置触发&amp;微信&amp;邮件报警实战<br>1、实战排错Zabbix6.x监控平台故障<br>1）学习Linux技术，后期一般是从事Linux运维方面的工作，作为运维人员最主<br>要的工作职责、内容之一：保障企业服务器、门户网站、业务系统、数据库等高<br>效的、稳定的运行，一旦出现异常和故障能够第一时间去解决。排错能力是衡量<br>运维人员价值的标准。<br>2）基于CentOS7、8.x Linux系统，部署了一套Zabbix6.x监控平台，通过浏览<br>器访问Zabbix WEB，报错信息一如下所示：<br>3）根据如上错误日志的提示，表示Zabbix server服务的运行状态是：No，<br>Zabbix server服务没有运行，没有对外监听10051端口。（Zabbix server是整<br>个Zabbix监控平台核心组件，负责收集、汇总客户端的监控数据，并且将监控<br>数据持久化保存至MYSQL数据库中）<br>解决方法：</li>
+</ol>
+<p>◼ 检查Linux系统Zabbix server服务的运行状态和监听端口是否正常；<br>ps -ef|grep -aiE zabbix<br>netstat -tnlp|grep -aiwE 10051<br>◼ 通过手工方式启动Zabbix server服务即可，命令操作如下；<br>ls -l /etc/init.d/zabbix_server<br>/etc/init.d/zabbix_server start<br>4）通过命令行终端启动Zabbix server服务，报错信息二如下所示：<br>/etc/init.d/zabbix_server start<br>Can’t find file /usr/local/sbin/zabbix_server.<br>Zabbix server NOT started.<br>5）根据如上错误日志的提示，表示启动Zabbix server服务时，会去查找Zabbix<br>server主程序文件/usr/local/sbin/zabbix_server，而该文件没有找到，所以<br>Zabbix server服务不能启动。<br>解决方法：</p>
+<p>◼ 通过find、locate指令查找zabbix_server主程序的位置&amp;添加软链接；<br>find / -name zabbix_server|grep -aivE “init|src”<br>ln -s /usr/local/zabbix/sbin/zabbix_server /usr/local/sbin/zabbix_server<br>for i in $(find /usr/local/ -name zabbix_server);do ln -s $i<br>/usr/local/sbin/;done<br>find /usr/local/ -name zabbix_server|xargs -I {} ln -s {} /usr/local/sbin/<br>6）通过命令行终端启动Zabbix server服务，报错信息三如下所示：<br>/etc/init.d/zabbix_server start<br>zabbix_server [3333]: user zabbix does not exist<br>zabbix_server [3333]: cannot run as root!<br>Zabbix server started.<br>7）根据如上错误日志的提示，表示启动Zabbix server服务时，需要使用zabbix<br>用户去启动，而该用户不存在，不能直接使用root去管理服务进程。<br>解决方法：<br>◼ 通过useradd指令创建zabbix用户和组即可，命令操作如</p>
+]]></content>
+      <categories>
+        <category>files</category>
+      </categories>
+      <tags>
+        <tag>资料</tag>
+      </tags>
+  </entry>
 </search>
