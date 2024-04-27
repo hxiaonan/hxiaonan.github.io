@@ -860,559 +860,159 @@
 </header>
 
     
-    <div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                xiaonan
-                
-            </div>
+    <style>
+        body {
+            background-image: url('/medias/banner/yunxiao2.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* 使搜索框容器占满整个视口高度 */
+        }
+        .containers {
+            width: 90%;
+            max-width: 800px;
+            padding: 20px;
+            background: linear-gradient(58deg, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42));
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding-top: 30px; /* 调整容器顶部内边距 */
+            padding-bottom: 30px; /* 调整容器底部内边距 */
+        }
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            background: linear-gradient(to right, #ff85a2, #ff5c8a);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .search-option {
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 10px; /* 添加这行来留出空间 */
+            text-align: left;
+        }
+        .search-option input[type="checkbox"] {
+            display: none;
+        }
+        .search-option label {
+            position: relative;
+            padding-left: 25px;
+            cursor: pointer;
+            color: #f6f1e9c7;
+        }
+        .search-option label:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 2px;
+            width: 16px;
+            height: 16px;
+            border: 1px solid #ff85a2;
+            border-radius: 3px;
+        }
+        .search-option input[type="checkbox"]:checked + label:before {
+            background-color: #ff85a2;
+        }
+    </style>
 
-            <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: ['从来没有真正的绝境, 只有心灵的迷途','Never really desperate, only the lost of the soul'],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
-                
-            </div>
-        </div>
-    </div>
-</div>
 
+<div class="search-container">
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
-
-
-    </div>
-</div>
-
-
-<main class="content">
-
+    <div class="containers">
+     <div >  
+                    
+                        <div class="dream">
     
-
+    <div class="title center-align">
+        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;我的梦想
+    </div>
     
-
-    <!-- 所有文章卡片 -->
-    <article id="articles" class="container articles">
-        <div class="row article-row">
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/02/21/SuperTools/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="Super Tools">
-                            
-                            <span class="card-title">Super Tools</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-21
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/windows/" class="post-category">
-                                    windows
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%8A%9E%E5%85%AC/">
-                            <span class="chip bg-color">办公</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/02/21/ckgl/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="专业的仓库管理软件">
-                            
-                            <span class="card-title">专业的仓库管理软件</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-21
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/windows/" class="post-category">
-                                    windows
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%8A%9E%E5%85%AC/">
-                            <span class="chip bg-color">办公</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/02/19/chengguangzz/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="橙光文字游戏制作工具">
-                            
-                            <span class="card-title">橙光文字游戏制作工具</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-19
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/windows/" class="post-category">
-                                    windows
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%8A%9E%E5%85%AC/">
-                            <span class="chip bg-color">办公</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/02/19/cleanwipe/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="CleanWipe14.0最新版">
-                            
-                            <span class="card-title">CleanWipe14.0最新版</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-19
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/windows/" class="post-category">
-                                    windows
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%8A%9E%E5%85%AC/">
-                            <span class="chip bg-color">办公</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/02/19/futureopps/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="futureopps 防偷拍，摄像头检测神器">
-                            
-                            <span class="card-title">futureopps 防偷拍，摄像头检测神器</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-19
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/androids/" class="post-category">
-                                    androids
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%8A%9E%E5%85%AC/">
-                            <span class="chip bg-color">办公</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/02/19/paintnet2020/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="paintnet2020软件下载-Paint.Net官网版4.2.14 多语音版">
-                            
-                            <span class="card-title">paintnet2020软件下载-Paint.Net官网版4.2.14 多语音版</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-19
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/windows/" class="post-category">
-                                    windows
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%8A%9E%E5%85%AC/">
-                            <span class="chip bg-color">办公</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/02/19/pdfeditor/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="PDFill PDF Editor(PDF编辑器)14.0最新版">
-                            
-                            <span class="card-title">PDFill PDF Editor(PDF编辑器)14.0最新版</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-19
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/windows/" class="post-category">
-                                    windows
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%8A%9E%E5%85%AC/">
-                            <span class="chip bg-color">办公</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/02/07/fdm/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Free Download Manager v5">
-                            
-                            <span class="card-title">Free Download Manager v5</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-07
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/windows/" class="post-category">
-                                    windows
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%8A%9E%E5%85%AC/">
-                            <span class="chip bg-color">办公</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/02/07/wordtovideo/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="文字视频制作v3.22.2.apk">
-                            
-                            <span class="card-title">文字视频制作v3.22.2.apk</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-07
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/androids/" class="post-category">
-                                    androids
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%8A%9E%E5%85%AC/">
-                            <span class="chip bg-color">办公</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/02/07/wordtovoice/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="文字转语音和语音合成">
-                            
-                            <span class="card-title">文字转语音和语音合成</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-07
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/windows/" class="post-category">
-                                    windows
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%8A%9E%E5%85%AC/">
-                            <span class="chip bg-color">办公</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-        </div>
-    </article>
-
-</main>
-
-
-<div class="container paging">
     <div class="row">
-        <div class="col s6 m4 l4">
-            
-            <a href="/page/10/"
-               class="left btn-floating btn-large waves-effect waves-light bg-color">
-                <i class="fas fa-angle-left"></i>
-            </a>
-            
-        </div>
-        <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">11 / 14</div>
-        </div>
-        <div class="col s6 m4 l4">
-            
-            <a href="/page/12/"
-               class="right btn-floating btn-large waves-effect waves-light bg-color">
-                <i class="fas fa-angle-right"></i>
-            </a>
-            
+        <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
+            不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
         </div>
     </div>
 </div>
 
+                    
+</div>
+        <form id="searchForm" action="https://www.google.com/search" method="get" target="_blank">
+            <div class="search-option">
+                <input type="checkbox" id="googleCheck" name="searchEngine" value="google" checked onclick="uncheckOther(this)">
+                <label for="googleCheck">Google Search</label>
+            </div>
+            <div class="search-option">
+                <input type="checkbox" id="duckduckgoCheck" name="searchEngine" value="duckduckgo" onclick="uncheckOther(this)">
+                <label for="duckduckgoCheck">DuckDuckGo Search</label>
+            </div>
+            <div class="search-option">
+                <input type="checkbox" id="baiduCheck" name="searchEngine" value="baidu" onclick="uncheckOther(this)">
+                <label for="baiduCheck">Baidu Search</label>
+            </div>
+            <div class="search-option">
+                <input type="checkbox" id="bingCheck" name="searchEngine" value="bing" onclick="uncheckOther(this)">
+                <label for="bingCheck">Bing Search</label>
+            </div>
+            <input type="text" name="q" placeholder="Enter your search query">
+            <input type="submit" value="Search" onclick="updateSearchEngine()">
+        </form>
+    </div>
+</div>
+    <script>
+        function uncheckOther(checkbox) {
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(function(item) {
+                if (item !== checkbox) {
+                    item.checked = false;
+                }
+            });
+        }
+
+        function updateSearchEngine() {
+            var searchForm = document.getElementById('searchForm');
+            var googleCheck = document.getElementById('googleCheck');
+            var duckduckgoCheck = document.getElementById('duckduckgoCheck');
+            var baiduCheck = document.getElementById('baiduCheck');
+            var bingCheck = document.getElementById('bingCheck');
+
+            if (googleCheck.checked) {
+                searchForm.action = 'https://www.google.com/search';
+            } else if (duckduckgoCheck.checked) {
+                searchForm.action = 'https://duckduckgo.com/';
+            } else if (baiduCheck.checked) {
+                searchForm.action = 'https://www.baidu.com/s';
+                searchForm.querySelector('input[name="q"]').name = 'wd';
+               // 创建一个隐藏的input元素,用于排除CSDN的搜索结果
+        var excludeInput = document.createElement('input');
+        excludeInput.type = 'hidden';
+        excludeInput.name = 'wd';
+        excludeInput.value = '-csdn';
+        searchForm.appendChild(excludeInput);
+            } else if (bingCheck.checked) {
+                searchForm.action = 'https://www.bing.com/search';
+            }
+
+            return true;
+        }
+    </script>
 
 
 
