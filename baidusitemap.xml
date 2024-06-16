@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://suixin.ltd/2023/10/30/linuxprogramming/</loc>
-    <lastmod>2024-06-04</lastmod>
+    <loc>https://suixin.ltd/2024/06/16/dsm/</loc>
+    <lastmod>2024-06-16</lastmod>
+  </url>
+  <url>
+    <loc>https://suixin.ltd/2024/06/16/javascript/</loc>
+    <lastmod>2024-06-16</lastmod>
+  </url>
+  <url>
+    <loc>https://suixin.ltd/2024/06/16/go/</loc>
+    <lastmod>2024-06-16</lastmod>
+  </url>
+  <url>
+    <loc>https://suixin.ltd/2024/06/16/unix/</loc>
+    <lastmod>2024-06-16</lastmod>
   </url>
   <url>
     <loc>https://suixin.ltd/2023/10/30/c++programming/</loc>
-    <lastmod>2024-06-04</lastmod>
+    <lastmod>2024-06-16</lastmod>
+  </url>
+  <url>
+    <loc>https://suixin.ltd/2023/10/30/linuxprogramming/</loc>
+    <lastmod>2024-06-16</lastmod>
+  </url>
+  <url>
+    <loc>https://suixin.ltd/2024/06/16/Foobar2000/</loc>
+    <lastmod>2024-06-16</lastmod>
+  </url>
+  <url>
+    <loc>https://suixin.ltd/2024/06/16/googlechrome/</loc>
+    <lastmod>2024-06-16</lastmod>
   </url>
   <url>
     <loc>https://suixin.ltd/2024/01/02/mirrors/</loc>
@@ -39,10 +63,6 @@
   <url>
     <loc>https://suixin.ltd/2023/09/24/redis/</loc>
     <lastmod>2023-10-04</lastmod>
-  </url>
-  <url>
-    <loc>https://suixin.ltd/2023/09/24/googlechrome/</loc>
-    <lastmod>2023-09-24</lastmod>
   </url>
   <url>
     <loc>https://suixin.ltd/2023/09/24/window22h2/</loc>
